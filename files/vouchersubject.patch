@@ -1,0 +1,26 @@
+Index: classes/Functions.php
+===================================================================
+--- classes/Functions.php	(révision 1681)
++++ classes/Functions.php	(copie de travail)
+@@ -534,7 +534,7 @@
+ 			$fileexpiryParam = date($config['db_dateformat'], strtotime($expiry));
+ 			$statement->bindParam(':fileexpirydate',$fileexpiryParam);
+ 			$statement->bindParam(':fileto', $to);
+-			$statement->bindParam(':filesubject', $voucher);
++			$statement->bindParam(':filesubject', $config['voucherissuedemailsubject']);
+ 			$fileactivitydateParam =  date($config['db_dateformat'], time());
+ 			$statement->bindParam(':fileactivitydate',$fileactivitydateParam );	
+ 			$statement->bindParam(':filevoucheruid', $filevoucheruid );
+Index: config/config-dist.php
+===================================================================
+--- config/config-dist.php	(révision 1681)
++++ config/config-dist.php	(copie de travail)
+@@ -280,6 +280,8 @@
+ <P>{siteName}</P>
+ </BODY>
+ </HTML>{CRLF}{CRLF}--simple_mime_boundary--';
++
++	$config['voucherissuedemailsubject'] = 'Received Voucher';
+ 	$config['voucherissuedemailbody'] = '{CRLF}--simple_mime_boundary{CRLF}Content-type:text/plain; charset={charset}{CRLF}{CRLF}
+ Dear Sir, Madam,
+ 

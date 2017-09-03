@@ -1,0 +1,715 @@
+[HEADER]        File version: 10
+[HEADER]        File is zlib compressed. Ratio: 46%
+[HEADER]        File size: 2512917
+[HEADER]        Frame rate: 24.000000
+[HEADER]        Frame count: 2
+[HEADER]        Movie width: 500.00
+[HEADER]        Movie height: 375.00
+[045]         4 FILEATTRIBUTES usenetwork as3 symbolclass
+[04d]       458 METADATA
+[040]        31 ENABLEDEBUGGER2
+[03f]        16 MX4
+[041]         4 SCRIPTLIMITS
+[009]         3 SETBACKGROUNDCOLOR (ff/ff/ff)
+[029]        26 SERIALNUMBER
+[02b]        39 FRAMELABEL "_FileSender2_mx_managers_SystemManager"
+[052]      1446 DOABC "mx/core/IFlexModuleFactory", lazy load
+[052]      1492 DOABC "mx/core/IChildList", lazy load
+[052]      3447 DOABC "mx/managers/ISystemManager", lazy load
+[052]      6265 DOABC "mx/core/IFlexDisplayObject", lazy load
+[052]     35077 DOABC "mx/managers/SystemManager", lazy load
+[052]       721 DOABC "flashx/textLayout/compose/ISWFContext", lazy load
+[052]      2885 DOABC "_FileSender2_mx_managers_SystemManager", lazy load
+[052]       953 DOABC "mx/events/DynamicEvent", lazy load
+[052]       566 DOABC "mx/core/IRawChildrenContainer", lazy load
+[052]       250 DOABC "mx/core/mx_internal", lazy load
+[052]      4584 DOABC "mx/core/IUIComponent", lazy load
+[052]       955 DOABC "mx/core/FlexSprite", lazy load
+[052]      1744 DOABC "mx/events/SandboxMouseEvent", lazy load
+[052]      2771 DOABC "mx/core/RSLItem", lazy load
+[052]      2483 DOABC "mx/managers/SystemRawChildrenList", lazy load
+[052]       922 DOABC "mx/events/Request", lazy load
+[052]      1097 DOABC "mx/core/Singleton", lazy load
+[052]       886 DOABC "mx/managers/SystemManagerGlobals", lazy load
+[052]      3264 DOABC "mx/events/FlexEvent", lazy load
+[052]      2128 DOABC "mx/utils/LoaderUtil", lazy load
+[052]      6798 DOABC "mx/preloaders/Preloader", lazy load
+[052]       805 DOABC "mx/core/IInvalidating", lazy load
+[052]      1388 DOABC "mx/events/RSLEvent", lazy load
+[052]      3061 DOABC "mx/managers/SystemChildrenList", lazy load
+[052]      1241 DOABC "mx/managers/ISystemManagerChildManager", lazy load
+[052]       584 DOABC "mx/core/IFlexModule", lazy load
+[052]      2149 DOABC "mx/preloaders/IPreloaderDisplay", lazy load
+[052]     13146 DOABC "mx/preloaders/SparkDownloadProgressBar", lazy load
+[052]      1921 DOABC "mx/utils/NameUtil", lazy load
+[052]      2151 DOABC "mx/core/ResourceModuleRSLItem", lazy load
+[052]      2361 DOABC "mx/core/RSLListLoader", lazy load
+[052]      7043 DOABC "mx/graphics/RectangularDropShadow", lazy load
+[052]      1241 DOABC "mx/core/IRepeaterClient", lazy load
+[052]      3622 DOABC "mx/resources/IResourceManager", lazy load
+[052]      1099 DOABC "mx/events/ResourceEvent", lazy load
+[052]       886 DOABC "mx/core/FlexShape", lazy load
+[052]      2667 DOABC "mx/utils/GraphicsUtil", lazy load
+[052]       840 DOABC "mx/resources/IResourceBundle", lazy load
+[04c]        43 SYMBOLCLASS
+                exports 0000 as "_FileSender2_mx_managers_SystemManager"
+[001]         0 SHOWFRAME 1 (00:00:00,000) (label "_FileSender2_mx_managers_SystemManager")
+[02b]        12 FRAMELABEL "FileSender2"
+[002]       166 DEFINESHAPE defines id 0001
+[027]         4 DEFINESPRITE defines id 0002
+[01a]         7          PLACEOBJECT2 places id 0001 at depth 0001
+[001]         0          SHOWFRAME 1 (00:00:00,000)
+[000]         0          END
+[027]         4 DEFINESPRITE defines id 0003
+[01a]        10          PLACEOBJECT2 places id 0002 at depth 0001
+[001]         0          SHOWFRAME 1 (00:00:00,000)
+[000]         0          END
+[020]       413 DEFINESHAPE3 defines id 0004
+[027]         4 DEFINESPRITE defines id 0005
+[01a]         7          PLACEOBJECT2 places id 0004 at depth 0006
+[001]         0          SHOWFRAME 1 (00:00:00,000)
+[000]         0          END
+[020]       255 DEFINESHAPE3 defines id 0006
+[027]         4 DEFINESPRITE defines id 0007
+[01a]         7          PLACEOBJECT2 places id 0006 at depth 0004
+[001]         0          SHOWFRAME 1 (00:00:00,000)
+[000]         0          END
+[016]       103 DEFINESHAPE2 defines id 0008
+[027]         4 DEFINESPRITE defines id 0009
+[01a]         7          PLACEOBJECT2 places id 0008 at depth 0002
+[001]         0          SHOWFRAME 1 (00:00:00,000)
+[000]         0          END
+[020]       159 DEFINESHAPE3 defines id 0010
+[027]         4 DEFINESPRITE defines id 0011
+[01a]         7          PLACEOBJECT2 places id 0010 at depth 0003
+[01a]        10          PLACEOBJECT2 places id 0002 at depth 0004
+[001]         0          SHOWFRAME 1 (00:00:00,000)
+[000]         0          END
+[020]       171 DEFINESHAPE3 defines id 0012
+[027]         4 DEFINESPRITE defines id 0013
+[01a]         7          PLACEOBJECT2 places id 0012 at depth 0003
+[01a]        10          PLACEOBJECT2 places id 0002 at depth 0004
+[001]         0          SHOWFRAME 1 (00:00:00,000)
+[000]         0          END
+[024]       143 DEFINEBITSLOSSLESS2 defines id 0014 image 14x16 (8 bpp)
+[002]        33 DEFINESHAPE defines id 0015
+[027]         4 DEFINESPRITE defines id 0016
+[01a]         7          PLACEOBJECT2 places id 0015 at depth 0001
+[001]         0          SHOWFRAME 1 (00:00:00,000)
+[000]         0          END
+[020]       130 DEFINESHAPE3 defines id 0017
+[002]        51 DEFINESHAPE defines id 0018
+[027]         4 DEFINESPRITE defines id 0019
+[01a]         7          PLACEOBJECT2 places id 0017 at depth 0002
+[01a]        10          PLACEOBJECT2 places id 0002 at depth 0003
+[01a]         7          PLACEOBJECT2 places id 0018 at depth 0005
+[001]         0          SHOWFRAME 1 (00:00:00,000)
+[000]         0          END
+[057]      1276 DEFINEBINARY defines id 0020
+[057]      1068 DEFINEBINARY defines id 0021
+[057]      1266 DEFINEBINARY defines id 0022
+[057]      2262 DEFINEBINARY defines id 0023
+[057]      1138 DEFINEBINARY defines id 0024
+[057]       618 DEFINEBINARY defines id 0025
+[057]      1914 DEFINEBINARY defines id 0026
+[057]      2292 DEFINEBINARY defines id 0027
+[024]      1236 DEFINEBITSLOSSLESS2 defines id 0028 image 25x25 (32 bpp)
+[024]      1267 DEFINEBITSLOSSLESS2 defines id 0029 image 25x25 (32 bpp)
+[024]       701 DEFINEBITSLOSSLESS2 defines id 0030 image 16x16 (32 bpp)
+[024]       546 DEFINEBITSLOSSLESS2 defines id 0031 image 16x16 (32 bpp)
+[024]      2123 DEFINEBITSLOSSLESS2 defines id 0032 image 75x18 (32 bpp)
+[024]      1259 DEFINEBITSLOSSLESS2 defines id 0033 image 25x25 (32 bpp)
+[024]      1238 DEFINEBITSLOSSLESS2 defines id 0034 image 25x25 (32 bpp)
+[024]       639 DEFINEBITSLOSSLESS2 defines id 0035 image 16x16 (32 bpp)
+[024]       672 DEFINEBITSLOSSLESS2 defines id 0036 image 16x16 (32 bpp)
+[024]      2218 DEFINEBITSLOSSLESS2 defines id 0037 image 75x18 (32 bpp)
+[038]       629 EXPORTASSETS
+                exports 0003 as "mx.skins.cursor.DragMove"
+                exports 0005 as "openDateOver"
+                exports 0007 as "mx.skins.cursor.BusyCursor"
+                exports 0009 as "cursorStretch"
+                exports 0011 as "mx.skins.cursor.DragLink"
+                exports 0013 as "mx.skins.cursor.DragCopy"
+                exports 0016 as "__brokenImage"
+                exports 0019 as "mx.skins.cursor.DragReject"
+                exports 0020 as "mx.graphics.shaderClasses.LuminosityShader_ShaderClass"
+                exports 0021 as "mx.graphics.shaderClasses.ColorDodgeShader_ShaderClass"
+                exports 0022 as "mx.graphics.shaderClasses.ColorShader_ShaderClass"
+                exports 0023 as "mx.graphics.shaderClasses.HueShader_ShaderClass"
+                exports 0024 as "mx.graphics.shaderClasses.ColorBurnShader_ShaderClass"
+                exports 0025 as "mx.graphics.shaderClasses.ExclusionShader_ShaderClass"
+                exports 0026 as "mx.graphics.shaderClasses.SoftLightShader_ShaderClass"
+                exports 0027 as "mx.graphics.shaderClasses.SaturationShader_ShaderClass"
+[052]       380 DOABC "mx/binding/IBindingClient", lazy load
+[052]      1148 DOABC "mx/containers/utilityClasses/IConstraintLayout", lazy load
+[052]       568 DOABC "mx/core/IDataRenderer", lazy load
+[052]       465 DOABC "mx/core/IUID", lazy load
+[052]       467 DOABC "mx/core/IPropertyChangeNotifier", lazy load
+[052]      2067 DOABC "mx/core/IDeferredInstantiationUIComponent", lazy load
+[052]      1130 DOABC "mx/validators/IValidatorListener", lazy load
+[052]      4904 DOABC "mx/core/ILayoutElement", lazy load
+[052]      2421 DOABC "mx/core/IVisualElement", lazy load
+[052]      1873 DOABC "mx/managers/ILayoutManagerClient", lazy load
+[052]       788 DOABC "mx/styles/ISimpleStyleClient", lazy load
+[052]      1971 DOABC "mx/styles/IStyleClient", lazy load
+[052]      1079 DOABC "mx/styles/IAdvancedStyleClient", lazy load
+[052]       686 DOABC "mx/core/IConstraintClient", lazy load
+[052]       739 DOABC "mx/managers/IToolTipManagerClient", lazy load
+[052]      3115 DOABC "mx/automation/IAutomationObject", lazy load
+[052]       580 DOABC "mx/core/IStateClient", lazy load
+[052]    101564 DOABC "mx/core/UIComponent", lazy load
+[052]      1353 DOABC "mx/managers/IFocusManagerContainer", lazy load
+[052]      1847 DOABC "mx/core/IVisualElementContainer", lazy load
+[052]      1108 DOABC "mx/core/IDeferredContentOwner", lazy load
+[052]       726 DOABC "mx/core/INavigatorContent", lazy load
+[052]      5902 DOABC "mx/core/IContainer", lazy load
+[052]       650 DOABC "mx/controls/listClasses/IListItemRenderer", lazy load
+[052]     50469 DOABC "mx/core/Container", lazy load
+[052]      4277 DOABC "mx/core/LayoutContainer", lazy load
+[052]     16774 DOABC "mx/core/Application", lazy load
+[052]     39271 DOABC "FileSender2", lazy load
+[052]     26196 DOABC "_FileSender2_Styles", lazy load
+[052]      4190 DOABC "_FileSender2_FlexInit", lazy load
+[052]      1557 DOABC "mx/core/ComponentDescriptor", lazy load
+[052]      1015 DOABC "mx/core/UIComponentDescriptor", lazy load
+[052]      1438 DOABC "mx/events/ValidationResultEvent", lazy load
+[052]       503 DOABC "mx/core/IMXMLObject", lazy load
+[052]      3362 DOABC "mx/core/DesignLayer", lazy load
+[052]      3630 DOABC "mx/geom/TransformOffsets", lazy load
+[052]      8410 DOABC "mx/styles/CSSStyleDeclaration", lazy load
+[052]      1301 DOABC "mx/core/ContainerGlobals", lazy load
+[052]      7644 DOABC "mx/styles/StyleManager", lazy load
+[052]       797 DOABC "mx/graphics/shaderClasses/LuminosityShader", lazy load
+[052]      3429 DOABC "mx/geom/Transform", lazy load
+[052]      1452 DOABC "mx/utils/ColorUtil", lazy load
+[052]       758 DOABC "mx/filters/BaseFilter", lazy load
+[052]       797 DOABC "mx/graphics/shaderClasses/ColorDodgeShader", lazy load
+[052]       772 DOABC "mx/geom/RoundedRectangle", lazy load
+[052]       913 DOABC "mx/events/MoveEvent", lazy load
+[052]      2184 DOABC "mx/managers/ICursorManager", lazy load
+[052]      1878 DOABC "mx/resources/ResourceBundle", lazy load
+[052]      1422 DOABC "en_US$core_properties", lazy load
+[052]      2153 DOABC "mx/binding/BindingManager", lazy load
+[052]     10788 DOABC "mx/effects/EffectManager", lazy load
+[052]      1554 DOABC "mx/events/DragEvent", lazy load
+[052]      3795 DOABC "mx/core/UITextFormat", lazy load
+[052]      1167 DOABC "mx/resources/ResourceManager", lazy load
+[052]      3768 DOABC "mx/managers/ToolTipManager", lazy load
+[052]      1082 DOABC "mx/events/StateChangeEvent", lazy load
+[052]      2362 DOABC "mx/managers/IFocusManager", lazy load
+[052]      1407 DOABC "mx/events/PropertyChangeEvent", lazy load
+[052]       518 DOABC "mx/filters/IBitmapFilter", lazy load
+[052]       752 DOABC "mx/graphics/shaderClasses/ColorShader", lazy load
+[052]      4085 DOABC "mx/effects/IEffectInstance", lazy load
+[052]      2766 DOABC "mx/core/FlexVersion", lazy load
+[052]       717 DOABC "mx/controls/IFlexContextMenu", lazy load
+[052]      1260 DOABC "mx/events/FlexMouseEvent", lazy load
+[052]       734 DOABC "mx/graphics/shaderClasses/HueShader", lazy load
+[052]      1721 DOABC "mx/managers/IFocusManagerComponent", lazy load
+[052]      1394 DOABC "mx/core/IEmbeddedFontRegistry", lazy load
+[052]      6502 DOABC "mx/core/LayoutElementUIComponentUtils", lazy load
+[052]      1724 DOABC "mx/states/State", lazy load
+[052]      1174 DOABC "mx/events/ChildExistenceChangedEvent", lazy load
+[052]      1408 DOABC "mx/core/UIComponentGlobals", lazy load
+[052]       788 DOABC "mx/graphics/shaderClasses/ColorBurnShader", lazy load
+[052]       836 DOABC "mx/validators/ValidationResult", lazy load
+[052]       722 DOABC "mx/core/UIComponentCachePolicy", lazy load
+[052]       653 DOABC "mx/core/IIMESupport", lazy load
+[052]     11560 DOABC "mx/core/IUITextField", lazy load
+[052]     13181 DOABC "mx/utils/MatrixUtil", lazy load
+[052]     10747 DOABC "mx/styles/StyleProtoChain", lazy load
+[052]       461 DOABC "mx/core/FlexGlobals", lazy load
+[052]      1231 DOABC "mx/events/ToolTipEvent", lazy load
+[052]       425 DOABC "mx/effects/IAbstractEffect", lazy load
+[052]      3973 DOABC "mx/effects/IEffect", lazy load
+[052]       788 DOABC "mx/graphics/shaderClasses/ExclusionShader", lazy load
+[052]       989 DOABC "mx/core/IStateClient2", lazy load
+[052]       636 DOABC "mx/core/IProgrammaticSkin", lazy load
+[052]      1542 DOABC "mx/core/IRepeater", lazy load
+[052]      2784 DOABC "mx/utils/StringUtil", lazy load
+[052]       942 DOABC "mx/events/ResizeEvent", lazy load
+[052]       788 DOABC "mx/graphics/shaderClasses/SoftLightShader", lazy load
+[052]       797 DOABC "mx/graphics/shaderClasses/SaturationShader", lazy load
+[052]       313 DOABC "en_US$skins_properties", lazy load
+[052]       697 DOABC "mx/core/IFontContextComponent", lazy load
+[052]       781 DOABC "mx/core/EventPriority", lazy load
+[052]      1176 DOABC "mx/events/EffectEvent", lazy load
+[052]     12852 DOABC "mx/core/AdvancedLayoutFeatures", lazy load
+[052]      3876 DOABC "mx/styles/IStyleManager", lazy load
+[052]      1887 DOABC "mx/styles/IStyleManager2", lazy load
+[052]       792 DOABC "mx/states/Transition", lazy load
+[052]      3017 DOABC "mx/managers/CursorManager", lazy load
+[052]       888 DOABC "mx/core/EdgeMetrics", lazy load
+[052]       703 DOABC "mx/events/ScrollEventDirection", lazy load
+[052]     15193 DOABC "mx/controls/scrollClasses/ScrollBar", lazy load
+[052]      2604 DOABC "mx/controls/HScrollBar", lazy load
+[052]      2462 DOABC "mx/core/ContainerRawChildrenList", lazy load
+[052]      1309 DOABC "mx/events/ScrollEventDetail", lazy load
+[052]       780 DOABC "mx/core/ContainerCreationPolicy", lazy load
+[052]     16806 DOABC "mx/containers/utilityClasses/PostScaleAdapter", lazy load
+[052]       652 DOABC "mx/core/ScrollPolicy", lazy load
+[052]      2156 DOABC "mx/controls/VScrollBar", lazy load
+[052]       445 DOABC "mx/core/IBorder", lazy load
+[052]       954 DOABC "mx/core/IRectangularBorder", lazy load
+[052]      1283 DOABC "mx/events/IndexChangedEvent", lazy load
+[052]      1041 DOABC "mx/events/ScrollEvent", lazy load
+[052]       708 DOABC "mx/core/ContainerLayout", lazy load
+[052]      4113 DOABC "mx/containers/utilityClasses/ConstraintColumn", lazy load
+[052]      1317 DOABC "mx/containers/utilityClasses/Layout", lazy load
+[052]      5247 DOABC "mx/containers/utilityClasses/BoxLayout", lazy load
+[052]      4049 DOABC "mx/containers/utilityClasses/ConstraintRow", lazy load
+[052]       671 DOABC "mx/containers/BoxDirection", lazy load
+[052]     20764 DOABC "mx/containers/utilityClasses/CanvasLayout", lazy load
+[052]      1657 DOABC "mx/containers/utilityClasses/ApplicationLayout", lazy load
+[052]      1246 DOABC "mx/managers/IActiveWindowManager", lazy load
+[052]     22660 DOABC "mx/managers/FocusManager", lazy load
+[052]      1439 DOABC "mx/managers/ILayoutManager", lazy load
+[052]     19431 DOABC "mx/containers/Panel", lazy load
+[052]      7605 DOABC "mx/controls/Alert", lazy load
+[052]       784 DOABC "mx/controls/Spacer", lazy load
+[052]       659 DOABC "mx/binding/IWatcherSetupUtil2", lazy load
+[052]       651 DOABC "mx/core/IButton", lazy load
+[052]       856 DOABC "mx/controls/listClasses/IDropInListItemRenderer", lazy load
+[052]     23751 DOABC "mx/controls/Button", lazy load
+[052]      5460 DOABC "mx/utils/ObjectProxy", lazy load
+[052]     10915 DOABC "mx/controls/Label", lazy load
+[052]       342 DOABC "mx/core/IFlexAsset", lazy load
+[052]      1048 DOABC "mx/core/FlexBitmap", lazy load
+[052]      1354 DOABC "mx/core/BitmapAsset", lazy load
+[052]       737 DOABC "FileSender2_gearsYES", lazy load
+[052]      2929 DOABC "mx/containers/Box", lazy load
+[052]      1312 DOABC "mx/containers/HBox", lazy load
+[052]     16178 DOABC "org/ricoshae/download_std", lazy load
+[052]      2320 DOABC "mx/styles/CSSSelector", lazy load
+[052]       909 DOABC "FileSender2__embed_mxml_assets_arrow_refresh_png_1388202", lazy load
+[052]      5612 DOABC "mx/rpc/AbstractInvoker", lazy load
+[052]      2042 DOABC "mx/rpc/AbstractOperation", lazy load
+[052]     11755 DOABC "mx/rpc/http/AbstractOperation", lazy load
+[052]      8525 DOABC "mx/rpc/http/HTTPService", lazy load
+[052]       909 DOABC "mx/rpc/mxml/IMXMLSupport", lazy load
+[052]      1854 DOABC "mx/rpc/http/mxml/HTTPService", lazy load
+[052]       805 DOABC "mx/core/ISWFBridgeProvider", lazy load
+[052]       767 DOABC "mx/core/ISWFLoader", lazy load
+[052]     25431 DOABC "mx/controls/SWFLoader", lazy load
+[052]      3035 DOABC "mx/controls/Image", lazy load
+[052]      1345 DOABC "mx/messaging/events/MessageEvent", lazy load
+[052]      1142 DOABC "mx/rpc/events/AbstractEvent", lazy load
+[052]      2309 DOABC "mx/rpc/events/ResultEvent", lazy load
+[052]     18234 DOABC "org/ricoshae/myfiles", lazy load
+[052]       722 DOABC "FileSender2_gearsNo", lazy load
+[052]       653 DOABC "mx/states/IOverride", lazy load
+[052]      1495 DOABC "mx/utils/OnDemandEventDispatcher", lazy load
+[052]      2070 DOABC "mx/states/OverrideBase", lazy load
+[052]      1689 DOABC "mx/states/RemoveChild", lazy load
+[052]       629 DOABC "org/ricoshae/core/ff_fix", lazy load
+[052]       524 DOABC "mx/core/IDeferredInstance", lazy load
+[052]       613 DOABC "mx/core/ITransientDeferredInstance", lazy load
+[052]      1099 DOABC "mx/core/DeferredInstanceFromFunction", lazy load
+[052]      1776 DOABC "mx/styles/CSSCondition", lazy load
+[052]      2454 DOABC "mx/rpc/events/FaultEvent", lazy load
+[052]      3109 DOABC "mx/formatters/Formatter", lazy load
+[052]      5522 DOABC "mx/formatters/NumberFormatter", lazy load
+[052]     30519 DOABC "org/ricoshae/upload_gears", lazy load
+[052]      4677 DOABC "mx/binding/Binding", lazy load
+[052]     29378 DOABC "org/ricoshae/upload_std", lazy load
+[052]     17823 DOABC "org/ricoshae/vouchers", lazy load
+[052]      1310 DOABC "mx/containers/VBox", lazy load
+[052]     32349 DOABC "org/ricoshae/admin", lazy load
+[052]      4250 DOABC "mx/formatters/DateFormatter", lazy load
+[052]       808 DOABC "com/adobe/serialization/json/JSON", lazy load
+[052]       916 DOABC "mx/utils/ArrayUtil", lazy load
+[052]      1327 DOABC "mx/collections/CursorBookmark", lazy load
+[052]      1864 DOABC "mx/collections/ICollectionView", lazy load
+[052]      1910 DOABC "mx/collections/IViewCursor", lazy load
+[052]      1460 DOABC "mx/collections/IList", lazy load
+[052]     23391 DOABC "mx/collections/ListCollectionView", lazy load
+[052]      1640 DOABC "mx/collections/ArrayCollection", lazy load
+[052]      2468 DOABC "_FileSender2WatcherSetupUtil", lazy load
+[052]      3751 DOABC "mx/states/SetProperty", lazy load
+[052]      3266 DOABC "mx/states/SetStyle", lazy load
+[052]      4157 DOABC "mx/states/AddChild", lazy load
+[052]     14327 DOABC "mx/core/ScrollControlBase", lazy load
+[052]     19779 DOABC "mx/controls/TextArea", lazy load
+[052]      7088 DOABC "mx/skins/ProgrammaticSkin", lazy load
+[052]      1419 DOABC "mx/skins/halo/DataGridColumnResizeSkin", lazy load
+[052]       823 DOABC "mx/skins/Border", lazy load
+[052]      1804 DOABC "mx/skins/halo/ScrollTrackSkin", lazy load
+[052]      1943 DOABC "mx/skins/halo/ProgressIndeterminateSkin", lazy load
+[052]      1125 DOABC "mx/skins/halo/ProgressMaskSkin", lazy load
+[052]      1643 DOABC "mx/core/SpriteAsset", lazy load
+[052]      1140 DOABC "_FileSender2_Styles__embed_css_Assets_swf_mx_skins_cursor_DragMove_804513135", lazy load
+[052]      1073 DOABC "_FileSender2_Styles__embed_css_Assets_swf_openDateOver_1431827429", lazy load
+[052]      5137 DOABC "mx/skins/halo/CheckBoxIcon", lazy load
+[052]      1474 DOABC "mx/skins/halo/DataGridSortArrow", lazy load
+[052]      6166 DOABC "mx/skins/RectangularBorder", lazy load
+[052]     10495 DOABC "mx/skins/halo/HaloBorder", lazy load
+[052]      1646 DOABC "mx/skins/halo/ProgressTrackSkin", lazy load
+[052]      1373 DOABC "mx/skins/halo/DataGridColumnDropIndicator", lazy load
+[052]      1168 DOABC "mx/skins/halo/BrokenImageBorderSkin", lazy load
+[052]      1152 DOABC "_FileSender2_Styles__embed_css_Assets_swf_mx_skins_cursor_BusyCursor_452229285", lazy load
+[052]     12565 DOABC "mx/utils/ObjectUtil", lazy load
+[052]      1916 DOABC "mx/skins/halo/ApplicationBackground", lazy load
+[052]      1634 DOABC "mx/skins/halo/DefaultDragImage", lazy load
+[052]      3997 DOABC "mx/skins/halo/DateChooserMonthArrowSkin", lazy load
+[052]      1982 DOABC "mx/skins/halo/TitleBackground", lazy load
+[052]      4557 DOABC "mx/skins/halo/HaloFocusRect", lazy load
+[052]      1206 DOABC "mx/skins/halo/ListDropIndicator", lazy load
+[052]      1668 DOABC "mx/skins/halo/ProgressBarSkin", lazy load
+[052]      1079 DOABC "_FileSender2_Styles__embed_css_Assets_swf_cursorStretch_1479569502", lazy load
+[052]      4511 DOABC "mx/skins/halo/ButtonSkin", lazy load
+[052]      2259 DOABC "mx/skins/halo/BusyCursor", lazy load
+[052]      1140 DOABC "_FileSender2_Styles__embed_css_Assets_swf_mx_skins_cursor_DragLink_804487494", lazy load
+[052]       966 DOABC "mx/core/FlexTextField", lazy load
+[052]     21711 DOABC "mx/core/UITextField", lazy load
+[052]      1474 DOABC "mx/skins/halo/DataGridHeaderSeparator", lazy load
+[052]      2241 DOABC "mx/skins/halo/DateChooserYearArrowSkin", lazy load
+[052]      6294 DOABC "mx/skins/halo/ButtonBarButtonSkin", lazy load
+[052]      1140 DOABC "_FileSender2_Styles__embed_css_Assets_swf_mx_skins_cursor_DragCopy_804225227", lazy load
+[052]      1261 DOABC "mx/skins/halo/DateChooserIndicator", lazy load
+[052]      1075 DOABC "_FileSender2_Styles__embed_css_Assets_swf___brokenImage_685444021", lazy load
+[052]      5380 DOABC "mx/skins/halo/ScrollThumbSkin", lazy load
+[052]      1152 DOABC "_FileSender2_Styles__embed_css_Assets_swf_mx_skins_cursor_DragReject_796535663", lazy load
+[052]      1882 DOABC "mx/skins/halo/DataGridHeaderBackgroundSkin", lazy load
+[052]      5105 DOABC "mx/skins/halo/PanelSkin", lazy load
+[052]      5962 DOABC "mx/skins/halo/TabSkin", lazy load
+[052]      2931 DOABC "mx/skins/halo/ToolTipBorder", lazy load
+[052]      5563 DOABC "mx/skins/halo/ScrollArrowSkin", lazy load
+[052]     16995 DOABC "mx/styles/StyleManagerImpl", lazy load
+[052]      6862 DOABC "mx/collections/ArrayList", lazy load
+[052]      1567 DOABC "mx/messaging/messages/MessagePerformanceInfo", lazy load
+[052]      6199 DOABC "mx/managers/systemClasses/ChildManager", lazy load
+[052]      2018 DOABC "mx/messaging/messages/IMessage", lazy load
+[052]      6556 DOABC "mx/messaging/messages/AbstractMessage", lazy load
+[052]      1833 DOABC "mx/messaging/messages/HTTPRequestMessage", lazy load
+[052]       599 DOABC "mx/messaging/messages/ISmallMessage", lazy load
+[052]      2684 DOABC "mx/messaging/messages/AsyncMessage", lazy load
+[052]      1799 DOABC "mx/messaging/messages/AcknowledgeMessage", lazy load
+[052]      4470 DOABC "mx/messaging/messages/CommandMessage", lazy load
+[052]       727 DOABC "mx/core/ITextFieldFactory", lazy load
+[052]      1770 DOABC "mx/core/TextFieldFactory", lazy load
+[052]      1034 DOABC "mx/messaging/messages/AsyncMessageExt", lazy load
+[052]      1115 DOABC "mx/messaging/messages/AcknowledgeMessageExt", lazy load
+[052]      2333 DOABC "mx/messaging/config/ConfigMap", lazy load
+[052]      1133 DOABC "mx/messaging/messages/ErrorMessage", lazy load
+[052]      1076 DOABC "mx/messaging/messages/CommandMessageExt", lazy load
+[052]       712 DOABC "mx/events/PropertyChangeEventKind", lazy load
+[052]       648 DOABC "mx/styles/CSSConditionKind", lazy load
+[052]       639 DOABC "mx/core/ByteArrayAsset", lazy load
+[052]       986 DOABC "mx/graphics/shaderClasses/LuminosityShader_ShaderClass", lazy load
+[052]       986 DOABC "mx/graphics/shaderClasses/ColorDodgeShader_ShaderClass", lazy load
+[052]     15250 DOABC "mx/effects/Effect", lazy load
+[052]      1447 DOABC "mx/effects/TweenEffect", lazy load
+[052]      1682 DOABC "mx/effects/Zoom", lazy load
+[052]      8113 DOABC "mx/effects/EffectInstance", lazy load
+[052]       430 DOABC "en_US$effects_properties", lazy load
+[052]      1476 DOABC "mx/core/DragSource", lazy load
+[052]     12052 DOABC "mx/resources/ResourceManagerImpl", lazy load
+[052]       631 DOABC "mx/core/IToolTip", lazy load
+[052]      3143 DOABC "mx/managers/IToolTipManager2", lazy load
+[052]     14170 DOABC "mx/managers/ToolTipManagerImpl", lazy load
+[052]       936 DOABC "mx/graphics/shaderClasses/ColorShader_ShaderClass", lazy load
+[052]       861 DOABC "mx/effects/effectClasses/PropertyChanges", lazy load
+[052]       995 DOABC "mx/effects/IEffectTargetHost", lazy load
+[052]       916 DOABC "mx/graphics/shaderClasses/HueShader_ShaderClass", lazy load
+[052]      1337 DOABC "mx/core/EmbeddedFont", lazy load
+[052]       976 DOABC "mx/graphics/shaderClasses/ColorBurnShader_ShaderClass", lazy load
+[052]       228 DOABC "mx/utils/object_proxy", lazy load
+[052]      1757 DOABC "mx/modules/IModuleInfo", lazy load
+[052]     10997 DOABC "mx/modules/ModuleManager", lazy load
+[052]       338 DOABC "mx/modules/IModule", lazy load
+[052]      2472 DOABC "mx/utils/OrderedObject", lazy load
+[052]      3779 DOABC "mx/styles/StyleProxy", lazy load
+[052]      1990 DOABC "mx/effects/EffectTargetFilter", lazy load
+[052]       976 DOABC "mx/graphics/shaderClasses/ExclusionShader_ShaderClass", lazy load
+[052]       976 DOABC "mx/graphics/shaderClasses/SoftLightShader_ShaderClass", lazy load
+[052]       986 DOABC "mx/graphics/shaderClasses/SaturationShader_ShaderClass", lazy load
+[052]      8361 DOABC "mx/geom/CompoundTransform", lazy load
+[052]     10574 DOABC "mx/managers/CursorManagerImpl", lazy load
+[052]       785 DOABC "mx/controls/scrollClasses/ScrollBarDirection", lazy load
+[052]      2711 DOABC "mx/controls/scrollClasses/ScrollThumb", lazy load
+[052]      5128 DOABC "mx/containers/utilityClasses/Flex", lazy load
+[052]       483 DOABC "en_US$containers_properties", lazy load
+[052]       706 DOABC "mx/containers/errors/ConstraintError", lazy load
+[052]       873 DOABC "mx/managers/IFocusManagerComplexComponent", lazy load
+[052]       359 DOABC "mx/core/IToggleButton", lazy load
+[052]       895 DOABC "mx/managers/IFocusManagerGroup", lazy load
+[052]       874 DOABC "mx/events/CloseEvent", lazy load
+[052]      2726 DOABC "mx/containers/ControlBar", lazy load
+[052]      1710 DOABC "mx/managers/PopUpManager", lazy load
+[052]      2651 DOABC "en_US$controls_properties", lazy load
+[052]      8407 DOABC "mx/controls/alertClasses/AlertForm", lazy load
+[052]      1207 DOABC "mx/controls/listClasses/BaseListData", lazy load
+[052]      1005 DOABC "mx/controls/dataGridClasses/DataGridListData", lazy load
+[052]       785 DOABC "mx/controls/ButtonLabelPlacement", lazy load
+[052]       685 DOABC "mx/controls/ButtonPhase", lazy load
+[052]      4159 DOABC "mx/utils/UIDUtil", lazy load
+[052]      2164 DOABC "_org_ricoshae_download_stdWatcherSetupUtil", lazy load
+[052]     17018 DOABC "mx/controls/ProgressBar", lazy load
+[052]      2244 DOABC "mx/rpc/AsyncToken", lazy load
+[052]      1024 DOABC "mx/rpc/AsyncDispatcher", lazy load
+[052]       772 DOABC "mx/messaging/errors/MessagingError", lazy load
+[052]       979 DOABC "mx/logging/ILogger", lazy load
+[052]       536 DOABC "mx/rpc/IResponder", lazy load
+[052]       742 DOABC "mx/rpc/Responder", lazy load
+[052]      1645 DOABC "mx/messaging/events/MessageFaultEvent", lazy load
+[052]      1180 DOABC "mx/rpc/events/InvokeEvent", lazy load
+[052]     12048 DOABC "mx/messaging/MessageAgent", lazy load
+[052]      6903 DOABC "mx/messaging/AbstractProducer", lazy load
+[052]      1983 DOABC "mx/messaging/Producer", lazy load
+[052]      1905 DOABC "mx/rpc/AsyncRequest", lazy load
+[052]      3959 DOABC "mx/logging/Log", lazy load
+[052]      1150 DOABC "mx/rpc/Fault", lazy load
+[052]      1960 DOABC "mx/netmon/NetworkMonitor", lazy load
+[052]      4225 DOABC "en_US$rpc_properties", lazy load
+[052]      1505 DOABC "mx/rpc/ActiveCalls", lazy load
+[052]      6063 DOABC "mx/rpc/AbstractService", lazy load
+[052]      2430 DOABC "mx/rpc/xml/SimpleXMLDecoder", lazy load
+[052]      3050 DOABC "mx/messaging/MessageResponder", lazy load
+[052]     19295 DOABC "mx/messaging/ChannelSet", lazy load
+[052]       578 DOABC "mx/rpc/mxml/Concurrency", lazy load
+[052]      2021 DOABC "mx/rpc/http/SerializationFilter", lazy load
+[052]      6056 DOABC "mx/utils/URLUtil", lazy load
+[052]      1335 DOABC "mx/messaging/config/LoaderConfig", lazy load
+[052]      3898 DOABC "mx/rpc/xml/SimpleXMLEncoder", lazy load
+[052]     18553 DOABC "mx/messaging/Channel", lazy load
+[052]      7139 DOABC "mx/messaging/channels/DirectHTTPChannel", lazy load
+[052]      1346 DOABC "mx/events/InterManagerRequest", lazy load
+[052]      1789 DOABC "mx/events/SWFBridgeEvent", lazy load
+[052]       955 DOABC "mx/core/FlexLoader", lazy load
+[052]       743 DOABC "mx/events/InvalidateRequestData", lazy load
+[052]      2080 DOABC "mx/managers/IMarshalSystemManager", lazy load
+[052]      3027 DOABC "mx/events/SWFBridgeRequest", lazy load
+[052]     16382 DOABC "mx/controls/dataGridClasses/DataGridColumn", lazy load
+[052]       824 DOABC "org/ricoshae/myfiles_emailGo", lazy load
+[052]       833 DOABC "org/ricoshae/myfiles_emailAdd", lazy load
+[052]    103464 DOABC "mx/controls/listClasses/ListBase", lazy load
+[052]     38769 DOABC "mx/controls/dataGridClasses/DataGridBase", lazy load
+[052]     63636 DOABC "mx/controls/DataGrid", lazy load
+[052]       431 DOABC "mx/core/IFactory", lazy load
+[052]       941 DOABC "mx/core/ClassFactory", lazy load
+[052]      2604 DOABC "org/ricoshae/myfilesInnerClass1", lazy load
+[052]      2618 DOABC "org/ricoshae/myfilesInnerClass2", lazy load
+[052]      2995 DOABC "mx/containers/Canvas", lazy load
+[052]     16280 DOABC "org/ricoshae/newEmail", lazy load
+[052]      2592 DOABC "org/ricoshae/myfilesInnerClass0", lazy load
+[052]       881 DOABC "org/ricoshae/myfiles_squareDelete", lazy load
+[052]      1366 DOABC "_org_ricoshae_myfilesWatcherSetupUtil", lazy load
+[052]       829 DOABC "en_US$formatters_properties", lazy load
+[052]       675 DOABC "en_US$SharedResources_properties", lazy load
+[052]       788 DOABC "mx/formatters/NumberBaseRoundType", lazy load
+[052]      4649 DOABC "mx/formatters/NumberBase", lazy load
+[052]      2442 DOABC "mx/controls/CheckBox", lazy load
+[052]      3375 DOABC "_org_ricoshae_upload_gearsWatcherSetupUtil", lazy load
+[052]      1078 DOABC "org/ricoshae/upload_gears__embed_mxml_assets_num_1_png_1986575440", lazy load
+[052]      1129 DOABC "org/ricoshae/core/FS_Validation", lazy load
+[052]      1078 DOABC "org/ricoshae/upload_gears__embed_mxml_assets_num_4_png_1977025630", lazy load
+[052]      2650 DOABC "mx/core/ITextInput", lazy load
+[052]     20641 DOABC "mx/controls/TextInput", lazy load
+[052]     15561 DOABC "mx/controls/ComboBase", lazy load
+[052]     24637 DOABC "mx/controls/DateField", lazy load
+[052]      1078 DOABC "org/ricoshae/upload_gears__embed_mxml_assets_num_2_png_1984478302", lazy load
+[052]      1078 DOABC "org/ricoshae/upload_gears__embed_mxml_assets_num_3_png_1974164572", lazy load
+[052]      1096 DOABC "mx/collections/errors/ItemPendingError", lazy load
+[052]      1008 DOABC "mx/binding/EvalBindingResponder", lazy load
+[052]      1062 DOABC "org/ricoshae/upload_std__embed_mxml_assets_num_2_png_1984478302", lazy load
+[052]      3429 DOABC "_org_ricoshae_upload_stdWatcherSetupUtil", lazy load
+[052]      1062 DOABC "org/ricoshae/upload_std__embed_mxml_assets_num_4_png_1977025630", lazy load
+[052]      1062 DOABC "org/ricoshae/upload_std__embed_mxml_assets_num_3_png_1974164572", lazy load
+[052]      1062 DOABC "org/ricoshae/upload_std__embed_mxml_assets_num_1_png_1986575440", lazy load
+[052]      2635 DOABC "org/ricoshae/vouchersInnerClass0", lazy load
+[052]      1739 DOABC "_org_ricoshae_vouchersWatcherSetupUtil", lazy load
+[052]      2186 DOABC "_org_ricoshae_adminWatcherSetupUtil", lazy load
+[052]       836 DOABC "mx/managers/IHistoryManagerClient", lazy load
+[052]       683 DOABC "mx/core/ISelectableList", lazy load
+[052]     15827 DOABC "mx/containers/ViewStack", lazy load
+[052]      7956 DOABC "mx/containers/TabNavigator", lazy load
+[052]      2388 DOABC "org/ricoshae/adminInnerClass0", lazy load
+[052]      2388 DOABC "org/ricoshae/adminInnerClass1", lazy load
+[052]      1990 DOABC "mx/formatters/StringFormatter", lazy load
+[052]      5612 DOABC "mx/formatters/DateBase", lazy load
+[052]      2908 DOABC "com/adobe/serialization/json/JSONEncoder", lazy load
+[052]      2427 DOABC "com/adobe/serialization/json/JSONDecoder", lazy load
+[052]      7404 DOABC "mx/collections/Sort", lazy load
+[052]      1254 DOABC "mx/events/CollectionEvent", lazy load
+[052]      1354 DOABC "en_US$collections_properties", lazy load
+[052]       684 DOABC "mx/collections/errors/CursorError", lazy load
+[052]       740 DOABC "mx/collections/errors/CollectionViewError", lazy load
+[052]      1037 DOABC "mx/collections/ItemResponder", lazy load
+[052]       959 DOABC "mx/events/CollectionEventKind", lazy load
+[052]       670 DOABC "mx/collections/errors/SortError", lazy load
+[052]      2860 DOABC "mx/binding/Watcher", lazy load
+[052]      3447 DOABC "mx/binding/PropertyWatcher", lazy load
+[052]      3711 DOABC "mx/containers/ApplicationControlBar", lazy load
+[052]       345 DOABC "en_US$states_properties", lazy load
+[052]      1483 DOABC "mx/skins/halo/HaloColors", lazy load
+[052]      1775 DOABC "mx/utils/DescribeTypeCache", lazy load
+[052]      3434 DOABC "mx/styles/CSSMergedStyleDeclaration", lazy load
+[052]       627 DOABC "mx/styles/IStyleModule", lazy load
+[052]       329 DOABC "en_US$styles_properties", lazy load
+[052]      1371 DOABC "mx/events/ModuleEvent", lazy load
+[052]      1088 DOABC "mx/events/FlexChangeEvent", lazy load
+[052]      1075 DOABC "mx/events/StyleEvent", lazy load
+[052]      7141 DOABC "mx/utils/RPCObjectUtil", lazy load
+[052]      1733 DOABC "mx/utils/RPCStringUtil", lazy load
+[052]      2880 DOABC "mx/utils/RPCUIDUtil", lazy load
+[052]      7530 DOABC "mx/managers/LayoutManager", lazy load
+[052]      1361 DOABC "mx/effects/effectClasses/HideShowEffectTargetFilter", lazy load
+[052]      1442 DOABC "mx/effects/effectClasses/AddRemoveEffectTargetFilter", lazy load
+[052]       991 DOABC "mx/events/TweenEvent", lazy load
+[052]      3422 DOABC "mx/effects/effectClasses/TweenEffectInstance", lazy load
+[052]      5707 DOABC "mx/effects/effectClasses/ZoomInstance", lazy load
+[052]     10117 DOABC "mx/resources/LocaleSorter", lazy load
+[052]       572 DOABC "mx/resources/IResourceModule", lazy load
+[052]      5962 DOABC "mx/controls/ToolTip", lazy load
+[052]      5603 DOABC "mx/core/EmbeddedFontRegistry", lazy load
+[052]       544 DOABC "mx/modules/ModuleManagerGlobals", lazy load
+[052]       572 DOABC "mx/core/ISystemCursorClient", lazy load
+[052]       741 DOABC "mx/managers/CursorManagerPriority", lazy load
+[052]      1009 DOABC "mx/containers/utilityClasses/FlexChildInfo", lazy load
+[052]      1144 DOABC "mx/managers/IPopUpManager", lazy load
+[052]     16215 DOABC "mx/managers/PopUpManagerImpl", lazy load
+[052]      2437 DOABC "mx/utils/XMLNotifier", lazy load
+[052]       697 DOABC "mx/controls/ProgressBarDirection", lazy load
+[052]       713 DOABC "mx/controls/ProgressBarMode", lazy load
+[052]       867 DOABC "mx/controls/ProgressBarLabelPlacement", lazy load
+[052]       588 DOABC "mx/messaging/errors/ChannelError", lazy load
+[052]       688 DOABC "mx/messaging/errors/InvalidDestinationError", lazy load
+[052]      1538 DOABC "mx/messaging/events/ChannelEvent", lazy load
+[052]      1832 DOABC "mx/messaging/events/ChannelFaultEvent", lazy load
+[052]      1582 DOABC "mx/messaging/events/MessageAckEvent", lazy load
+[052]      5919 DOABC "en_US$messaging_properties", lazy load
+[052]      9475 DOABC "mx/messaging/config/ServerConfig", lazy load
+[052]      3155 DOABC "mx/utils/Base64Encoder", lazy load
+[052]      5238 DOABC "mx/messaging/messages/MessagePerformanceUtils", lazy load
+[052]       764 DOABC "en_US$logging_properties", lazy load
+[052]      2476 DOABC "mx/logging/LogLogger", lazy load
+[052]      1020 DOABC "mx/logging/ILoggingTarget", lazy load
+[052]       833 DOABC "mx/logging/errors/InvalidCategoryError", lazy load
+[052]       799 DOABC "mx/logging/LogEventLevel", lazy load
+[052]       763 DOABC "mx/rpc/xml/ComplexString", lazy load
+[052]     10343 DOABC "mx/messaging/channels/PollingChannel", lazy load
+[052]      9425 DOABC "mx/messaging/channels/NetConnectionChannel", lazy load
+[052]       665 DOABC "mx/messaging/errors/NoChannelAvailableError", lazy load
+[052]      1536 DOABC "mx/messaging/FlexClient", lazy load
+[052]       659 DOABC "mx/messaging/errors/InvalidChannelError", lazy load
+[052]       759 DOABC "mx/messaging/errors/MessageSerializationError", lazy load
+[052]      1246 DOABC "mx/core/ISWFBridgeGroup", lazy load
+[052]      1210 DOABC "mx/core/ContextualClassFactory", lazy load
+[052]       847 DOABC "mx/controls/listClasses/ListBaseSeekPending", lazy load
+[052]      1667 DOABC "mx/events/ListEvent", lazy load
+[052]       956 DOABC "mx/controls/listClasses/ListBaseSelectionData", lazy load
+[052]      3416 DOABC "mx/collections/XMLListCollection", lazy load
+[052]       650 DOABC "mx/collections/ItemWrapper", lazy load
+[052]      3201 DOABC "mx/controls/listClasses/ListBaseContentHolder", lazy load
+[052]      1055 DOABC "mx/controls/listClasses/ListBaseFindPending", lazy load
+[052]     16361 DOABC "mx/collections/ModifiedCollectionView", lazy load
+[052]      1134 DOABC "mx/controls/listClasses/ListBaseSelectionPending", lazy load
+[052]      1070 DOABC "mx/controls/listClasses/ListBaseSelectionDataPending", lazy load
+[052]      5642 DOABC "mx/effects/Tween", lazy load
+[052]      2680 DOABC "mx/controls/listClasses/ListItemDragProxy", lazy load
+[052]      2389 DOABC "mx/managers/DragManager", lazy load
+[052]       952 DOABC "mx/controls/listClasses/ListData", lazy load
+[052]       889 DOABC "mx/controls/listClasses/ListRowInfo", lazy load
+[052]      1161 DOABC "mx/controls/dataGridClasses/DataGridHeaderBase", lazy load
+[052]     22683 DOABC "mx/controls/dataGridClasses/DataGridHeader", lazy load
+[052]      1660 DOABC "mx/controls/dataGridClasses/DataGridLockedRowContentHolder", lazy load
+[052]      8899 DOABC "mx/controls/dataGridClasses/DataGridItemRenderer", lazy load
+[052]      3411 DOABC "mx/controls/dataGridClasses/DataGridDragProxy", lazy load
+[052]      6701 DOABC "mx/collections/SortField", lazy load
+[052]      1723 DOABC "mx/events/DataGridEvent", lazy load
+[052]       790 DOABC "mx/events/DataGridEventReason", lazy load
+[052]      1160 DOABC "org/ricoshae/myfilesInnerClass1__embed_mxml__assets_email_add_png_1599292491", lazy load
+[052]      1243 DOABC "org/ricoshae/myfilesInnerClass2__embed_mxml__assets_shape_square_delete_png_991720245", lazy load
+[052]      2001 DOABC "_org_ricoshae_newEmailWatcherSetupUtil", lazy load
+[052]      1137 DOABC "org/ricoshae/myfilesInnerClass0__embed_mxml__assets_email_go_png_60311541", lazy load
+[052]      1353 DOABC "mx/binding/ArrayElementWatcher", lazy load
+[052]       971 DOABC "mx/events/DateChooserEvent", lazy load
+[052]     30551 DOABC "mx/controls/DateChooser", lazy load
+[052]       936 DOABC "mx/events/DropdownEvent", lazy load
+[052]      1052 DOABC "mx/events/CalendarLayoutChangeEvent", lazy load
+[052]      2662 DOABC "mx/binding/StaticPropertyWatcher", lazy load
+[052]      1251 DOABC "org/ricoshae/vouchersInnerClass0__embed_mxml__assets_shape_square_delete_png_991720245", lazy load
+[052]      1390 DOABC "mx/managers/HistoryManager", lazy load
+[052]     13263 DOABC "mx/controls/NavBar", lazy load
+[052]     12944 DOABC "mx/controls/ButtonBar", lazy load
+[052]      6418 DOABC "mx/controls/ToggleButtonBar", lazy load
+[052]      4306 DOABC "mx/controls/TabBar", lazy load
+[052]      1227 DOABC "org/ricoshae/adminInnerClass0__embed_mxml__assets_shape_square_delete_png_991720245", lazy load
+[052]      1227 DOABC "org/ricoshae/adminInnerClass1__embed_mxml__assets_shape_square_delete_png_991720245", lazy load
+[052]      5435 DOABC "com/adobe/serialization/json/JSONTokenizer", lazy load
+[052]      1074 DOABC "com/adobe/serialization/json/JSONToken", lazy load
+[052]      1074 DOABC "com/adobe/serialization/json/JSONTokenType", lazy load
+[052]      3457 DOABC "mx/binding/BindabilityInfo", lazy load
+[052]      1295 DOABC "mx/utils/DescribeTypeCacheRecord", lazy load
+[052]      4044 DOABC "mx/managers/layoutClasses/PriorityQueue", lazy load
+[052]      1315 DOABC "mx/effects/Fade", lazy load
+[052]      6425 DOABC "mx/managers/systemClasses/ActiveWindowManager", lazy load
+[052]      1392 DOABC "mx/effects/Blur", lazy load
+[052]       765 DOABC "mx/managers/PopUpManagerChildList", lazy load
+[052]      1550 DOABC "mx/managers/PopUpData", lazy load
+[052]       578 DOABC "mx/utils/IXMLNotifiable", lazy load
+[052]      1227 DOABC "mx/logging/LogEvent", lazy load
+[052]      9726 DOABC "mx/messaging/AbstractConsumer", lazy load
+[052]      2122 DOABC "mx/messaging/Consumer", lazy load
+[052]      2872 DOABC "mx/messaging/ConsumerMessageDispatcher", lazy load
+[052]      7160 DOABC "mx/collections/XMLListAdapter", lazy load
+[052]      1265 DOABC "mx/managers/IDragManager", lazy load
+[052]      5865 DOABC "mx/managers/DragManagerImpl", lazy load
+[052]      9488 DOABC "mx/managers/dragClasses/DragProxy", lazy load
+[052]     28067 DOABC "mx/controls/CalendarLayout", lazy load
+[052]       767 DOABC "mx/managers/IHistoryManager", lazy load
+[052]      6506 DOABC "mx/managers/HistoryManagerImpl", lazy load
+[052]      1102 DOABC "mx/events/ItemClickEvent", lazy load
+[052]      1535 DOABC "mx/controls/buttonBarClasses/ButtonBarButton", lazy load
+[052]      3026 DOABC "mx/controls/tabBarClasses/Tab", lazy load
+[052]       974 DOABC "com/adobe/serialization/json/JSONParseError", lazy load
+[052]      2726 DOABC "mx/effects/effectClasses/FadeInstance", lazy load
+[052]      2085 DOABC "mx/effects/effectClasses/BlurInstance", lazy load
+[052]      1600 DOABC "mx/events/InterDragManagerEvent", lazy load
+[052]      1638 DOABC "mx/effects/Move", lazy load
+[052]       839 DOABC "mx/events/DateChooserEventDetail", lazy load
+[052]      1137 DOABC "mx/events/BrowserChangeEvent", lazy load
+[052]       591 DOABC "mx/managers/HistoryManagerGlobals", lazy load
+[052]       871 DOABC "mx/managers/BrowserManager", lazy load
+[052]      4544 DOABC "mx/effects/effectClasses/MoveInstance", lazy load
+[052]      1418 DOABC "mx/managers/IBrowserManager", lazy load
+[052]      5080 DOABC "mx/managers/BrowserManagerImpl", lazy load
+[04c]      2290 SYMBOLCLASS
+                exports 0028 as "org.ricoshae.upload_gears__embed_mxml_assets_num_3_png_1974164572"
+                exports 0029 as "org.ricoshae.upload_std__embed_mxml_assets_num_1_png_1986575440"
+                exports 0022 as "mx.graphics.shaderClasses.ColorShader_ShaderClass"
+                exports 0003 as "_FileSender2_Styles__embed_css_Assets_swf_mx_skins_cursor_DragMove_804513135"
+                exports 0005 as "_FileSender2_Styles__embed_css_Assets_swf_openDateOver_1431827429"
+                exports 0030 as "org.ricoshae.myfilesInnerClass0__embed_mxml__assets_email_go_png_60311541"
+                exports 0031 as "org.ricoshae.adminInnerClass0__embed_mxml__assets_shape_square_delete_png_991720245"
+                exports 0021 as "mx.graphics.shaderClasses.ColorDodgeShader_ShaderClass"
+                exports 0007 as "_FileSender2_Styles__embed_css_Assets_swf_mx_skins_cursor_BusyCursor_452229285"
+                exports 0032 as "FileSender2_gearsYES"
+                exports 0031 as "org.ricoshae.vouchersInnerClass0__embed_mxml__assets_shape_square_delete_png_991720245"
+                exports 0020 as "mx.graphics.shaderClasses.LuminosityShader_ShaderClass"
+                exports 0030 as "org.ricoshae.myfiles_emailGo"
+                exports 0029 as "org.ricoshae.upload_gears__embed_mxml_assets_num_1_png_1986575440"
+                exports 0031 as "org.ricoshae.myfiles_squareDelete"
+                exports 0026 as "mx.graphics.shaderClasses.SoftLightShader_ShaderClass"
+                exports 0031 as "org.ricoshae.adminInnerClass1__embed_mxml__assets_shape_square_delete_png_991720245"
+                exports 0033 as "org.ricoshae.upload_gears__embed_mxml_assets_num_2_png_1984478302"
+                exports 0023 as "mx.graphics.shaderClasses.HueShader_ShaderClass"
+                exports 0025 as "mx.graphics.shaderClasses.ExclusionShader_ShaderClass"
+                exports 0009 as "_FileSender2_Styles__embed_css_Assets_swf_cursorStretch_1479569502"
+                exports 0034 as "org.ricoshae.upload_gears__embed_mxml_assets_num_4_png_1977025630"
+                exports 0035 as "FileSender2__embed_mxml_assets_arrow_refresh_png_1388202"
+                exports 0033 as "org.ricoshae.upload_std__embed_mxml_assets_num_2_png_1984478302"
+                exports 0011 as "_FileSender2_Styles__embed_css_Assets_swf_mx_skins_cursor_DragLink_804487494"
+                exports 0034 as "org.ricoshae.upload_std__embed_mxml_assets_num_4_png_1977025630"
+                exports 0036 as "org.ricoshae.myfilesInnerClass1__embed_mxml__assets_email_add_png_1599292491"
+                exports 0013 as "_FileSender2_Styles__embed_css_Assets_swf_mx_skins_cursor_DragCopy_804225227"
+                exports 0036 as "org.ricoshae.myfiles_emailAdd"
+                exports 0031 as "org.ricoshae.myfilesInnerClass2__embed_mxml__assets_shape_square_delete_png_991720245"
+                exports 0016 as "_FileSender2_Styles__embed_css_Assets_swf___brokenImage_685444021"
+                exports 0019 as "_FileSender2_Styles__embed_css_Assets_swf_mx_skins_cursor_DragReject_796535663"
+                exports 0024 as "mx.graphics.shaderClasses.ColorBurnShader_ShaderClass"
+                exports 0028 as "org.ricoshae.upload_std__embed_mxml_assets_num_3_png_1974164572"
+                exports 0037 as "FileSender2_gearsNo"
+                exports 0027 as "mx.graphics.shaderClasses.SaturationShader_ShaderClass"
+[001]         0 SHOWFRAME 2 (00:00:00,042) (label "FileSender2")
+[000]         0 END

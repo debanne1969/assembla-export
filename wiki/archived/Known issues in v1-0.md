@@ -1,0 +1,11 @@
+FileSender 1.0 and its minor bugfix releases (1.0.x) contain a number of known issues that we were unable to fix before freezing the feature set of the FileSender 1.0 release.  These typically are a consequence of certain architectural decisions or deficiencies in technology we depend on.  The majority of these issues are annoying but not show stopping.  The one issue (uploads larger then 2GB do not work on Linux and Mac OSX) we can not fix without fixing Google Gears.  We expect to be able to take care of nearly all issues as part of the FileSender 1.5/2.0 development. 
+
+Uploads larger then 2GB do not work on Linux and Mac OSX.  The Google Gears plugin no longer works properly on these platforms.  See bug tickets #176 ">2Gb upload on MacOS hangs at ~2Gb (Gears enabled) and #290 "File select fails in Linux/Gears for files of 2G or more".
+In the same browser session, when downloading the same file more than once using the same url or directly from the MyFiles table the download email notifications are only generated for the first download.  See bug ticket #356.
+The subject and message fields do not clear after cancelling an upload if a user authenticated using an upload invitation voucher.  The fields do get properly cleared when using standard authentication.  See bug ticket #357.
+UTF8: when using Gears some special characters are not properly displayed in the GUI.  See bug ticket #358
+UTF8: when downloading a filename with international characters other than ISO-8859-1 it will look 'funny' but fully usable when downloaded with IE.  See bug ticket #374
+When a user starts downloading a file, and then cancels the download, a "user has downloaded the file" email is still generated.  See bug ticket #307
+When a user has downloaded a file, the download page is accessible until the user's local browser cache is cleared or the file is deleted on the FileSender server.  This is a consequence of the choice to rely on a unique URL for authenticating users to downloads.  See bug ticket #187.
+'My Files' listing and Bcc issues when uploading using a voucher and being authenticated as another user than the voucher issuer. See bug tickets #553 and #554.
+Compare of UID attribute with admin uid broken when attribute is not in an array. See bug ticket #563.

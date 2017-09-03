@@ -1,0 +1,7 @@
+
+      
+      
+      <p>Each ticket is allocated a status. Below is a guide to the revised set of ticket status options and how the core development team is currently applying them:</p><h2>Open tickets</h2><ul><li><b>New</b> - not being attended to yet (triage not yet begun or incomplete) (default for new tickets)<b> </b></li><li><b>Accepted</b> - accepted as needs to be / will be looked at in the near future (triaged); needs to be looked at again (for tickets previously marked as "Test" deemed *not* fixed yet, or for bugs which were previously marked as "Fixed" but have since recurred / resurfaced)<b> </b></li><li><b>In Progress</b> - actively being worked on now<b> </b></li><li><b>QTest</b> - should now be fixed and so ready for code to be merged into qtest branch for unit / initial testing<b> <br></b></li><li><b>Test</b> - code has been merged into relevant (qtest or release) branch and so ready for (unit / initial or release) testing<b><br></b></li><li><b>Deferred</b> - not currently being worked on; might be addressed sometime but not in the short to medium term; candidate for re-allocation to another milestone / release<br></li></ul><h2>Closed tickets</h2><ul><li><b>Fixed</b> - (tested and) deemed to be fixed</li><li><b>Invalid</b> - was not a valid ticket in the first place or has been invalidated / duplicated by another ticket</li><li><b>Won't fix</b> - will not be / does not need to be fixed, for one or more of a variety of reasons</li></ul><p><br></p>
+    
+    
+    

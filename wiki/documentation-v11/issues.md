@@ -1,0 +1,12 @@
+<p>FileSender 1.1.x contains a number of known issues that we were unable to fix before releasing.&nbsp; These issues typically are a consequence of certain architectural decisions or deficiencies in technology we depend on.&nbsp; The majority of these issues are annoying but not show stopping.&nbsp;&nbsp;</p>
+
+<ol>
+	<li><span style="background-color: #ffffff;">In the same browser session, when downloading the same file more than once using the same url or directly from the MyFiles table the download email notifications are only generated for the first download.&nbsp; See bug ticket <a href="/spaces/file_sender/tickets/356">#356</a></span>.</li>
+	<li><span style="background-color: #ffffff;">The <i>subject</i> and <i>message</i> fields do not clear after cancelling an upload if a user authenticated using an upload invitation voucher.&nbsp; The fields do get properly cleared when using standard authentication.&nbsp; See bug ticket <a href="/spaces/file_sender/tickets/357">#357</a></span>.</li>
+	<li><span style="background-color: #ffffff;">UTF8: when downloading a filename with international characters other than ISO-8859-1 it will look &#39;funny&#39; but fully usable when downloaded with IE.&nbsp; See bug ticket <a href="/spaces/file_sender/tickets/374">#374</a></span></li>
+	<li><span style="background-color: #ffffff;">When a user starts downloading a file, and then cancels the download, a &quot;user has downloaded the file&quot; email is still generated.&nbsp; See bug ticket <a href="/spaces/file_sender/tickets/307">#307</a></span></li>
+	<li><span style="background-color: #ffffff;">When a user has downloaded a file, the download page is accessible until the user&#39;s local browser cache is cleared or the file is deleted on the FileSender server.&nbsp; This is a consequence of the choice to rely on a unique URL for authenticating users to downloads.&nbsp; See bug ticket <a href="/spaces/file_sender/tickets/187">#187</a></span>.</li>
+	<li><span style="background-color: #ffffff;">&#39;My Files&#39; listing and Bcc issues when uploading using a voucher and being authenticated as another user than the voucher issuer. See bug tickets <a href="/spaces/file_sender/tickets/553">#553</a></span> and <a href="/spaces/file_sender/tickets/554">#554</a>.</li>
+	<li><span style="background-color: #00ff00;"><span style="background-color: #ffffff;">Problematic downloads using Chrome on Windows7-without-SP1.&nbsp; See bug ticket <a href="/spaces/file_sender/tickets/588">#588</a>.</span></span></li>
+</ol>
+

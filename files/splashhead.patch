@@ -1,0 +1,37 @@
+Index: language/nl_NL.php
+===================================================================
+--- language/nl_NL.php	(révision 1447)
++++ language/nl_NL.php	(copie de travail)
+@@ -198,6 +198,7 @@
+ $lang["_DP_yearSuffix"] = '';
+ 
+ // Login Splash text
++$lang["_SITE_SPLASHHEAD"] = "Welkom bij FileSender";
+ $lang["_SITE_SPLASHTEXT"] = "FileSender is een veilige manier om bestanden te delen met iedereen! Meld U aan om een bestand te versturen of om iemand uit te nodigen om een bestand te sturen."; 
+ 
+ // site help
+Index: language/en_AU.php
+===================================================================
+--- language/en_AU.php	(révision 1447)
++++ language/en_AU.php	(copie de travail)
+@@ -198,6 +198,7 @@
+ $lang["_DP_yearSuffix"] = '';
+ 
+ // Login Splash text
++$lang["_SITE_SPLASHHEAD"] = "Welcome to FileSender";
+ $lang["_SITE_SPLASHTEXT"] = "FileSender is a secure way to share large files with anyone! Logon to upload your files or invite people to send you a file.";
+ 
+ // site help
+Index: pages/logon.php
+===================================================================
+--- pages/logon.php	(révision 1447)
++++ pages/logon.php	(copie de travail)
+@@ -42,7 +42,7 @@
+ 	});
+ </script>
+  <div id="box">
+-<?php echo '<div id="pageheading">'.lang("_LOGON").'</div>'; ?> 
++<?php echo '<div id="pageheading">'.lang("_SITE_SPLASHHEAD").'</div>'; ?> 
+ <?php echo lang("_SITE_SPLASHTEXT"); ?> 
+ <div class="menu" align="center"><p><a id="btn_logon" href="<?php echo $authsaml->logonURL();?>"><?php echo lang("_LOGON") ?></a></p></div>
+ </div>

@@ -1,0 +1,178 @@
+Index: www/fs_upload.php
+===================================================================
+--- www/fs_upload.php	(revision 1959)
++++ www/fs_upload.php	(working copy)
+@@ -182,12 +182,12 @@
+ 		if ($authvoucher->aVoucher()) {
+ 			$tempData = $functions->getVoucherData($_REQUEST["vid"]);
+ 			$dataitem["fileauthuseruid"] = $tempData["fileauthuseruid"];	
+-			$dataitem["fileauthuseremail"] = $tempData["fileauthuseremail"];	
++			$dataitem["fileauthuseremail"] = $tempData["filefrom"];	
+ 			$dataitem["fileuid"] = $_REQUEST["vid"];	
+ 		} else if( $authsaml->isAuth()) {
+ 			$authAttributes = $authsaml->sAuth();
+ 			$dataitem["fileauthuseruid"] = $authAttributes["saml_uid_attribute"];
+-			$dataitem["fileauthuseremail"] = $authAttributes["email"];
++			$dataitem["fileauthuseremail"] = $dataitem['filefrom'];
+ 			$dataitem["fileuid"] = $authAttributes["saml_uid_attribute"];
+ 		}
+ 
+@@ -287,7 +287,7 @@
+ 			}
+ 			// insert each voucher
+ 			foreach ($emailArray as $Email) { 
+-				$functions->insertVoucher($Email,$dataitem["fileexpirydate"]);
++				$functions->insertVoucher($Email,$dataitem['filefrom'],$dataitem["fileexpirydate"]);
+ 			} 
+ 			
+ 			$complete = "complete";
+Index: classes/Functions.php
+===================================================================
+--- classes/Functions.php	(revision 1959)
++++ classes/Functions.php	(working copy)
+@@ -472,7 +472,7 @@
+ 	// insert a voucher
+ 	// ---------------------------------------
+ 
+-	public function insertVoucher($to,$expiry){
++	public function insertVoucher($to,$from,$expiry){
+ 	
+ 		// must be authenticated
+ 		if( $this->authsaml->isAuth()) {
+@@ -539,7 +539,7 @@
+ 			$statement->bindParam(':fileactivitydate',$fileactivitydateParam );	
+ 			$statement->bindParam(':filevoucheruid', $filevoucheruid );
+ 			$statement->bindParam(':filemessage', $blank);
+-			$statement->bindParam(':filefrom', $authAttributes["email"]);
++			$statement->bindParam(':filefrom', $from);
+ 			$statement->bindParam(':filesize', $zero);
+ 			$statement->bindParam(':fileoriginalname', $blank);
+ 			$statement->bindParam(':filestatus', $voucher);
+@@ -553,7 +553,7 @@
+ 			$fileuidParam = getGUID();
+ 			$statement->bindParam(':fileuid', $fileuidParam);
+ 			$statement->bindParam(':fileauthuseruid', $authAttributes["saml_uid_attribute"]);
+-			$statement->bindParam(':fileauthuseremail', $authAttributes["email"]);
++			$statement->bindParam(':fileauthuseremail', $from);
+ 			$filecreateddateParam =  date($config['db_dateformat'], time());
+ 			$statement->bindParam(':filecreateddate',$filecreateddateParam);
+ 			try { 	
+@@ -665,11 +665,12 @@
+ 		}	else if( $authsaml->isAuth()) 
+ 		{
+ 			$authAttributes = $authsaml->sAuth();
+-			//array_push($errorArray,  $data["filefrom"] .":". $authAttributes["email"]);	
+-			if($data["filefrom"] != $authAttributes["email"]) {array_push($errorArray, "err_invalidemail");}
++			if ( !in_array($data["filefrom"],$authAttributes["email"]) ) {
++				array_push($errorArray, "err_invalidemail");
++			}
+ 		}
++		}
+ 			
+-		}
+ 		// if errors - return them via json to client	
+ 		if(count($errorArray) > 0 )
+ 		{
+@@ -755,6 +756,7 @@
+ 				
+ 			$statement->bindParam(':fileexpirydate', $dataitem['fileexpirydate']);
+ 			$statement->bindParam(':fileto', $dataitem['fileto']);
++			$statement->bindParam(':filefrom', $dataitem['filefrom']);
+ 			$statement->bindParam(':filesubject', $dataitem['filesubject']);
+ 			$statement->bindParam(':fileactivitydate', $dataitem['fileactivitydate']);
+ 			$statement->bindParam(':filevoucheruid', $dataitem['filevoucheruid']);
+Index: classes/AuthSaml.php
+===================================================================
+--- classes/AuthSaml.php	(revision 1959)
++++ classes/AuthSaml.php	(working copy)
+@@ -93,21 +93,27 @@
+         $attributes = $as->getAttributes();
+         $missing_attributes = FALSE ;
+ 
+-        // need to capture email from SAML attribute
+-        // may be single attribute or array 
+-
+-        // checks if an array and sets first child
++        // need to capture email from SAML attribute. may be single attribute or array 
++	// ensure that it's always an array.
+         if(isset($attributes[$config['saml_email_attribute']])) {
+-            $attributes["email"] = $attributes[$config['saml_email_attribute']];
++		if ( is_array($attributes[$config['saml_email_attribute']]) ) {
++			$attributes["email"] = $attributes[$config['saml_email_attribute']];
++		} else {
++			$attributes["email"] = array($attributes[$config['saml_email_attribute']]);
++		}
+         } 
+-        if(isset($attributes[$config['saml_email_attribute']][0])) {
+-            $attributes["email"] = $attributes[$config['saml_email_attribute']][0];
+-        }
++
+         // Check for empty or invalid email attribute
+-        if (empty($attributes["email"]) || !filter_var($attributes["email"],FILTER_VALIDATE_EMAIL)) {
++	if ( empty($attributes["email"]) ) {
+             logEntry("No valid email attribute found in IDP (looking for '".$config['saml_email_attribute']."')","E_ERROR");
+             $missing_attributes = TRUE ;
+         }
++	foreach ($attributes["email"] as $email) {
++		if ( !filter_var($email,FILTER_VALIDATE_EMAIL) ) {
++			logEntry("Invalid email attribute received from IdP: '".$email."'","E_ERROR");
++			$missing_attributes = TRUE ;
++		}
++	}
+ 
+         if(isset($attributes[$config['saml_name_attribute']][0])) {
+             $attributes["cn"] = $attributes[$config['saml_name_attribute']][0];
+Index: pages/vouchers.php
+===================================================================
+--- pages/vouchers.php	(revision 1959)
++++ pages/vouchers.php	(working copy)
+@@ -220,6 +220,16 @@
+         <div id="maxemails_msg" style="display: none" class="validation_msg"><?php echo lang("_MAXEMAILS"); ?> <?php echo $config['max_email_recipients'] ?>.</div>
+  		</td>
+       </tr>
++<?php
++if ( count($useremail) > 1 ) {
++	echo "<tr><td class=\"mandatory\">" . lang("_FROM") . ":</td><td><select name=\"filefrom\" id=\"filefrom\">\n";
++	foreach($useremail as $email) {
++		echo "<option>$email</option>\n";
++	}
++	echo "</select></td></tr>\n";
++} else {
++	echo "<input name=\"filefrom\" type=\"hidden\" id=\"filefrom\" value=\"" . $useremail[0] . "\" />\n";
++} ?>
+       <tr>
+         <td class="mandatory" id="vouchers_expirydate"><?php echo lang("_EXPIRY_DATE"); ?>:</td>
+         <td><input id="datepicker" onchange="validate_expiry()" title="<?php echo lang('_DP_dateFormat'); ?>" />
+Index: pages/upload.php
+===================================================================
+--- pages/upload.php	(revision 1959)
++++ pages/upload.php	(working copy)
+@@ -62,7 +62,7 @@
+ 	// get voucher information 
+ 	$voucherData =  $authvoucher->getVoucher();
+ 	$voucherUID = $voucherData[0]["filevoucheruid"];
+-	$senderemail = $voucherData[0]["fileto"];
++	$senderemail = array($voucherData[0]["fileto"]);
+ 	// check if voucher is invalid (this should be an external function
+ 	if($voucherData[0]["filestatus"] == "Voucher") {
+ 	$filestatus = "Voucher";
+@@ -580,8 +580,17 @@
+        </tr>
+       <tr>
+         <td class=" mandatory" id="upload_from"><?php echo lang("_FROM"); ?>:</td>
+-        <td colspan="2"><?php echo $senderemail ?>
+-          <input name="filefrom" type="hidden" id="filefrom" value="<?php echo $senderemail ?>" size="40" />
++        <td colspan="2"><?php
++if ( count($senderemail) > 1 ) {
++	echo "<select name=\"filefrom\" id=\"filefrom\">\n";
++	foreach($senderemail as $email) {
++		echo "<option>$email</option>\n";
++	}
++	echo "</select>\n";
++} else {
++	echo $senderemail[0] .
++          "<input name=\"filefrom\" type=\"hidden\" id=\"filefrom\" value=\"" . $senderemail[0] . "\" />\n";
++} ?>
+           </td>
+         </tr>
+       <tr>

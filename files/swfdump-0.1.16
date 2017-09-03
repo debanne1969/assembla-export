@@ -1,0 +1,114 @@
+[HEADER]        File version: 10
+[HEADER]        File is zlib compressed. Ratio: 42%
+[HEADER]        File size: 275623
+[HEADER]        Frame rate: 24.000000
+[HEADER]        Frame count: 2
+[HEADER]        Movie width: 500.00
+[HEADER]        Movie height: 375.00
+[045]         4 FILEATTRIBUTES usenetwork as3 symbolclass
+[04d]       459 METADATA
+[041]         4 SCRIPTLIMITS
+[009]         3 SETBACKGROUNDCOLOR (ff/ff/ff)
+[029]        26 SERIALNUMBER
+[02b]        38 FRAMELABEL "_filesender_mx_managers_SystemManager"
+[052]     56685 DOABC "frame1", lazy load
+[04c]        42 SYMBOLCLASS
+                exports 0000 as "_filesender_mx_managers_SystemManager"
+[001]         0 SHOWFRAME 1 (00:00:00,000) (label "_filesender_mx_managers_SystemManager")
+[02b]        11 FRAMELABEL "filesender"
+[002]       166 DEFINESHAPE defines id 0001
+[027]         4 DEFINESPRITE defines id 0002
+[01a]         7          PLACEOBJECT2 places id 0001 at depth 0001
+[001]         0          SHOWFRAME 1 (00:00:00,000)
+[000]         0          END
+[027]         4 DEFINESPRITE defines id 0003
+[01a]        10          PLACEOBJECT2 places id 0002 at depth 0001
+[001]         0          SHOWFRAME 1 (00:00:00,000)
+[000]         0          END
+[020]       130 DEFINESHAPE3 defines id 0004
+[002]        51 DEFINESHAPE defines id 0005
+[027]         4 DEFINESPRITE defines id 0006
+[01a]         7          PLACEOBJECT2 places id 0004 at depth 0002
+[01a]        10          PLACEOBJECT2 places id 0002 at depth 0003
+[01a]         7          PLACEOBJECT2 places id 0005 at depth 0005
+[001]         0          SHOWFRAME 1 (00:00:00,000)
+[000]         0          END
+[020]       171 DEFINESHAPE3 defines id 0007
+[027]         4 DEFINESPRITE defines id 0008
+[01a]         7          PLACEOBJECT2 places id 0007 at depth 0003
+[01a]        10          PLACEOBJECT2 places id 0002 at depth 0004
+[001]         0          SHOWFRAME 1 (00:00:00,000)
+[000]         0          END
+[020]       159 DEFINESHAPE3 defines id 0009
+[027]         4 DEFINESPRITE defines id 0010
+[01a]         7          PLACEOBJECT2 places id 0009 at depth 0003
+[01a]        10          PLACEOBJECT2 places id 0002 at depth 0004
+[001]         0          SHOWFRAME 1 (00:00:00,000)
+[000]         0          END
+[020]       255 DEFINESHAPE3 defines id 0011
+[027]         4 DEFINESPRITE defines id 0012
+[01a]         7          PLACEOBJECT2 places id 0011 at depth 0004
+[001]         0          SHOWFRAME 1 (00:00:00,000)
+[000]         0          END
+[024]       137 DEFINEBITSLOSSLESS2 defines id 0013 image 14x16 (8 bpp)
+[002]        33 DEFINESHAPE defines id 0014
+[027]         4 DEFINESPRITE defines id 0015
+[01a]         7          PLACEOBJECT2 places id 0014 at depth 0001
+[001]         0          SHOWFRAME 1 (00:00:00,000)
+[000]         0          END
+[016]       103 DEFINESHAPE2 defines id 0016
+[027]         4 DEFINESPRITE defines id 0017
+[01a]         7          PLACEOBJECT2 places id 0016 at depth 0002
+[001]         0          SHOWFRAME 1 (00:00:00,000)
+[000]         0          END
+[024]      2138 DEFINEBITSLOSSLESS2 defines id 0018 image 75x18 (32 bpp)
+[024]      1242 DEFINEBITSLOSSLESS2 defines id 0019 image 25x25 (32 bpp)
+[024]      1208 DEFINEBITSLOSSLESS2 defines id 0020 image 25x25 (32 bpp)
+[024]       530 DEFINEBITSLOSSLESS2 defines id 0021 image 16x16 (32 bpp)
+[024]       178 DEFINEBITSLOSSLESS2 defines id 0022 image 23x23 (32 bpp)
+[024]       616 DEFINEBITSLOSSLESS2 defines id 0023 image 16x16 (32 bpp)
+[024]       695 DEFINEBITSLOSSLESS2 defines id 0024 image 16x16 (32 bpp)
+[024]      1211 DEFINEBITSLOSSLESS2 defines id 0025 image 25x25 (32 bpp)
+[024]       664 DEFINEBITSLOSSLESS2 defines id 0026 image 16x16 (32 bpp)
+[024]      1236 DEFINEBITSLOSSLESS2 defines id 0027 image 25x25 (32 bpp)
+[024]      2048 DEFINEBITSLOSSLESS2 defines id 0028 image 75x18 (32 bpp)
+[038]       173 EXPORTASSETS
+                exports 0003 as "mx.skins.cursor.DragMove"
+                exports 0006 as "mx.skins.cursor.DragReject"
+                exports 0008 as "mx.skins.cursor.DragCopy"
+                exports 0010 as "mx.skins.cursor.DragLink"
+                exports 0012 as "mx.skins.cursor.BusyCursor"
+                exports 0015 as "__brokenImage"
+                exports 0017 as "cursorStretch"
+[052]    202968 DOABC "frame2", lazy load
+[04c]      1856 SYMBOLCLASS
+                exports 0018 as "filesender_gearsNo"
+                exports 0019 as "org.ricoshae.upload_std__embed_mxml__assets_num_1_png_1743398018"
+                exports 0020 as "org.ricoshae.upload_gears__embed_mxml__assets_num_4_png_1743389324"
+                exports 0021 as "org.ricoshae.adminInnerClass0__embed_mxml__assets_shape_square_delete_png_1608240828"
+                exports 0022 as "_filesender_Styles__embed_css_assets_CalendarIcon_png_2089737845"
+                exports 0003 as "_filesender_Styles__embed_css_Assets_swf_mx_skins_cursor_DragMove_1097963751"
+                exports 0008 as "_filesender_Styles__embed_css_Assets_swf_mx_skins_cursor_DragCopy_1097663499"
+                exports 0021 as "org.ricoshae.myfilesInnerClass2__embed_mxml__assets_shape_square_delete_png_1608240828"
+                exports 0023 as "filesender__embed_mxml_assets_arrow_refresh_png_1093168303"
+                exports 0024 as "org.ricoshae.myfiles_emailGo"
+                exports 0010 as "_filesender_Styles__embed_css_Assets_swf_mx_skins_cursor_DragLink_1097925790"
+                exports 0021 as "org.ricoshae.myfiles_squareDelete"
+                exports 0025 as "org.ricoshae.upload_std__embed_mxml__assets_num_3_png_1742865034"
+                exports 0012 as "_filesender_Styles__embed_css_Assets_swf_mx_skins_cursor_BusyCursor_1014369469"
+                exports 0015 as "_filesender_Styles__embed_css_Assets_swf___brokenImage_131690613"
+                exports 0025 as "org.ricoshae.upload_gears__embed_mxml__assets_num_3_png_1742865034"
+                exports 0017 as "_filesender_Styles__embed_css_Assets_swf_cursorStretch_913492062"
+                exports 0020 as "org.ricoshae.upload_std__embed_mxml__assets_num_4_png_1743389324"
+                exports 0019 as "org.ricoshae.upload_gears__embed_mxml__assets_num_1_png_1743398018"
+                exports 0026 as "org.ricoshae.myfilesInnerClass1__embed_mxml__assets_email_add_png_65092738"
+                exports 0026 as "org.ricoshae.myfiles_emailAdd"
+                exports 0024 as "org.ricoshae.myfilesInnerClass0__embed_mxml__assets_email_go_png_1239682402"
+                exports 0027 as "org.ricoshae.upload_gears__embed_mxml__assets_num_2_png_1742890120"
+                exports 0006 as "_filesender_Styles__embed_css_Assets_swf_mx_skins_cursor_DragReject_423139215"
+                exports 0021 as "org.ricoshae.vouchersInnerClass0__embed_mxml__assets_shape_square_delete_png_1608240828"
+                exports 0028 as "filesender_gearsYES"
+                exports 0021 as "org.ricoshae.adminInnerClass1__embed_mxml__assets_shape_square_delete_png_1608240828"
+                exports 0027 as "org.ricoshae.upload_std__embed_mxml__assets_num_2_png_1742890120"
+[001]         0 SHOWFRAME 2 (00:00:00,042) (label "filesender")
+[000]         0 END

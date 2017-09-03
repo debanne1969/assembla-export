@@ -1,0 +1,129 @@
+Code↓ 	Result↓ 	Description↓
+U+0080 		Padding Character
+U+0081 		High Octet Preset
+U+0082 		Break Permitted Here
+U+0083 		No Break Here
+U+0084 		Index
+U+0085 		Next Line
+U+0086 		Start of Selected Area
+U+0087 		End of Selected Area
+U+0088 		Character Tabulation Set
+U+0089 		Character Tabulation with Justification
+U+008A 		Line Tabulation Set
+U+008B 		Partial Line Forward
+U+008C 		Partial Line Backward
+U+008D 		Reverse Line Feed
+U+008E 		Single-Shift Two
+U+008F 		Single-Shift Three
+U+0090 		Device Control String
+U+0091 		Private Use 1
+U+0092 		Private Use 2
+U+0093 		Set Transmit State
+U+0094 		Cancel character
+U+0095 		Message Waiting
+U+0096 		Start of Protected Area
+U+0097 		End of Protected Area
+U+0098 		Start of String
+U+0099 		Single Graphic Character Introducer
+U+009A 		Single Character Intro Introducer
+U+009B 		Control Sequence Introducer
+U+009C 		String Terminator
+U+009D 		Operating System Command
+U+009E 		Private Message
+U+009F 		Application Program Command
+U+00A0 	  	Non-breaking space
+U+00A1 	¡ 	Inverted Exclamation Mark
+U+00A2 	¢ 	Cent sign
+U+00A3 	£ 	Pound sign
+U+00A4 	¤ 	Currency sign
+U+00A5 	¥ 	Yen sign
+U+00A6 	¦ 	Broken bar
+U+00A7 	§ 	Section sign
+U+00A8 	¨ 	Diaeresis
+U+00A9 	© 	Copyright sign
+U+00AA 	ª 	Feminine Ordinal Indicator
+U+00AB 	« 	Left-pointing double angle quotation mark
+U+00AC 	¬ 	Not sign
+U+00AD 	­ 	Soft hyphen
+U+00AE 	­® 	Registered sign
+U+00AF 	¯ 	Macron
+U+00B0 	° 	Degree symbol
+U+00B1 	± 	Plus-minus sign
+U+00B2 	² 	Superscript two
+U+00B3 	³ 	Superscript three
+U+00B4 	´ 	Acute accent
+U+00B5 	µ 	Micro sign
+U+00B6 	¶ 	Pilcrow sign
+U+00B7 	· 	Middle dot
+U+00B8 	¸ 	Cedilla
+U+00B9 	¹ 	Superscript one
+U+00BA 	º 	Masculine ordinal indicator
+U+00BB 	» 	Right-pointing double-angle quotation mark
+U+00BC 	¼ 	Vulgar fraction one quarter
+U+00BD 	½ 	Vulgar fraction one half
+U+00BE 	¾ 	Vulgar fraction three quarters
+U+00BF 	¿ 	Inverted Question Mark
+U+00C0 	À 	Latin Capital Letter A with grave
+U+00C1 	Á 	Latin Capital letter A with acute
+U+00C2 	Â 	Latin Capital letter A with circumflex
+U+00C3 	Ã 	Latin Capital letter A with tilde
+U+00C4 	Ä 	Latin Capital letter A with diaeresis
+U+00C5 	Å 	Latin Capital letter A with ring above
+U+00C6 	Æ 	Latin Capital letter AE
+U+00C7 	Ç 	Latin Capital letter C with cedilla
+U+00C8 	È 	Latin Capital letter E with grave
+U+00C9 	É 	Latin Capital letter E with acute
+U+00CA 	Ê 	Latin Capital letter E with circumflex
+U+00CB 	Ë 	Latin Capital letter E with diaeresis
+U+00CC 	Ì 	Latin Capital letter I with grave
+U+00CD 	Í 	Latin Capital letter I with acute
+U+00CE 	Î 	Latin Capital letter I with circumflex
+U+00CF 	Ï 	Latin Capital letter I with diaeresis
+U+00D0 	Ð 	Latin Capital letter Eth
+U+00D1 	Ñ 	Latin Capital letter N with tilde
+U+00D2 	Ò 	Latin Capital letter O with grave
+U+00D3 	Ó 	Latin Capital letter O with acute
+U+00D4 	Ô 	Latin Capital letter O with circumflex
+U+00D5 	Õ 	Latin Capital letter O with tilde
+U+00D6 	Ö 	Latin Capital letter O with diaeresis
+U+00D7 	× 	Multiplication sign
+U+00D8 	Ø 	Latin Capital letter O with stroke
+U+00D9 	Ù 	Latin Capital letter U with grave
+U+00DA 	Ú 	Latin Capital letter U with acute
+U+00DB 	Û 	Latin Capital Letter U with circumflex
+U+00DC 	Ü 	Latin Capital Letter U with diaeresis
+U+00DD 	Ý 	Latin Capital Letter Y with acute
+U+00DE 	Þ 	Latin Capital Letter Thorn
+U+00DF 	ß 	Latin Small Letter sharp S
+U+00E0 	à 	Latin Small Letter A with grave
+U+00E1 	á 	Latin Small Letter A with acute
+U+00E2 	â 	Latin Small Letter A with circumflex
+U+00E3 	ã 	Latin Small Letter A with tilde
+U+00E4 	ä 	Latin Small Letter A with diaeresis
+U+00E5 	å 	Latin Small Letter A with ring above
+U+00E6 	æ 	Latin Small Letter AE
+U+00E7 	ç 	Latin Small Letter C with cedilla
+U+00E8 	è 	Latin Small Letter E with grave
+U+00E9 	é 	Latin Small Letter E with acute
+U+00EA 	ê 	Latin Small Letter E with circumflex
+U+00EB 	ë 	Latin Small Letter E with diaeresis
+U+00EC 	ì 	Latin Small Letter I with grave
+U+00ED 	í 	Latin Small Letter I with acute
+U+00EE 	î 	Latin Small Letter I with circumflex
+U+00EF 	ï 	Latin Small Letter I with diaeresis
+U+00F0 	ð 	Latin Small Letter Eth
+U+00F1 	ñ 	Latin Small Letter N with tilde
+U+00F2 	ò 	Latin Small Letter O with grave
+U+00F3 	ó 	Latin Small Letter O with acute
+U+00F4 	ô 	Latin Small Letter O with circumflex
+U+00F5 	õ 	Latin Small Letter O with tilde
+U+00F6 	ö 	Latin Small Letter O with diaeresis
+U+00F7 	÷ 	Division sign
+U+00F8 	ø 	Latin Small Letter O with stroke
+U+00F9 	ù 	Latin Small Letter U with grave
+U+00FA 	ú 	Latin Small Letter U with acute
+U+00FB 	û 	Latin Small Letter U with circumflex
+U+00FC 	ü 	Latin Small Letter U with diaeresis
+U+00FD 	ý 	Latin Small Letter Y with acute
+U+00FE 	þ 	Latin Small Letter Thorn
+U+00FF 	ÿ 	Latin Small Letter Y with diaeresis

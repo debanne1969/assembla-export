@@ -1,0 +1,132 @@
+#!/usr/bin/perl -w
+#
+# Zabbix sensor for FileSender
+# Copyright (c) 2007 Emir Imamagic
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+use strict;
+use warnings;
+use Config::General;
+use DBI;
+use Sys::Syslog qw(:standard :macros);
+
+use constant ZABBIX_SENDER => '/usr/bin/zabbix_sender';
+use constant ZABBIX_SEND_FILE => '/var/tmp/zabbixSenderFileSender';
+use constant FILESENDER_CONFIG => '/etc/filesender/config';
+
+my $fileSenderQueries = {
+    "filesender.users_total" => "select count(distinct fileauthuseruid) from files;",
+    "filesender.users_active" => "select count(distinct fileauthuseruid) from files where filestatus = 'Available';",
+    "filesender.files_active" => "select count(distinct fileuid) from files where filestatus = 'Available';",
+    "filesender.files_total" => "select count(distinct fileuid) from files where filestatus = 'Available' or (filestatus = 'Closed' and fileexpirydate <> '1970-01-01 01:00:00');",
+    "filesender.vouchers_active" => "select count(*) from files where filestatus = 'Voucher';",
+    "filesender.vouchers_total" => "select count(distinct fileuid) from files where filestatus LIKE 'Voucher%' or (filestatus='Closed' and fileexpirydate = '1970-01-01 01:00:00');",
+    "filesender.upload_num" => "select count(*) from logs where logtype='Uploaded';",
+    "filesender.upload_size" => "select sum(logfilesize) from logs where logtype='Uploaded';",
+    "filesender.download_num" => "select count(*) from logs where logtype='Download';",
+    "filesender.download_size" => "select sum(logfilesize) from logs where logtype='Download';",
+};
+
+openlog("filesender_zabbix", "ndelay,pid", "user");
+
+sub connectDB {
+    my $HOST = shift;
+    my $DB = shift;
+    my $USER = shift;
+    my $PASS = shift;
+    my $conn = "dbi:Pg:dbname";
+
+    my $self = DBI->connect("$conn=$DB;host=$HOST",$USER,$PASS);
+    ($DBI::errstr) and
+        syslog (LOG_ERR, "Could not connect to database: $DBI::errstr ($DBI::err)") and
+        return;
+
+    $self;
+}
+
+sub queryValue{
+    my $dbh = shift;
+    my $stmt = shift;
+    my($res) = $dbh->selectrow_array($stmt);
+    ($DBI::errstr) and
+        syslog (LOG_ERR, "Could not connect to database: $DBI::errstr ($DBI::err)") and
+        return;
+    return $res;
+}
+
+# signal handling
+local $SIG{'ALRM'} = sub {
+        local $SIG{TERM} = 'IGNORE';
+        kill TERM => -$$;
+        print "0\n";
+        exit(-1);
+};
+local $SIG{TERM} = sub {
+        local $SIG{TERM} = 'IGNORE';
+        kill TERM => -$$;
+        print "0\n";
+        exit(-1);
+};
+alarm 25;
+
+my %options = (-ConfigFile => FILESENDER_CONFIG, -AllowMultiOptions => 1, -InterPolateVars => 1, -InterPolateEnv => 1);
+my $config = new Config::General(%options);
+if (!$config) {
+    syslog(LOG_ERR, "Error reading configuration file ".FILESENDER_CONFIG."!");
+    print "0\n";
+    exit -1;
+}
+my %conf = $config->getall;
+my $dbh = connectDB($conf{HOST}, $conf{DB}, $conf{USER}, $conf{PASS}) or print "0\n" and exit -1;
+
+# change this line for other monitoring systems
+my $command = ZABBIX_SENDER . ' -z ' . $conf{ZABBIX_SERVER} . ' -i ' . ZABBIX_SEND_FILE;
+
+my $inputString = "";
+foreach my $key (keys %$fileSenderQueries) {
+    my $value = queryValue($dbh, $fileSenderQueries->{$key});
+    unless(defined $value) {
+        syslog(LOG_ERR, "Query for $key failed.");
+        print "0\n";
+        exit -1;
+    }
+    $inputString .= $conf{ZABBIX_HOST} . " $key $value\n";
+}
+$dbh->disconnect;
+
+# write everything to file
+unless(open FH, ">", ZABBIX_SEND_FILE) {
+    syslog(LOG_ERR, "Cannot open file ".ZABBIX_SEND_FILE."!");
+    print "0\n";
+    exit -1;
+}
+print FH $inputString;
+unless(close(FH)) {
+    syslog(LOG_ERR, "Cannot close file ".ZABBIX_SEND_FILE."!");
+    print "0\n";
+    exit -1;
+} 
+
+# change parsing of output for other monitoring systems
+if ( qx($command) =~ /Failed 0/ ) {
+   syslog(LOG_ERR, "Can not remove file ".ZABBIX_SEND_FILE."!") unless (unlink (ZABBIX_SEND_FILE));
+   print("1\n");
+   exit(0);
+} else {
+   syslog(LOG_ERR, "Can not remove file ".ZABBIX_SEND_FILE."!") unless (unlink (ZABBIX_SEND_FILE));
+   syslog(LOG_ERR, "Failed sending results to Zabbix server");
+   print("0\n");
+   exit(-1);
+}
+

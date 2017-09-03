@@ -1,0 +1,168 @@
+From filesender_2016-06-10_12h.log:
+
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no] Array
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no] (
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no]     [email_upload_complete] => 1
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no]     [email_me_on_expire] => 1
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no]     [email_download_complete] => 1
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no]     [enable_recipient_email_download_complete] => 1
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no]     [email_daily_statistics] => 1
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no]     [email_me_copies] => 1
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no]     [email_report_on_closing] => 1
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no]     [add_me_to_recipients] => 1
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no]     [get_a_link] =>
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no]     [redirect_url_on_complete] =>
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no] )
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no]
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no] File uid generation took 1 tries
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) added to Transfer#338
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no] Recipient uid generation took 1 tries
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no] Recipient#383(jan.meijer@uninett.no) added to Transfer#338
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no] Event#transfer_started on Transfer#338
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no] Transfer#338 started
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[20000000..25000000] written
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no] Event#upload_started on Transfer#338
+[2016-06-10 12:13:26] [rest:info] [user meijer@rnd.feide.no] Transfer#338 upload started
+[2016-06-10 12:13:27] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[10000000..15000000] written
+[2016-06-10 12:13:27] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[0..5000000] written
+[2016-06-10 12:13:27] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[25000000..30000000] written
+[2016-06-10 12:13:27] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[15000000..20000000] written
+[2016-06-10 12:13:27] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[35000000..40000000] written
+[2016-06-10 12:13:27] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[30000000..35000000] written
+[2016-06-10 12:13:28] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[50000000..55000000] written
+
+<snip>
+
+[2016-06-10 12:24:15] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21810000000..21815000000] written
+[2016-06-10 12:24:15] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21815000000..21820000000] written
+[2016-06-10 12:24:16] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21820000000..21825000000] written
+[2016-06-10 12:24:16] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21805000000..21810000000] written
+[2016-06-10 12:24:16] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21825000000..21830000000] written
+[2016-06-10 12:24:16] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21770000000..21775000000] written
+[2016-06-10 12:24:16] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21800000000..21805000000] written
+[2016-06-10 12:24:16] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21750000000..21755000000] written
+[2016-06-10 12:24:17] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21840000000..21845000000] written
+[2016-06-10 12:24:17] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21830000000..21835000000] written
+[2016-06-10 12:24:17] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21855000000..21860000000] written
+[2016-06-10 12:24:17] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21835000000..21840000000] written
+[2016-06-10 12:24:17] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21860000000..21865000000] written
+[2016-06-10 12:24:17] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21875000000..21880000000] written
+[2016-06-10 12:24:17] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21865000000..21870000000] written
+[2016-06-10 12:24:18] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21885000000..21890000000] written
+[2016-06-10 12:24:18] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21870000000..21875000000] written
+[2016-06-10 12:24:18] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21845000000..21850000000] written
+[2016-06-10 12:24:18] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21895000000..21900000000] written
+[2016-06-10 12:24:18] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21890000000..21895000000] written
+[2016-06-10 12:24:18] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21905000000..21910000000] written
+[2016-06-10 12:24:18] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21900000000..21905000000] written
+[2016-06-10 12:24:19] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21910000000..21915000000] written
+[2016-06-10 12:24:19] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21880000000..21885000000] written
+[2016-06-10 12:24:19] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21920000000..21925000000] written
+[2016-06-10 12:29:19] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException exception uid:575aa48fdbcfb] rest_sanity_check_failed
+[2016-06-10 12:29:19] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa48fdbcfb] #0 [internal function]: RestEndpointFile->put('550', 'chunk', '21915000000')
+[2016-06-10 12:29:19] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa48fdbcfb] #1 /usr/local/filesender/branches/filesender-2.0/classes/rest/RestServer.class.php(235): call_user_func_array(Array, Array)
+[2016-06-10 12:29:19] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa48fdbcfb] #2 /usr/local/filesender/branches/filesender-2.0/www/rest.php(37): RestServer::process()
+[2016-06-10 12:29:19] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa48fdbcfb] #3 {main}
+[2016-06-10 12:29:19] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException details uid:575aa48fdbcfb] method = "put"
+[2016-06-10 12:29:19] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException details uid:575aa48fdbcfb] endpoint = "file"
+[2016-06-10 12:29:19] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException details uid:575aa48fdbcfb] "check "chunk_size", "5000000" value was expected but got "3308578" instead"
+[2016-06-10 12:34:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException exception uid:575aa5bc1f0e7] rest_sanity_check_failed
+[2016-06-10 12:34:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa5bc1f0e7] #0 [internal function]: RestEndpointFile->put('550', 'chunk', '21935000000')
+[2016-06-10 12:34:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa5bc1f0e7] #1 /usr/local/filesender/branches/filesender-2.0/classes/rest/RestServer.class.php(235): call_user_func_array(Array, Array)
+[2016-06-10 12:34:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa5bc1f0e7] #2 /usr/local/filesender/branches/filesender-2.0/www/rest.php(37): RestServer::process()
+[2016-06-10 12:34:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa5bc1f0e7] #3 {main}
+[2016-06-10 12:34:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException details uid:575aa5bc1f0e7] method = "put"
+[2016-06-10 12:34:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException details uid:575aa5bc1f0e7] endpoint = "file"
+[2016-06-10 12:34:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException details uid:575aa5bc1f0e7] "check "chunk_size", "5000000" value was expected but got "2276386" instead"
+[2016-06-10 12:39:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException exception uid:575aa6e853eb4] rest_sanity_check_failed
+[2016-06-10 12:39:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa6e853eb4] #0 [internal function]: RestEndpointFile->put('550', 'chunk', '21925000000')
+[2016-06-10 12:39:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa6e853eb4] #1 /usr/local/filesender/branches/filesender-2.0/classes/rest/RestServer.class.php(235): call_user_func_array(Array, Array)
+[2016-06-10 12:39:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa6e853eb4] #2 /usr/local/filesender/branches/filesender-2.0/www/rest.php(37): RestServer::process()
+[2016-06-10 12:39:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa6e853eb4] #3 {main}
+[2016-06-10 12:39:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException details uid:575aa6e853eb4] method = "put"
+[2016-06-10 12:39:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException details uid:575aa6e853eb4] endpoint = "file"
+[2016-06-10 12:39:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException details uid:575aa6e853eb4] "check "chunk_size", "5000000" value was expected but got "3111970" instead"
+[2016-06-10 12:44:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException exception uid:575aa81488a0a] rest_sanity_check_failed
+[2016-06-10 12:44:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa81488a0a] #0 [internal function]: RestEndpointFile->put('550', 'chunk', '21930000000')
+[2016-06-10 12:44:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa81488a0a] #1 /usr/local/filesender/branches/filesender-2.0/classes/rest/RestServer.class.php(235): call_user_func_array(Array, Array)
+[2016-06-10 12:44:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa81488a0a] #2 /usr/local/filesender/branches/filesender-2.0/www/rest.php(37): RestServer::process()
+[2016-06-10 12:44:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa81488a0a] #3 {main}
+[2016-06-10 12:44:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException details uid:575aa81488a0a] method = "put"
+[2016-06-10 12:44:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException details uid:575aa81488a0a] endpoint = "file"
+[2016-06-10 12:44:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException details uid:575aa81488a0a] "check "chunk_size", "5000000" value was expected but got "3030049" instead"
+[2016-06-10 12:49:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException exception uid:575aa940bcddd] rest_sanity_check_failed
+[2016-06-10 12:49:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa940bcddd] #0 [internal function]: RestEndpointFile->put('550', 'chunk', '21850000000')
+[2016-06-10 12:49:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa940bcddd] #1 /usr/local/filesender/branches/filesender-2.0/classes/rest/RestServer.class.php(235): call_user_func_array(Array, Array)
+[2016-06-10 12:49:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa940bcddd] #2 /usr/local/filesender/branches/filesender-2.0/www/rest.php(37): RestServer::process()
+[2016-06-10 12:49:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException trace uid:575aa940bcddd] #3 {main}
+[2016-06-10 12:49:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException details uid:575aa940bcddd] method = "put"
+[2016-06-10 12:49:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException details uid:575aa940bcddd] endpoint = "file"
+[2016-06-10 12:49:20] [rest:error] [user meijer@rnd.feide.no] [RestSanityCheckFailedException details uid:575aa940bcddd] "check "chunk_size", "5000000" value was expected but got "3669026" instead"
+
+
+From filesender_2016-06-10_13h.log:
+
+
+[2016-06-10 13:06:03] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21940000000..21945000000] written
+[2016-06-10 13:06:03] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21955000000..21960000000] written
+[2016-06-10 13:06:04] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21915000000..21920000000] written
+[2016-06-10 13:06:04] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21935000000..21940000000] written
+[2016-06-10 13:06:04] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21945000000..21950000000] written
+[2016-06-10 13:06:04] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21925000000..21930000000] written
+[2016-06-10 13:06:04] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21950000000..21955000000] written
+[2016-06-10 13:06:04] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21930000000..21935000000] written
+[2016-06-10 13:06:05] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21965000000..21970000000] written
+[2016-06-10 13:06:05] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21975000000..21980000000] written
+[2016-06-10 13:06:05] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21850000000..21855000000] written
+[2016-06-10 13:06:05] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21960000000..21965000000] written
+[2016-06-10 13:06:05] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21980000000..21985000000] written
+[2016-06-10 13:06:05] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21990000000..21995000000] written
+[2016-06-10 13:06:06] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21985000000..21990000000] written
+[2016-06-10 13:06:06] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21995000000..22000000000] written
+[2016-06-10 13:06:06] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22000000000..22005000000] written
+[2016-06-10 13:06:06] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22005000000..22010000000] written
+[2016-06-10 13:06:06] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22010000000..22015000000] written
+[2016-06-10 13:06:06] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22020000000..22025000000] written
+[2016-06-10 13:06:07] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21970000000..21975000000] written
+[2016-06-10 13:06:07] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22025000000..22030000000] written
+[2016-06-10 13:06:07] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22030000000..22035000000] written
+[2016-06-10 13:06:07] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22045000000..22050000000] written
+[2016-06-10 13:06:07] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22040000000..22045000000] written
+[2016-06-10 13:06:07] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22035000000..22040000000] written
+[2016-06-10 13:06:07] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22015000000..22020000000] written
+[2016-06-10 13:06:08] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22060000000..22065000000] written
+[2016-06-10 13:06:08] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22050000000..22055000000] written
+[2016-06-10 13:06:08] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22065000000..22070000000] written
+[2016-06-10 13:06:08] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[21920000000..21925000000] written
+[2016-06-10 13:06:08] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22055000000..22060000000] written
+[2016-06-10 13:06:08] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22075000000..22080000000] written
+[2016-06-10 13:06:09] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22090000000..22095000000] written
+[2016-06-10 13:06:09] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22085000000..22090000000] written
+[2016-06-10 13:06:09] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22095000000..22100000000] written
+[2016-06-10 13:06:09] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22100000000..22105000000] written
+[2016-06-10 13:06:09] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22070000000..22075000000] written
+[2016-06-10 13:06:09] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22080000000..22085000000] written
+[2016-06-10 13:06:09] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22120000000..22125000000] written
+[2016-06-10 13:06:10] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22125000000..22130000000] written
+[2016-06-10 13:06:10] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22130000000..22135000000] written
+[2016-06-10 13:06:10] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22110000000..22115000000] written
+[2016-06-10 13:06:10] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22115000000..22120000000] written
+[2016-06-10 13:06:10] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22105000000..22110000000] written
+[2016-06-10 13:06:10] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22135000000..22140000000] written
+[2016-06-10 13:06:10] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22145000000..22150000000] written
+[2016-06-10 13:06:11] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22150000000..22155000000] written
+[2016-06-10 13:06:11] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22155000000..22160000000] written
+[2016-06-10 13:06:11] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22160000000..22165000000] written
+[2016-06-10 13:06:11] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22140000000..22145000000] written
+[2016-06-10 13:06:11] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22180000000..22185000000] written
+[2016-06-10 13:06:11] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22175000000..22180000000] written
+[2016-06-10 13:06:11] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22185000000..22190000000] written
+[2016-06-10 13:06:12] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22170000000..22175000000] written
+[2016-06-10 13:06:12] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22165000000..22170000000] written
+[2016-06-10 13:06:12] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22200000000..22205000000] written
+[2016-06-10 13:06:12] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22190000000..22195000000] written
+[2016-06-10 13:06:12] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22195000000..22200000000] written
+[2016-06-10 13:06:12] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22215000000..22220000000] written
+[2016-06-10 13:06:12] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22220000000..22225000000] written
+[2016-06-10 13:06:13] [rest:info] [user meijer@rnd.feide.no] File#550(testfile-50GB-random.dat, 53687091200 bytes) chunk[22235000000..22240000000] written
+

@@ -1,0 +1,40 @@
+/home/gijs/filesender/src/org/ricoshae/vouchers.mxml: Error: unable to resolve 'assets/shape_square_delete.png' for transcoding
+/home/gijs/filesender/src/org/ricoshae/vouchers.mxml: Error: Unable to transcode assets/shape_square_delete.png.
+/home/gijs/filesender/src/org/ricoshae/myfiles.mxml: Error: unable to resolve 'assets/email_go.png' for transcoding
+/home/gijs/filesender/src/org/ricoshae/myfiles.mxml: Error: Unable to transcode assets/email_go.png.
+/home/gijs/filesender/src/org/ricoshae/myfiles.mxml: Error: unable to resolve 'assets/shape_square_delete.png' for transcoding
+/home/gijs/filesender/src/org/ricoshae/myfiles.mxml: Error: Unable to transcode assets/shape_square_delete.png.
+/home/gijs/filesender/src/org/ricoshae/myfiles.mxml: Error: unable to resolve 'assets/email_add.png' for transcoding
+/home/gijs/filesender/src/org/ricoshae/myfiles.mxml: Error: Unable to transcode assets/email_add.png.
+/home/gijs/filesender/src/org/ricoshae/admin.mxml: Error: unable to resolve 'assets/shape_square_delete.png' for transcoding
+/home/gijs/filesender/src/org/ricoshae/admin.mxml: Error: Unable to transcode assets/shape_square_delete.png.
+/home/gijs/filesender/src/org/ricoshae/admin.mxml: Error: unable to resolve 'assets/shape_square_delete.png' for transcoding
+/home/gijs/filesender/src/org/ricoshae/admin.mxml: Error: Unable to transcode assets/shape_square_delete.png.
+/home/gijs/filesender/src/FileSender2.mxml(31): Error: The style 'backgroundAlpha' is only supported by type 'mx.controls.TextArea' with the theme(s) 'halo'.
+                                        <mx:TextArea height="200" width="400" text="{splash.site_splashtext}" borderStyle="none" textAlign="center" wordWrap="true" id="siteSplash" editable="false"  visible="{authStatus}" alpha="1.0" backgroundAlpha="0.0"/>
+/home/gijs/filesender/src/FileSender2.mxml(40): Error: The style 'themeColor' is only supported by type 'mx.controls.TextArea' with the theme(s) 'halo'.
+                                <mx:TextArea id="MessageLabel" width="100%" height="85" borderStyle="none" textAlign="center" themeColor="#FFFFFF" fontSize="14" editable="false" alpha="1.0" backgroundAlpha="0.0"/>
+/home/gijs/filesender/src/FileSender2.mxml(40): Error: The style 'backgroundAlpha' is only supported by type 'mx.controls.TextArea' with the theme(s) 'halo'.
+                                <mx:TextArea id="MessageLabel" width="100%" height="85" borderStyle="none" textAlign="center" themeColor="#FFFFFF" fontSize="14" editable="false" alpha="1.0" backgroundAlpha="0.0"/>
+/home/gijs/filesender/src/org/ricoshae/upload_gears.mxml(388): Warning: Duplicate variable definition.
+                            var objSend:Object = new Object();
+/home/gijs/filesender/src/org/ricoshae/upload_gears.mxml(390): Warning: Duplicate variable definition.
+                                var dataArray:ArrayCollection = new ArrayCollection();
+/home/gijs/filesender/src/org/ricoshae/upload_gears.mxml(392): Warning: Duplicate variable definition.
+                        var dataString:String = JSON.encode(dataArray.toArray());
+/home/gijs/filesender/src/org/ricoshae/newEmail.mxml(69): Warning: Duplicate variable definition.
+                var d:Date=new Date();
+/home/gijs/filesender/src/org/ricoshae/upload_gears.mxml(506): Warning: Data binding will not be able to detect changes when using square bracket operator.  For Array, please use ArrayCollection.getItemAt() instead.
+                                <mx:Label text="{lang['Enter_delivery_email_address(es)']}"/>
+/home/gijs/filesender/src/org/ricoshae/newEmail.mxml(182): Warning: Data binding will not be able to detect assignments to "topLevelApplication".
+  <mx:HTTPService id="send_main" url="fs_main.php{FlexGlobals.topLevelApplication.URLvid}" useProxy="false" method="POST" resultFormat="text" result="fileSaved(event)" fault="fileError(event)"/>     
+/home/gijs/filesender/src/org/ricoshae/upload_std.mxml(370): Warning: Duplicate variable definition.
+                            var objSend:Object = new Object();
+/home/gijs/filesender/src/org/ricoshae/upload_std.mxml(372): Warning: Duplicate variable definition.
+                                 var dataArray:ArrayCollection = new ArrayCollection();
+/home/gijs/filesender/src/org/ricoshae/upload_std.mxml(374): Warning: Duplicate variable definition.
+                        var dataString:String = JSON.encode(dataArray.toArray());
+/home/gijs/filesender/src/org/ricoshae/upload_std.mxml(497): Warning: Data binding will not be able to detect assignments to "topLevelApplication".
+   <mx:HTTPService id="send_main" url="fs_main.php{FlexGlobals.topLevelApplication.URLvid}" useProxy="false" method="POST" resultFormat="text" result="fileSaved(event)" fault="fileError(event)"/>
+/home/gijs/filesender/src/org/ricoshae/upload_std.mxml(566): Warning: Data binding will not be able to detect changes when using square bracket operator.  For Array, please use ArrayCollection.getItemAt() instead.
+                                <mx:Label text="{lang['Enter_delivery_email_address(es)']}"/>
