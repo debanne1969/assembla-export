@@ -1,0 +1,1311 @@
+number,summary,milestone,assigned_to_name,assigned_to_id,status
+1307,Upload fails to complete on Firefox,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,In Progress
+1295,Large files stall on Internet Explorer 11,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,In Progress
+1103,Release 1.6,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1239,Upload broken by computer sleep mode (it seems),Release 2.0-alpha,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,Test
+227,Session-cookies must always be transmitted encrypted #11.3,Release 1.0,,,Fixed
+1077,Release 1.6-rc1,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+226,E-mail functionality must be protected against automated spamming #10.1,Release 1.0,,,Fixed
+225,Uploaded files must never be “executed” or “evaluated” #9.3,Release 1.0,,,Fixed
+224,Untrusted uploaded files must be stored outside the document root #9.1,Release 1.0,,,Fixed
+223,User input must be encoded before it is used in system commands #7.10,Release 1.0,,,Fixed
+222,User input must be encoded before it is used in SQL commands #7.3,Release 1.0,,,Fixed
+1224,Bug: guest voucher can not be used by unauthenticated guest,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+221,User input must be encoded before it is used in path/filenames #7.2,Release 1.0,,,Fixed
+220,Authentication and authorization must not be based on obscurity #6.3,Release 1.0,,,Fixed
+219,Authentication must be performed separately for each privileged request #6.2,Release 1.0,,,Fixed
+218,Authentication must be performed at the server side #6.1,Release 1.0,,,Fixed
+217,Session related information must be stored at the server-side #5.1,Release 1.0,,,Fixed
+216,Sensitive information must not be transmitted unencrypted #4.1,Release 1.0,,,Fixed
+215,The document root must not contain extraneous files #3.4,Release 1.0,,,Fixed
+213,Only the user interface must be directly accessible by users 2.1,Release 1.0,,,Fixed
+1122,Crypto: download of encrypted over2G-random.dat fails on qtest,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Accepted
+1108,Crypto: non encrypted cancel/resume broken,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Test
+874,Remaining tasks for releasing 1.5-release,Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+889,Terasender to use Filesender Temp Folder and add cleanup to cron.php,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+891,Terasender - config options for default upload settings,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+902,Rename Tsunami to TeraSender,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+903,session id in temporary terasender chunk names,Release 1.6,,,Invalid
+885,Add TeraSender functionality,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+77,config to show gears and flash upload settings seperately,Release 1.0,,,Fixed
+71,improve error logging,Release 1.0,,,Fixed
+819,Upgrade JQuery UI ,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+618,HTML5 upload resume broken,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+18,datestyle in postgressql database not standard on linux,Release 1.0,,,Fixed
+20,logoff doesn't work: You don't have permission to access /simplesaml/filesender/ on this server.,Release 1.0,,,Fixed
+39,Catch all php error,Release 1.0,,,Fixed
+42,Check all JSON data sent then notify comple or error,Release 1.0,,,Fixed
+48,value for fileexpirydate is not filed in emails,Release 1.0,,,Fixed
+57,install documentation: document index page,Release 1.0,,,Fixed
+59,cosmetic: scroll bars in filesender app on Linux,Release 1.0,,,Fixed
+64,negative file expire date possible,Release 1.0,,,Fixed
+65,"download link not working, %20 in filename an issue?",Release 1.0,,,Fixed
+69,filesize too precise: 3408.220703125MB,Release 1.0,,,Fixed
+70,PostgresSQL integer field out of range,Release 1.0,,,Fixed
+72,database log when files is complete is not storing email addresses of To:/From:,Release 1.0,,,Fixed
+73,removing any hardcoded links,Release 1.0,,,Fixed
+74,version numbers regressed from beta 1.1 to beta 1.2,Release 1.0,,,Fixed
+176,>2Gb upload on MacOS hangs at ~2Gb (Gears enabled),Release 1.0,,,Won't fix
+178,security bug: back button on download menu,Release 1.0,,,Fixed
+179,security: log-off behaviour across multiple browser tabs incorrect,Release 1.0,,,Fixed
+228,Vouchers are deleted straight after being created,Release 1.0,,,Fixed
+278,"security: user still logged in if closes tab when login page appears, prior to logout page appearing",Release 1.0,,,Fixed
+437,"Upload using voucher recognises user if authenticated, not as Guest",Release 1.5,,,Fixed
+441,Unauthenticated file upload using voucher not displayed in My Files table,Release 1.5,,,Fixed
+810,Upload continues with hidden progress bar when hitting Esc instead of clicking on Cancel or Yes,Release 1.5,,,Fixed
+1319,Configuration parsing in REST can lead to flags inadvertedly set to false.,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+1313,Upload UI: Total transfer size counter in file box does not update properly on file deletion,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+1293,Guest voucher allowed transfer options do not propagate when using voucher,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+1305,Hanging Flash uploads of large (free memory dependent) files on Mac,Release 1.6,,,Known issue
+1248,Bug: Recipient removal breaks audit log,Release 2.0-alpha,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,Test
+384,mail bounce handling: decision time,Release 1.0,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1232,Security flaw (under specific conditions) : user remote credentials leak,Release 2.0-alpha,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,Fixed
+1076,Memory exhaustion with partial download of large files,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1064,[security] 2.7.3 Escape/validate user input before using it in filenames,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+988,Increase update frequency on html5 uploads,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Accepted
+890,document config options  site_temp_filestore and cron_cleanuptempdays,Release 1.6,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+893,update administrator guide with new configuration options,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+951,New functionality for 'Delete' button on multi-file 'my files' page,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+881,Security: admin page skeleton accesible (without data),Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+862,Guest vouchers are still inserted even if validation errors occurred,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+923,Human readable tracking codes for file uploads,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Fixed
+90,[feature] configurable attribute names,Release 1.0,,,Fixed
+89,database creation script improvement suggestion for version 0.1.3,Release 1.0,,,Fixed
+918,Updated myFiles to cater for multiple uploads,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+76,create standard documentation in source code package,Release 1.0,,,Fixed
+916,Pause / Resume on (Multi)file Uploads,Archived: Release 2.0 prototype,,,In Progress
+858,Make partial download (Content-Range) possible,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+1129,Feature request: enable extending expiry date,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,In Progress
+184,Multiple email address from federation,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+911,Options for email flow on file upload,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1083,Make a decision on use of profiles,Planned features,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+852,Crypto uploads sometimes get stuck/hang,end-to-end file encryption,,,Invalid
+655,Check prepared statements for using $variables instead of function results,Release 1.5,,,Fixed
+717,Convert classes/Log.php to use prepared statements,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+587,cron.php when logging (logEntry) creates logfiles owned by root,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+641,PHP session management and multiple tabs/windows per browser,Release 1.5,,,Deferred
+698,No resend bcc email when file upload using voucher sent to voucher recipient,Release 1.5,,,Fixed
+516,Documentation: update admin reference manual for 1.5,Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+515,"Documentation: source, debian and rpm install manual for 1.5",Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+623,Handling single quotes in (new) language files,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Deferred
+7,end-to-end File Encryption [XL],Planned features,Gijs Molenaar,b8-41KDuKr344jeJe5cbLA,Fixed
+47,multiple file upload [XL],Planned features,,,Fixed
+96,flash upload over https fails with FireFox,Release 1.0,,,Fixed
+101,give user error message when email doesn't get sent after succesful upload,Release 1.0,,,Fixed
+107,"incorrect warning (""browse for a file"") on invalid recipient email input",Release 1.0,,,Fixed
+177,unexpected voucher behaviour when voucher user is already logged in,Release 1.0,,,Fixed
+185,"uploading file using voucher: ""cannot move file""",Release 1.0,,,Fixed
+186,filenames with double singlequotes fail,Release 1.0,,,Fixed
+253,Outdated files in database that misses from disk halts system while removing outdated files,Release 1.0,,,Fixed
+298,Download fails after changeset 231?,Release 1.0,,,Fixed
+299,email not sent after download (in svn 240),Release 1.0,,,Fixed
+405,upload of filenames with 'special' characters broken in 1.5,Release 1.5,,,Fixed
+434,"File download recognises user if authenticated, not as Guest",Release 1.5,,,Fixed
+436,Expiry date bypassed and invalid when issuing voucher,Release 1.5,,,Fixed
+438,AuP can be bypassed,Release 1.5,,,Fixed
+454,Flash/non-HTML5 upload broken,Release 1.5,,,Fixed
+463,Voucher upload listing in My Files logic,Release 1.5,,,Fixed
+491,Hanging Flash uploads of large (free memory dependent) files on Mac,Release 1.5,,,Known issue
+503,Make language definitions customizable,Release 1.5,,,Fixed
+517,Security: input/output quoting/encoding and validation,Release 1.5,,,Fixed
+518,Help and About text are hard-coded in index.php.  Needs to be customisable,Release 1.5,,,Fixed
+524,Add check for succesfull move of temporary file to filestore,Release 1.5,,,Fixed
+532,Language selection via config,Release 1.5,,,Fixed
+541,Sample locale config file,Release 1.5,,,Fixed
+547,Admin interface broken since stripslashes in dbal.php,Release 1.5,,,Fixed
+576,Server side validation of voucher creation,Release 1.5,,,Fixed
+635,Enable theming [L],Planned features,,,Fixed
+696,'Pending' database record contains all recipients in 'fileto' which breaks when the number of characters exceeds 250,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+722,Authenticated upload after failed attempt using voucher in another tab cancels voucher and displays Guest upload confirmation,Release 1.5,,,Fixed
+724,Authenticated Flash upload displays Guest upload confirmation,Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+725,"When issuing voucher no ""Voucher Sent"" message and page does not refresh",Release 1.5,,,Fixed
+727,Cancel / pause upload using voucher displays authenticated upload page and then rejects valid email address,Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+734,"""amp;"" part of ""& amp;"" not preserved in subject of email with IE9 on Windows7",Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Invalid
+748,One jar of blåbærsyltetøy ,Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Invalid
+1320,Log a warning when observed protocol is more secure than site_url,Release 2.0-alpha,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+1318,auth_remote_signature_algorithm is not used,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+1314,Fix average upload speed counter to work properly after upload resume,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+1312,Apply consistent updated BSD license to all files in 2.0 source tree,Release 2.0-alpha,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Accepted
+1308,Using `createtransfer.php` must check that it runs from the correct user.,Release 2.0-alpha,,,New
+1304,"Usability: When trying to click send, user is never warned the email is missing",Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+1303,"Guest Voucher manual deletion interrupted if ""invalid or missing email"" warning triggered",Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Accepted
+1274,Terasender fails on small files,Release 2.0-alpha,,,New
+1281,Error message required when HTML5/Terasender upload javascript can no longer read file,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+1301,Thorough analysis + documentation of TeraSender upload module in 2.0,Release 2.0-alpha,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,New
+878,add option to MyFiles: show which IP address downloaded a file,Release 2.0-alpha,,,Fixed
+784,Make sure invitation voucher upload must *also* always be sent to invitation voucher creator ,Release 2.0-alpha,,,Fixed
+142,limit file upload recipient to voucher creator [M],Release 2.0-alpha,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+873,show remaining dates from previous month in date picker,Release 2.0-alpha,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+1297,«Stop»-button has unclear behaviour,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+1047,Zipped file names cannot handle special characters ,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Invalid
+1087,Quote escape syntax error in multiupload.php,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1085,Check Config Validation is up to date.,Archived: Release 2.0 prototype,,,In Progress
+1086,Remove 'close' button on upload dialogue,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,New
+1084,Language Error in French - apostrophe,Archived: Release 2.0 prototype,,,Test
+1072,Security audit: Check lib/swf/playerProductInstall.swf for new version,Archived: Release 2.0 prototype,,,Test
+1070,Optional subject not used in upload confirmation to sender ,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,New
+1280,Create standard configuration file template with sane defaults,Release 2.0-alpha,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+1069,Consider dropping (friendly name in) user greeting,Archived: Release 2.0 prototype,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1279,implement auto-refresh after click on download from My Transfers table,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+1059,Maximum email address warning timing inconsistency,Archived: Release 2.0 prototype,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Test
+1052,move Send button,Archived: Release 2.0 prototype,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Won't fix
+1277,Bug: problem uploading in private browser mode,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+1051,Bug: clear all button doesn't change text after clicking anymore,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1276,Bug from previous release: check 2.11.7 (1.6) A session-bound token must be validated for each POST request,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Test
+1050,Move AuP to be on-first-logon rather then on-every-session,Archived: Release 2.0 prototype,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Deferred
+1275,Bug from prev. release: Empty/null $config['ban_extension'] prevents sending files with no extension,Release 2.0-alpha,,,Test
+1049,Check errors are logged in database as well as log file,Archived: Release 2.0 prototype,,,Test
+1273,Possible race condition on integrity check,Release 2.0-alpha,,,New
+1046,trigger To: address prettyfier code on enter in To: field,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Test
+1269,Bug: Mb should be MB and when using bits/s the units should be correct,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Accepted
+1270,Bug: Downloading a ZIP does not include very small files,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+1045,2.0: Error message required when HTML5/Terasender upload javascript can no longer read file,Archived: Release 2.0 prototype,,,New
+1322,Prevent spurious whitespace in config.php to cause mishaps,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,In Progress
+1044,2.0: The customCSS option,Archived: Release 2.0 prototype,,,QTest
+1321,Security: insufficient input validation,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,In Progress
+1043,in 2.0: Modify session validity check on upload to allow for very long uploads,Archived: Release 2.0 prototype,,,New
+1042,fix session id in temporary terasender chunk names,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Invalid
+1262,1.6.1 bugfix release,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1267,Reconsider default limit on #files per transfer,Release 2.0-alpha,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+1027,Display avg upload speed in Mbit/s rather than MB/s,Archived: Release 2.0 prototype,,,Test
+1256,Browse button issue for automated testing with Flash,Release 1.6,,,Known issue
+1261,Basic upload resume,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+1266,Bug: Time zone not honoured in audit log,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Accepted
+1255,# Appearing in Browser Tabs and Browser Title,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Known issue
+1025,Security code for downloads,Archived: Release 2.0 prototype,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Deferred
+1254,Modify all fixed widths to auto fit banner width,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Known issue
+1260,"Bug: size units in upload form: Mb, Gb vs. MB GB",Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+1024,Script to send a stats summary by email to site admin,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,In Progress
+1244,"Download email generated even if user clicks on ""Cancel"" rather than ""Save File""",Release 1.6,,,Known issue
+909,Maximum Webworkers - Set Limit,Archived: Release 2.0 prototype,,,Deferred
+1240,Security: unescaped use of PHP_SELF variable in admin.php,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1253,Logon possible with JavaScript disabled,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+786,"Implement something to allow users to select ""extra options""",Release 2.0-alpha,,,Fixed
+1021,"Merge ""More settings"" and ""Advanced Settings""",Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Test
+1218,Update HEAnet logo,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+866,Database Upgrade Code,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,In Progress
+1020,"Make ""add recipient"" dialog multi-file aware",Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1217,Safari 9.0 stuck at 0% during upload,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1019,MySQL Error Integrity constraint violation,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Fixed
+1018,New Icons for 2.0,Archived: Release 2.0 prototype,,,Test
+1137,Empty/null $config['ban_extension'] prevents sending files with no extension,Release 1.6,,,Known issue
+1247,Filename with international characters other than ISO-8859-1 will look 'funny' when downloaded with IE,Release 2.0-alpha,,,Fixed
+1017,Character encoding in emails,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1136,Add Swedish language,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Known issue
+1246,"Download email generated even if user clicks on ""Cancel"" rather than ""Save File""",Release 2.0-alpha,,,New
+1016,Reduce button size on single download pages,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1241,Handling decomposed unicode in filenames,Release 2.0-alpha,,,Test
+1242,Bug: transfer delete by Admin user does not work,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Accepted
+1015,Reduce number of DB queries made on page load in files.php,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Test
+1014,"Add ""number of downloads"" column to files table",Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Test
+1163,Update the sample config file,Release 2.0-alpha,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Accepted
+1013,Functions return Bool or value - should return bool,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Test
+337,"[cleanup] Pointers to ""history/history.css""",Release 1.0,,,Fixed
+1012,ErrorAuth on Upload when Auth is lost,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1101,Put check_language_tags.sh script in filesender/scripts directory,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1102,Update Home page to correct Documentation tree on release of 1.6,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+336,"Populate ""Help"" page",Release 1.0,,,Fixed
+1011,"""Send files"" top menu item not always highlighted",Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Test
+1090,UI display issues,Release 1.6,,,Deferred
+1237,Document status and process of PHP unit testing in 2.0,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+335,"Populate ""About"" page",Release 1.0,,,Fixed
+1010,Guest Voucher - extra altcolor in second cell between active vouchers,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Fixed
+1236,Bug: automatically closed guest voucher triggers manually closed email,Release 2.0-alpha,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,Test
+303,Check write permissions on file storage folders,Release 1.0,,,Fixed
+1009,Expiry date errorglow,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+296,MyFiles: In the “From” column:  replace the e­mail address of the user with the text   “You” ,Release 1.0,,,Fixed
+1008,My Files - Delete all recipients removes Transaction,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1088,Update README.txt and INSTALL.txt in distribution tree,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1234,Revalidate W3C compliance,Release 2.0-alpha,,,New
+295,Review display of time/date,Release 1.0,,,Fixed
+1007,Voucher Message,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1081,2.11.8 (1.6) X-Frame-Options,Release 1.6,,,Known issue
+1233,Adding several adresses in one go doesn't go as expected,Release 2.0-alpha,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,Fixed
+294,In MyFiles: remove Message column and make it a tool-tip,Release 1.0,,,Fixed
+1006,Column not found - fileenabledownloadreceipts,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Test
+1080,2.11.7 (1.6) A session-bound token must be validated for each POST request,Release 1.6,,,Deferred
+293,Make local (banner) files  upgrade-proof ,Release 1.0,,,Fixed
+1005,Unicode characters in file names inside ZIP archives,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1079,2.7.7 1.6 HTML output,Release 1.6,,,Deferred
+1231,Race condition during upload,Release 2.0-alpha,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Test
+284,Logging for browser download.,Release 1.0,,,Fixed
+1004,Flash JavaSCript library included in non flash upload,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Fixed
+1078,Flash detection code,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1229,Bug: new upload speed counter continues to count after upload,Release 2.0-alpha,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Test
+1230,"Bug: when ""add_me_to_recipients"" always on, Send button not available",Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Test
+1003,js error: fileBoxSize,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Test
+1228,Bug: when using non-existing email address an impossible error popup pops in existence,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+1002,Add index to logvoucheruid,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1001,Moving scroll bar on file uploads,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1075,Improve Flex error notifications to client,Release 1.6,,,Known issue
+1227,"Bug: when pressing ""clear"" in file list, counters do not get cleared",Release 2.0-alpha,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1067,download(s).filesender.org doesn't update repo,Release 1.6,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1000,Duplicated files on results page for single uploads,Archived: Release 2.0 prototype,,,Test
+1074,Javascript errors when using IE ,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Deferred
+1226,"Bug: When setting config directive $config['terasender_worker_count'] to a string, upload doesn't work",Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+997,Email address styling in 'to' field on uploads,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1225,Bug: wrong evaluation of maxexpires when default_days_valid not set in config?,Release 2.0-alpha,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,Fixed
+996,Rename Tsunami to TeraSender,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Fixed
+1066,Release 1.6-beta1,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1065,Upload progress dialog has 'close' (X) button,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+994,Scroll to highlight invalid files,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1222,"Smoothening: small changes to ""Transfers"" table and Transfer expanded view",Release 2.0-alpha,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,Test
+992,"Replace ""send only to me"" with ""include me on recipient list""",Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1062,"Safari 5 resend, delete files or vouchers sends duplicate emails",Release 1.6,,,Fixed
+991,Configurable height on upload field,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+989,Fix file removal bug in multiupload.php,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1060,Favicon vanishes when opening links in Help and About in new tab,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Won't fix
+1216,"Smoothening: Transfer option ""get_a_link"" inconsistent with other options, ""advanced"" not supported",Release 2.0-alpha,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1058,"Guest Voucher manual deletion interrupted if ""invalid or missing email"" warning triggered",Release 1.6,,,Known issue
+1215,auth_sp_set_idp_as_user_organization stil used?,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+214,Error messages must be generalized before being presented to the user #3.1,Release 1.0,,,Fixed
+980,Change DB calls to use prepared statements exclusively,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Test
+1057,Upload warning order change,Release 1.6,,,Known issue
+1214,Bug: unclear error on tripping the default language config validation + inconsistent documentation/reality,Release 2.0-alpha,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,Test
+979,Field escaping on multiupload.php,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Invalid
+1056,Text in Help dialogue jumps to first url when clicking on other urls,Release 1.6,,,Known issue
+1213,Encode email subjects,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+159,Fix size of Flex Application,Release 1.0,,,Fixed
+978,Guest voucher consumed on failed upload,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1055,Scrollbars in Voucher deletion dialogue box,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1212,Option to force legacy mode,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+120,Reload button for admin,Release 1.0,,,Fixed
+977,Add check for 64-bit PHP installation,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Test
+1054,Update end-user documentation on filesender.org website,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Invalid
+1211,Implement logging for lang_selector_enabled = true with lang_url_enabled = false,Release 2.0-alpha,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,Test
+105,Config file - error on start-up,Release 1.0,,,Fixed
+976,'You are logged in as' status bar message,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1053,Update workflow diagram,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Invalid
+1209,Bug: problem with XSRF token in longer legacy uploads,Release 2.0-alpha,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,Fixed
+1210,"If only 1 language available in language stack, don't allow selecting of language",Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+103,Move version number to flex application,Release 1.0,,,Fixed
+975,New icons for files.php,Archived: Release 2.0 prototype,,,Invalid
+1048,Help dialogue opens half way down the text,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+102,log browser and os and gears status,Release 1.0,,,Fixed
+974,Multi upload page height,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1041,1.6 end-user documentation,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+1208,Implement different language tag in drag&drop field for legacy uploads,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+1032,1.6 workflow diagram,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+894,Update upgrade notes 1.5-1-6,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1029,1.6 features pages,Release 1.6,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1030,1.6 Known Issues page,Release 1.6,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1031,1.6 Requirements page,Release 1.6,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1033,1.6 Debian ubuntu installation page,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1034,1.6 RPM installation page,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1035,1.6 FAQ,Release 1.6,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1036,1.6 Mail bounce handling,Release 1.6,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1037,1.6 configuring SRS with Exim ,Release 1.6,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1038,1.6 Setting up usage statistics,Release 1.6,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1039,Documentation v1-6 overview page,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1040,Acknowledgements 1.6 page,Release 1.6,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1104,Update Linux source install page to 1.6,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+88,Allow line breaks in description entry,Release 1.0,,,Fixed
+973,Relocate email templates to separate language files,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1028,Upgrade documentation from 1.5 to 1.6,Release 1.6,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1207,Create SPF-compliant best practice configuration for FileSender,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Invalid
+85,Absolute references for file downloads,Release 1.0,,,Invalid
+868,Minimum Include to reduce DB calls in fs_upload,Release 1.5,,,Fixed
+972,Consistent transaction information on download pages,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1023,AUP reset after logout,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+1206,Simplify autocomplete configuration parameters,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,In Progress
+83,Add About,Release 1.0,,,Fixed
+781,1.5 cleanup: Combine error dialogues,Release 1.5,,,Won't fix
+971,Add tracking code to multi download page,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+999,Error message required when HTML5/Terasender upload javascript can no longer read file,Release 1.6,,,Known issue
+1205,Documentation 2.0: how to configure bounce handling,Release 2.0-alpha,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Invalid
+82,Remove logo and title to allow individual branding,Release 1.0,,,Fixed
+968,Browser back button page load behaviours,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1169,Crypto: 'send' button doesn't work when upgrading to crypto version,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Test
+1243,"Download email generated even if user clicks on ""Cancel"" rather than ""Save File""",Release 1.5,,,Known issue
+45,Storage space monitor,Release 1.0,,,Fixed
+987,layout consistency check,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+998,PHP Unit Tests,Release 1.5,,,Won't fix
+1148,Crypto: check and remove unused files,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Test
+1203,Update help text,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Test
+44,IP name resolving,Release 1.0,,,Fixed
+483,UI config settings,Release 1.5,,,Fixed
+962,Update vouchers.php layout,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Test
+1147,Crypto: update sjcl library,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,QTest
+1202,Email formatting sometimes broken: raw email formatting displayed rather than pretty formatted,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+43,Add language files,Release 1.0,,,Fixed
+961,"Add ""Show/Hide"" label to AuP checkbox",Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+985,"quick fix for ""no Cc: to downloader"" email",Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+1201,Bug: no code to expire user preferences,Release 2.0-alpha,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,Test
+41,distro tarball should be both zip and .tar.gz,Release 1.0,,,Fixed
+481,"Make ""New Upload"" screen consistent between Flash and HTML5 variants",Release 1.5,,,Fixed
+960,Make favicon customisable,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+982,Add Romanian language,Release 1.6,,,Known issue
+1140,Crypto: download of encrypted file hangs when there is no .metadata file on the server ,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,In Progress
+1200,"Bug: broken logic when uploading choosing ""get link instead of sending to recipients""",Release 2.0-alpha,,,Won't fix
+1199,Document session_cookie_path configuration directive,Release 2.0-alpha,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+40,log timestamp - all logging as full timestamp,Release 1.0,,,Fixed
+480,New and upgrade-proof configuration of database parameters,Release 1.5,,,Fixed
+958,Move status/error messages into status bar on new buttons tab,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+981,Add Finnish language,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1198,Logon problem with SimpleSAMLphp in different URL space (session.cookie.path),Release 2.0-alpha,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,Test
+1144,Crypto: include max configured filesize in warning/error,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Test
+1146,Crypto: use crypto_ prefix for all crypto related configurables ,end-to-end file encryption,Mark Dopey,dno-zMULOr44oJacwqjQXA,Fixed
+36,Postgress date format in config file,Release 1.0,,,Fixed
+957,Create new design for 'To:' field in my files,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Fixed
+1139,Crypto: Configurable maximum size of file that is accepted when encryption is used,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Test
+1197,"Bug: translation failure with downloads from ""link only"" transfers",Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+35,Correct Version relase to 0.1.5,Release 1.0,,,Fixed
+474,Text parts to be translated,Release 1.5,,,Fixed
+956,Button sizes on multi-upload page,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+969,No wrapping in Guest Voucher table,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+1135,PHP Deprecated:  Function split() is deprecated in classes/FileMetadata.php,end-to-end file encryption,,,Fixed
+1196,Feedback: make Recipient email address in transfer view clickable,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+33,Temporary File Storage,Release 1.0,,,Invalid
+471,Walkthrough of config.php settings,Release 1.5,,,Fixed
+955,Validate all form fields on send button press,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Fixed
+966,Move Delete icon to left in Voucher table,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+1134,Crypto: _UPLOAD_COMPLETE is wrong when using a voucher,end-to-end file encryption,,,Fixed
+1195,Feedback: language switch in translated email page hard to find,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+32,File storage out of web directories,Release 1.0,,,Fixed
+428,Merge experimental mail bounce handling into 1.5,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+954,Add menu bar from old multiupload branch,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+965,Remove uneccessary border around browse button on upload,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+1133,Crypto: clear previously entered passphrase after download,end-to-end file encryption,,,Fixed
+1194,Feedback: subject does not change when optional subject used,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+30,Log file upload attempts,Release 1.0,,,Fixed
+417,Centre application on screen,Release 1.5,,,Fixed
+953,Load Flash and HTML5 upload pages on demand,Archived: Release 2.0 prototype,,,Test
+964,My Files message formatting inconsistent,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+1132,Crypto: localisation of errors,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Deferred
+29,File resume,Release 1.0,,,Fixed
+408,Admin display into multiple pages,Release 1.5,,,Fixed
+952,Custom Config and Language for JS,Archived: Release 2.0 prototype,,,Invalid
+963,Allow for optional subject in a guest use voucher,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1131,Crypto: consolidate HELP text,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,QTest
+1192,Smoothning: OSX un-archiving software in download page should be conditional on download file size.,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+28,Auto notify gears installed,Release 1.0,,,Fixed
+404,Automatic switching for multiple languages ,Release 1.5,,,Fixed
+959,update admin guide: how to change favicon.ico,Release 1.6,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1130,Crypto: re-assess default suggested password,end-to-end file encryption,,,New
+1191,"Smoothening: fix inconsistent use of file size units.  Mo, Mb, MB.",Release 2.0-alpha,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+27,Gears integration,Release 1.0,,,Fixed
+403,Replace all postgres specific code,Release 1.5,,,Fixed
+949,Auto-Fill to only add one user email at a time,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+950,Redirect users based on browsers capabilities,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1190,Bug: can not configure multiple admins with the admin config directive,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+6,File Sender Database,Release 1.0,,,Fixed
+402,Add MYSQL setup script,Release 1.5,,,Fixed
+637,Allow for optional personal message in a guest use voucher [M],Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+925,Clear file selection on upload page,Archived: Release 2.0 prototype,,,Fixed
+5,File Sender Config Information,Release 1.0,,,Fixed
+401,Create a database abstraction layer,Release 1.5,,,Fixed
+720,Add/Update Hungarian translation,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Known issue
+948,Reduce repeated code throughout single/multi-files and vouchers pages,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1121,Crypto:  enable use of 'enter' in password dialogs,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1188,Security bug: REST API error message leaks sensitive data,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+4,Mail Sender - PHP,Release 1.0,,,Fixed
+679,Shred files to completey remove them when deleted ,Release 1.5,,,Fixed
+706,Add/Update Croatian language,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Known issue
+947,Replace deprecated 'escape()' call in function keepMeAlive(),Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Fixed
+1120,Crypto: Safari support (currently disabled),end-to-end file encryption,,,New
+1187,Decide on dropping or keeping config defaults,Release 2.0-alpha,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+3,Simple SAML,Release 1.0,,,Fixed
+946,Redesign file validation for multi-file uploads,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1022,IE 10 Compatibility mode script error,Release 1.5,,,New
+1119,Crypto: fix or disable 'esc'/[x] dialog actions for password dialogs (up/down),end-to-end file encryption,,,Fixed
+1185,Bug: database initialisation script broken for Postgres: autoincrement columns not correctly created,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+1186,Consolidate upload_chunk_size and terasender_chunk_size to one variable,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+2,Voucher System,Release 1.0,,,Fixed
+900,document migration postgresql -> mysql as per arnes docs,Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+945,Re-factoring duplicate code into common.js,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1117,Crypto: _UPLOAD_ENCRYPT_PROGRESS_MESSAGE used for non encrypted uploads,end-to-end file encryption,,,Fixed
+1,Flex Client Interface GUI,Release 1.0,,,Fixed
+774,Make voucher subject configurable,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+944,Create consistancy between progress bars,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Fixed
+1116,Crypto: 'Click here to save your file' not localised,end-to-end file encryption,,,Fixed
+1184,Feature request: multi-language emails,Release 2.0-alpha,,,Fixed
+182,Change sort order of items in tables in administrative interface,Release 1.0,,,Fixed
+896,Rendering issue in Chrome ,Release 1.5,,,Fixed
+931,Translations for new language items,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Known issue
+943,Update !DOCTYPE declaration,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Test
+1183,"Feature: login session expired, re-logon?",Release 2.0-alpha,,,Fixed
+158,My Files - new Fields,Release 1.0,,,Fixed
+930,Add Japanese language,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Known issue
+942,Remove HTML5 image,Archived: Release 2.0 prototype,,,Fixed
+1114,Crypto: w3c validation,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Accepted
+1115,Crypto: review of new/changed language tags,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,In Progress
+157,available space depleted warning,Release 1.0,,,Fixed
+941,Remove #dialog-support,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Fixed
+1113,Crypto: default on/off configurable,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1181,Security: check for possible attack using template code in file names,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+155,remove deprecated config file directives from default config file,Release 1.0,,,Fixed
+1112,Crypto: enable/disable crypto configurable,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1180,Security audit: 2.14.5: Usage of PHP weak comparison,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+153,more control for voucher issuer,Release 1.0,,,Fixed
+887,Filename with ' not accepted in non HTML5 browser,Release 1.5,,,Invalid
+939,Implement auto completion in multiupload.php,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1111,Crypto: download/save of filename with ISO-8859-1 characters broken?,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1179,Security audit 1: 2.14.4: Usage of variable variables,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Won't fix
+152,include voucher issuer on recipient list of file ,Release 1.0,,,Fixed
+906,The customCSS option - extra check for empy,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Known issue
+938,Change multidownload.php button text,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1109,Crypto: metadata errors in logging,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Test
+1110,Crypto: 'wrong key' popup empty after second wrong attempt,end-to-end file encryption,,,Fixed
+1178,Security audit 1: 2.14.3: Template injection,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+151,re-send a file without re-uploading ,Release 1.0,,,Fixed
+937,"Add ""Undo"" functionality to the ""Clear all"" button in multiupload.php",Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Fixed
+1177,Security audit 1: 2.14.2: PHP object injection,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+150,Return Path for non existant email,Release 1.0,,,Fixed
+880,Czech Translation update by Lubos Kopecky,Release 1.5,,,Fixed
+936,Isolate Flash code (for single file uploads) to upload.php,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Fixed
+1176,Security audit 1: 2.11.8: Anti-clickjacking measures must be implemented,Release 2.0-alpha,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,In Progress
+904,Investigate impact of incorporating logout.php and invalidvoucher.php into index.php,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Known issue
+1182,Feature: maintenance mode,Release 2.0-alpha,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,Fixed
+149,Size function to display alternate size MB GB KB,Release 1.0,,,Fixed
+884,The fileuid field is filled with the saml_uid_attribute for authenticated uploads,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+895,Single quote in Non HTML5 upload ,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+935,Ensure ZIP files work with most common clients,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Test
+1175,Security audit 1: 2.7.7: User input must be encoded before it is used in HTML output,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+148,Replace Send File With Send,Release 1.0,,,Fixed
+844,Upload progress calculation for encrypted files,end-to-end file encryption,,,New
+934,Use lang() instead of unlocalised strings ,Archived: Release 2.0 prototype,,,In Progress
+1174,Security audit 1: 2.7.4 User input must be encoded before it is used in SQL commands,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+147,New File - Rename Button,Release 1.0,,,Fixed
+857,Crypto: handling of 'big' files,end-to-end file encryption,,,Test
+861,Crypto: issues with downloads with Chrome on OSX,end-to-end file encryption,,,Invalid
+867,No error message when HTML5 upload javascript can no longer read file,Release 1.5,,,In Progress
+929,Stat command in checkFileSize() ,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1173,Security audit 1: 2.7.3: User input must be encoded before it is used in path/filenames,Release 2.0-alpha,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+145,Configurable maximum recipients per email ,Release 1.0,,,Fixed
+865,Add Serbian language (sr),Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+928,Show error message on download page if no files selected,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1172,Securit audit 1: 2.7.1: User input must be encoded in the context where it is used,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,In Progress
+141,Configurable AuP checkbox in Flash UI,Release 1.0,,,Fixed
+855,Crypto: Use final filesize of encrypted file for validation/checking,end-to-end file encryption,,,Deferred
+864,Filename errors from backend are not reported in the frontend UI,Release 1.5,,,New
+1171,Security audit 1: 2.6.13: Generated passwords and tokens must not be predictable,Release 2.0-alpha,,,Fixed
+140,Help button in Flash UI,Release 1.0,,,Fixed
+716,Revalidate W3C compliance,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,In Progress
+854,Crypto: performance,end-to-end file encryption,,,New
+863,Frontend and backend check for invalid filename mismatch,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+926,"Improve the ""upload complete"" landing page",Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Test
+1141,Crypto: (client) cancel of encrypted uploads is broken,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,In Progress
+1142,Crypto: (server) include the encryption flag in the tempfile name hash to distinguish between encrypted and non-encrypted uploads in progress,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,QTest
+1143,Crypto: (server) Removal of temporary files (previously canceled uploads) on the server before (re)starting an encrypted upload ,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,QTest
+137,splash screen,Release 1.0,,,Fixed
+853,Crypto: how to handle resume ?,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Accepted
+1168,Feature: email daily summary to sender of transaction,Release 2.0-alpha,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,Test
+1316,Document known issue / FAQ regarding upload of compound file formats on Mac,Release 2.0: Documentation,,,New
+106,Add indicator 'uploaded using voucher' in admin overview screens,Release 1.0,,,Fixed
+1167,A chunk was sent after transfer complete resulting in an error,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+1315,Document $config['stalling_detection'] ,Release 2.0: Documentation,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+104,Pause and resume,Release 1.0,,,Invalid
+851,Crypto: download flow for encrypted files,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1125,classes for uploading/downloading files,Release 2.0 prototype class refactoring,romanmalyshev,avZvqm96Gr47ZdacwqEsg8,In Progress
+1166,Consider drag & drop enable whole screen,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+1284,Announce 2.0-alpha1 release on blog and mailinglist,Release 2.0: Documentation,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Accepted
+93,filename in email,Release 1.0,,,Fixed
+850,Crypto: replace alert() and prompt() with jQuery(?) dialogs,end-to-end file encryption,,,Fixed
+921,Change zip file name to <sitename>-<trackingcode>.zip,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1162,Tidy linux source documentation for 2.0-alpha,Release 2.0: Documentation,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,Accepted
+1165,FireFox upload hangs with 30 workers,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+792,Remove the 1-2-3-4 step on-page help,Archived,,,Fixed
+836,AuP text box is wider than other text boxes on upload form,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Test
+849,Crypto: localise password prompt,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+892,CSS Configurable ,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Known issue
+920,GroupID on uploads,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Fixed
+1118,Refactore the AuthSAML class to be more efficient,Release 2.0 prototype class refactoring,romanmalyshev,avZvqm96Gr47ZdacwqEsg8,Fixed
+1204,Documentation 2.0: how to configure 2.0 email settings so you will not have any SPF troubles,Release 2.0: Documentation,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Accepted
+791,Clear indication of mandatory fields ,Archived,,,Fixed
+835,Help button id/title different between auth and non auth,Release 1.5,,,Invalid
+848,Crypto: only prompt for password when encryption is requested,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+919,Inform user about zipped file downloads,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Test
+1105,Incorporate recommendations from code security audit,Release 2.0 prototype class refactoring,romanmalyshev,avZvqm96Gr47ZdacwqEsg8,Won't fix
+1294,Create poeditor.com account with role email address,Release 2.0: Language file crowdsourcing,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,In Progress
+1306,Document config directive for disclosure,Release 2.0: Documentation,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+901,TeraSender uploads broken with 'older' browsers,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Known issue
+87,progress bar says 'loading' which imho should be 'uploading',Release 1.0,,,Fixed
+790,Change order of fields,Archived,,,Fixed
+834,default.css is not reread by browser after upgrading,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+847,Make disabling filesize check on back-end conditional on encryption,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Test
+1100,Refactor config.php class,Release 2.0 prototype class refactoring,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+1161,Bug: footer only shown on logon and upload page,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+1283,Add executed 2.0 security reviews to reviews and prototype list + to 2.0 alpha download page,Release 2.0: Documentation,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+1292,Automation for handling of new language tags,Release 2.0: Language file crowdsourcing,,,New
+986,Consistency check auto-complete availability voucher user vs. authenticated user,Release 1.6,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Known issue
+789,"Create a ""list box"" functionality where you can deselect files as well before clicking send ",Archived,,,Fixed
+831,Modify all fixed widths to auto fit banner width,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Known issue
+846,Crypto downloads with FireFox ,end-to-end file encryption,,,Fixed
+888,PDO rowCount Query Fixes,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+1099,Define unit testing process for the upcoming 2.0 code,Release 2.0 prototype class refactoring,romanmalyshev,avZvqm96Gr47ZdacwqEsg8,In Progress
+1257,Create initial documentation for pause/resume functionality in version 2.0,Release 2.0: Documentation,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+1291,Set up auto-update installation for using poeditor.com (or something similar),Release 2.0: Language file crowdsourcing,,,New
+1310,Transfer options in guest invitation,Release 2.0: Feature specification,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+788,Add dropzone for drag&drop ,Archived,,,Fixed
+830,Set default popup button focus,Release 1.5,,,Invalid
+845,Mail not always sent after chunked downloading (crypto prototype),end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1098,Think through the probable upgrade process from 1.6 to 2.0,Release 2.0 prototype class refactoring,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+1152,Document config directive for configurable user profile page (disabled by default),Release 2.0: Documentation,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+1290,Inform core-group about current status of language file translation crowdsourcing,Release 2.0: Language file crowdsourcing,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1309,Transfer option: redirect_url_on_upload_complete,Release 2.0: Feature specification,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,New
+773,Create prototype of UI with re-ordered fields,Archived,,,Fixed
+821,form autofill (autocomplete) not working,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+829,# Appearing in Browser Tabs and Browser Title,Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Known issue
+843,"Suggest a randomly generated password for uploads, no password suggestion for downloads",end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+915,Do not .zip a download if only one file is selected,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1097,Document user stories underpinning classes and database model,Release 2.0 prototype class refactoring,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Invalid
+1159,Document email subject prefix,Release 2.0: Documentation,,,New
+1289,Document language translation service crowdsourcing on filesender.org,Release 2.0: Language file crowdsourcing,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,In Progress
+1299,Document feature suggestion -> implementation workflow,Release 2.0: Adapt project processes to version 2.0 reality,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+1300,Ensure a guest invitation owner is notified of uploads by the guest,Release 2.0: Feature specification,,,New
+68,make standard emails low-scoring on common spam filters,Release 1.0,,,Fixed
+787,Extra option: allow for aggregate emails ,Archived,,,Fixed
+828,Admin page error tab layout,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+842,Non-chunked download for non-encrypted files?,end-to-end file encryption,,,Invalid
+870,change project organisation page and in particular update funding,Release 2.0: Adapt project processes to version 2.0 reality,,,New
+914,Display aggregate upload time / speed estimates,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1096,Check up on the PHP object model,Release 2.0 prototype class refactoring,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+1193,Documentation: document duplicate file detection on upload,Release 2.0: Documentation,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+1271,Download: download all files at once into an archive,Release 2.0: Feature specification,,,New
+1288,Decide on use of poeditor.com for filesender translations,Release 2.0: Language file crowdsourcing,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,In Progress
+1068,'friendly name' extraction from email address broken,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+67,give uploader opportunity to delete uploaded files and/or retract vouchers,Release 1.0,,,Fixed
+841,Disable download of encrypted files for non-capable browsers,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+882,Implement session id in temp files with TeraSender,TeraSender: integrate terabyte challenge upload code improvements,,,New
+913,Limiting number of files and aggregate size on upload,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1095,Database design document,Release 2.0 prototype class refactoring,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1128,Feature request: send reminder if file not downloaded and expiry date nearing,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Test
+1235,Verify database design document is still up-to-date,Release 2.0: Documentation,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+1258,Find alternatives to OpenIdP accounts,Release 2.0: Adapt project processes to version 2.0 reality,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,In Progress
+1265,Upload: drag & drop file selection (html5),Release 2.0: Feature specification,,,New
+1287,"Test poeditor setup with English, French, Dutch and Norwegian",Release 2.0: Language file crowdsourcing,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,In Progress
+1150,document config directives for language options,Release 2.0: Documentation,,,Fixed
+1151,Document config directive for logging organisation id,Release 2.0: Documentation,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1153,Put remaining directives from Damian spreadsheet into wikipage,Release 2.0: Documentation,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1154,Add documentation for bounce handling (general explain + config directive),Release 2.0: Documentation,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Accepted
+1155,Document access web service as remote user (!= remote application),Release 2.0: Documentation,,,New
+1156,Document user preference framework start,Release 2.0: Documentation,,,New
+1157,Document custom transfer validator,Release 2.0: Documentation,,,New
+1158,Document option to get a link for download instead of sending to recipient,Release 2.0: Documentation,,,Fixed
+1160,Document email header config directives,Release 2.0: Documentation,,,New
+66,"hinting, in the upload interface, that the recipient email line can take multiple email addresses",Release 1.0,,,Fixed
+826,Consistent key interaction with all popups,Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+840,Add encryption info to notification mails,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+883,Adapt error messages in upload code to using external upload module,TeraSender: integrate terabyte challenge upload code improvements,,,New
+912,Multi-file code refactoring,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1094,Classes design,Release 2.0 prototype class refactoring,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+1127,web services suggestion: get instance-specific information for display in external web portals,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+1149,Documentation 2.0: configuration directives,Release 2.0: Documentation,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,In Progress
+1252,"Review open tickets in version 1.5, 1.6, suggested and planned features",Release 2.0: Adapt project processes to version 2.0 reality,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,In Progress
+1264,Upload: Multi-file upload in single transaction (html5),Release 2.0: Feature specification,,,QTest
+1286,Create push/pull scripts for language files <--> poeditor.com via API,Release 2.0: Language file crowdsourcing,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,In Progress
+983,Add time of download to My Files details,Release 1.6,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Known issue
+984,implement auto-refresh after click on download from My Files table,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Known issue
+62,adding new recipients to an existing download,Release 1.0,,,Fixed
+597,MyFiles: include status (downloaded and how often) [M],Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+769,"Error messages, Ajax and Post merged into functions",Archived,,,Invalid
+825,When canceling upload - show client the server is busy canceling. ,Release 1.5,,,Fixed
+839,Show encryption (yes/no) in My Files listing,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+877,config.php switch for terasender yes/no,TeraSender: integrate terabyte challenge upload code improvements,,,Fixed
+1092,Format all HTML/Javascript files according to coding conventions,Release 2.0 prototype class refactoring,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+1106,HTML5 uploads with FireFox and Chrome no longer work with 2.0,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+1251,Update policy alpha and beta release,Release 2.0: Adapt project processes to version 2.0 reality,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,In Progress
+1263,Admin: maintenance mode,Release 2.0: Feature specification,,,New
+1285,Ask for open source unlimited plan for filesender project in POedit,Release 2.0: Language file crowdsourcing,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1311,Document 3rd party modules for security considerations,Release 2.0: Documentation,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Accepted
+1272,Email audit log,Release 2.0: Feature specification,,,New
+56,create Release Schedule / planning wiki page,Release 1.0,,,Fixed
+341,Document reasoning for having ePTID as default GUID,Release 2.0: Documentation,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Accepted
+388,APC Upload Progress Bar Testing,Archived,,,Won't fix
+838,Only show encryption box when browser is capable (upload page),end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+871,Move footer from hardcoded in index.php to configurable via the language files,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+876,Create terasender playground based on 1.5 branch code,TeraSender: integrate terabyte challenge upload code improvements,,,Fixed
+905,Modify session validity check on upload to allow for very long uploads,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Fixed
+910,investigate best option for on-the-fly zip of downloads,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1073,Minimise FileSender data privacy footprint,Planned features,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1093,Format all php files according to our coding conventions,Release 2.0 prototype class refactoring,romanmalyshev,avZvqm96Gr47ZdacwqEsg8,Fixed
+1249,Audit trail,Release 2.0: Feature specification,,,New
+1250,Establish policy for dealing with known issues,Release 2.0: Adapt project processes to version 2.0 reality,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,In Progress
+1259,Decide on language file format to use,Release 2.0: Language file crowdsourcing,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Won't fix
+1298,Establish list of beta and release candidate sites,Release 2.0-beta,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+55,Document which attributes are needed from a federation,Release 1.0,,,Fixed
+1245,"Download email generated even if user clicks on ""Cancel"" rather than ""Save File""",Bugs in version 1.1,,,Known issue
+54,Add DNS lookup to log entries.  Must be configurable switch (togle on/off),Release 1.0,,,Fixed
+508,Race condition with file deletion cronjob under certain circumstances,Bugs in version 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Known issue
+662,Error if locale does not exist in locale.php,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+772,cronjob to periodically clean non-anonomised log table,Usage statistics module version 1.5 and 1.6,,,Known issue
+820,Separate default-expiry-date and max-expiry-date,Planned features,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+1164,Check email templates for logical user experience,Release 2.0 - Backlog,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Deferred
+658,Missing confirmation message after adding recipient,Release 1.5,,,Fixed
+53,choose between SVN/GitHub,Release 1.0,,,Fixed
+527,Upload hangs with progress bar using Opera 11.5 (fixed) and 12-alpha,Release 1.5,,,Known issue
+553,Voucher upload listing in My Files logic,Bugs in version 1.1,,,Known issue
+775,Charts styling,Usage statistics module version 1.5 and 1.6,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1189,Review value for Sender email in transfer overview when non-sender return-path configured,Release 2.0 - Backlog,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Deferred
+629,filesize check on uploadcomplete,Release 1.5,,,Fixed
+648,Add italian translations,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+705,Re-send Email confirmation prompt missing,Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+52,create new first page for www.filesender.org,Release 1.0,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+554,bcc generation logic,Bugs in version 1.1,,,Known issue
+651,Improve documentation on pause/resume functionality,Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+776,Exclude domains or individuals from stats,Usage statistics module version 1.5 and 1.6,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1221,Smoothening: make audit log easier to find,Release 2.0 - Backlog,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,Deferred
+526,Browse button issue for automated testing with Flash,Release 1.5,,,Known issue
+630,Restrict 'filefrom' to expected values,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+713,mail sending error handling,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+50,Figure out copyright holder in BSD license (RicoShae/TERENA/?),Release 1.0,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+650,"Update ""help"" and ""about"" text",Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+730,Backport fix for changed firefox 13 slice semantics,Bugs in version 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+777,Configure available charts,Usage statistics module version 1.5 and 1.6,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1223,Feature: contextual help,Release 2.0 - Backlog,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Deferred
+631,server side validation: fileoriginalname,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+657,Rework location and modifying language files,Release 1.5,,,Fixed
+49,Change license in all places from GPLv3 to BSD (depends on copyright holder decision),Release 1.0,,,Fixed
+739,1.1 Logging the 'File Moved' action contains all recipients in 'logto' which breaks when the number of characters exceeds 250,Bugs in version 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+744,Feature change request: Default HTML5URL link,Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+778,Table display ,Usage statistics module version 1.5 and 1.6,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+872,make it irrelevant to have a trailing / in file paths in config.php,Planned features,,,Fixed
+1238,Add information about ongoing transfers to transfer info tab in admin interface,Release 2.0 - Backlog,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Deferred
+421,"Check all ""accepted"" 1.0 bug tickets against 1.5 release",Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+700,Prompt to install Flash Player at file upload logic,Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+34,XML Libraries PHP vulnerabilities,Release 1.0,,,Invalid
+753,security audit: 2.11.8 implement XSRF checks,Release 1.5,,,Fixed
+758,ask Thijs about changing default php.ini settings wrt. secure cookies?,Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+798,Median file size statistic,Usage statistics module version 1.5 and 1.6,,,Won't fix
+1268,Investigate  detection of folders on file selection,Release 2.0 - Backlog,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+649,Incorrect on-screen notification for deleted file,Release 1.5,,,Fixed
+12,Jan to test/investigate limit to number of files in Linux server folder,Release 1.0,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Invalid
+762,Security audit: 2.4.3: Set a restrictive anti-caching header,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+799,Fix file sizes chart for small values.,Usage statistics module version 1.5 and 1.6,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1278,Add timezone to transfer audit log display,Release 2.0 - Backlog,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+645,"Polish the ""are you sure"" delete dialogue boxes",Release 1.5,,,Known issue
+675,Add Slovenian language files,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+8,Action 1706.2 figure out federation attribute consistency,,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+11,Chris to test/investigate limit to number of files in Windows server folder,Release 1.0,,,Fixed
+804,Make debug=false default for rc1,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+815,Improve the look of stats module error messages,Usage statistics module version 1.5 and 1.6,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+1282,Check subject logic for sender and email receiver mails,Release 2.0 - Backlog,,,New
+644,Voucher: send.click without entering email address results in send button confusion,Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+670,/index.php?s=complete and completev pages don't check for AuthN/voucher,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Deferred
+10,Organise translations of labels Chris mailed earlier,Release 1.0,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Invalid
+666,Add Čeština language files,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+9, get authN identity providers hooked up to test installation,Release 1.0,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Invalid
+572,Error handling: no error handling when debug=false and database connection failure,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Test
+331,download_id_seq  can be removed,Release 1.0,,,Fixed
+628,Display client message when IDP values are not found after logon.,Release 1.5,,,Fixed
+654,Catch zero size chunk uploads,Release 1.5,,,Deferred
+286,Split Config for packaging,Release 1.0,,,Invalid
+488,Error handling,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+257,Flex Compiler Warnings,Release 1.0,,,Fixed
+520,Organise external code security review,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+567,Make sure the 3 current standard language files are all in sync,Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+168,Admin Email not Available,Release 1.0,,,Fixed
+470,Voucher page text,Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+15,linux client: @ sign keyed in from Norwegian keyboard gives unprintable character in addition,Release 1.0,,,Fixed
+16,hardcoded reference to Default.htm somewhere in the redirect after logon?,Release 1.0,,,Fixed
+386,Config: automatic configuration file sanity checker,Suggested features,,,New
+17,index page (default.html) that works on both Windows and Unix environments,Release 1.0,,,Fixed
+879,multi-file UI: idea: move AuP to be on-first-logon rather than on-every-upload,Suggested features,,,New
+349,UI3: ensure users with visual impairment can use FileSender,Suggested features,,,New
+19,change timestamp in logentries to be a complete timestamp,Release 1.0,,,Fixed
+907,"Make use of HTML 5 form field type ""email"" where appropriate",Suggested features,,,New
+99,On download warning to mobile device users [S],Suggested features,,,New
+21,Flash app keeps loading?,Release 1.0,,,Invalid
+824,auto-complete in To: field: allow user to choose default sort order,Suggested features,,,New
+22,README rename to install,Documentation version 1.0 and 1.1,,,Fixed
+875,Enable file recipient to leave a comment to sender on download,Suggested features,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+23,Postgress install documentation,Documentation version 1.0 and 1.1,,,Fixed
+990,admin tab -- two additional alerts,Suggested features,,,New
+24,Windows install documentation?,Documentation version 1.0 and 1.1,,,Fixed
+1170,Feature: in-app messaging,Suggested features,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+25,PHP configuration Documentation,Documentation version 1.0 and 1.1,,,Fixed
+1082,New feature suggestion: transaction audit trail,Suggested features,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+26,File permissions,Documentation version 1.0 and 1.1,,,Fixed
+886,Summary tabel of file recipients and actual downloaders *after expiry*,Suggested features,,,New
+860,Disable page selection button when on the specific page,Suggested features,,,New
+833,Re-send Voucher button in Guest Voucher table,Suggested features,,,New
+832,Link to voucher url in Guest Voucher table,Suggested features,,,New
+31,File Encryption serverside,Suggested features,,,Invalid
+37,Continue loading in status bar - Why,Release 1.0,,,Fixed
+38,Config file details and values,Documentation version 1.0 and 1.1,,,Fixed
+51,beta.filesender.org CNAME Australian development platform,Project infrastructure pre 2.0,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+60,improve user's path to Gears,Release 1.0,,,Fixed
+61,document email server requirements,Documentation version 1.0 and 1.1,,,Won't fix
+63,devise a solution for SPF records,Suggested features,Dick Visser,br2IeM2GCr4kdHeJe5cbLr,Accepted
+75,"pages ask for media that aren't included (sprites, favicon etc.)",Release 1.0,,,Fixed
+78,why not move to an HTML-only + Gears UI?,Suggested features,,,Invalid
+79,skinnability,Suggested features,,,Invalid
+81,Hint to click on Gears Logo (grey exclamation error),Release 1.0,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Invalid
+84,Download - Pause and Resume,Planned features,,,Invalid
+86,Global configurable date format,Suggested features,,,Fixed
+91,Error Attempt to upload a file without an extension,Release 1.0,,,Fixed
+92,interface: upload speed indicator (Mbps),Suggested features,,,New
+94,UI: Drag and drop files to upload to browser [M],Planned features,,,Fixed
+95,Alternate logout URL,Release 1.0,,,Fixed
+97,flash front end hangs browser when path can't be found in back end,Release 1.0,,,Fixed
+98,download notification does not distinguish between users if file uploaded to multiple users,Release 1.0,,,Fixed
+100,parallelise upload / download,Suggested features,,,New
+108,Redirect to install Flash Player if FP 10 not installed,Release 1.0,,,Fixed
+109,Voucher download incorrect To:email,Release 1.0,,,Fixed
+110,postgres ERROR:  date/time field value out of range different datestyle,Archived: Installation issues,,,Fixed
+111,3 times history.js?,Release 1.0,,,Fixed
+112,2 files missing,Release 1.0,,,Fixed
+113,change default simplesamllocation in config.php,Release 1.0,,,Fixed
+114,3 directories not created by default in .tar.gz of beta-1.8,Release 1.0,,,Fixed
+115,clarify in config file site_filestore must be in web tree,Release 1.0,,,Fixed
+116,the 'browse' button doesn't scale with changed text,Release 1.0,,,Fixed
+118,Default email subject configurable,Release 1.0,,,Fixed
+119,Symlink info,Documentation version 1.0 and 1.1,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+121,undesired message truncation in 'download' window,Release 1.0,,,Fixed
+123,"""cancel"" button on download page",Suggested features,,,Invalid
+124,Mime Type to HTML and test for spam count.,Release 1.0,,,Fixed
+126,Export admin results to xls,Suggested features,,,Fixed
+127,How to handle multiple email addresses from user's LDAP entry,Release 1.0,,,Fixed
+128,Progress bar at 100% before upload is finished,Release 1.0,,,Fixed
+129,Valid email-adresses are refused on input,Release 1.0,,,Fixed
+130,Backend alters email-attribute,Release 1.0,,,Fixed
+131,Voucher list empty,Release 1.0,,,Fixed
+132,php splitting email with + : Research it,Release 1.0,,,Fixed
+133,Log all clenaup files interaction - if file missing or date past,Release 1.0,,,Fixed
+134,"Out of date voucher - if non AUTH user does not show ""Out of date or no longer available message""",Release 1.0,,,Fixed
+135,Add other keyboard special charachters,Release 1.0,,,Fixed
+136,Firefox gears.js,Release 1.0,,,Fixed
+138,"Email address with 1 character refused with ""Please select file to upload"" error",Release 1.0,,,Fixed
+139,Multi-language email templates [L],Suggested features,,,New
+143,"Emails now score 2.5 on spam filter, introduce empty line between body and headers",Suggested features,,,Invalid
+144,Make the IdP attribute mapping configurable when using multiple IdPs,Suggested features,,,New
+146,Default Email Subject,Release 1.0,,,Fixed
+154,use cronjob for clean up ,Planned features,,,Fixed
+156,Overhaul log mechanism,Suggested features,,,New
+160,email address unsuitable as GUID,Release 1.0,,,Fixed
+161,Notification email not being sent back,Release 1.0,,,Fixed
+162,improve feedback when log directory is missing,Suggested features,,,Fixed
+163,add 'back to home page' button in logged out page,Suggested features,,,Fixed
+164,Username Display show/hide UI,Planned features,,,Fixed
+165,Pause in flash upload,Planned features,,,Invalid
+166,Screen Size,Release 1.0,,,Fixed
+167,Error in Config - Date ,Release 1.0,,,Fixed
+169,language quirks in MyFiles re-send email process,Release 1.0,,,Fixed
+170,"language quirk in MyFiles ""add new recipient""",Release 1.0,,,Fixed
+171, no-caching tags in all FileSender pages,Release 1.0,,,Fixed
+172,Fix Version Number State overide,Release 1.0,,,Fixed
+173,SAML Session expiration errors - instead of requesting logon,Release 1.0,,,Fixed
+174,size calculation wrong for larger files,Release 1.0,,,Fixed
+175,saml_uid_attribute parsing code not 100%,Release 1.0,,,Fixed
+180,sender email address gets truncated beyond 3rd domain level,Release 1.0,,,Fixed
+181,Arrange download(s).filesender.org,Project infrastructure pre 2.0,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+183,move email templates from config file to separate file [M],Planned features,,,Fixed
+187,"security: apparently ""finished"" download page can be re-activated",Release 1.0,,,Won't fix
+188,Some downloads hang at 68%,Release 1.0,,,Fixed
+189,"Flash upload: After sending a file, text “Your file has been sent” or similar is now absent, ",Release 1.0,,,Fixed
+190,To: and from: reversed when uploading using a voucher,Release 1.0,,,Fixed
+191,Help,Release 1.0,,,Fixed
+192,About,Release 1.0,,,Fixed
+193,voucher upload is broken (but works on apps3) ,Release 1.0,,,Fixed
+194,Files and vouchers do not expire after expiry date,Release 1.0,,,Fixed
+195,expiry date selection is open-ended when issuing voucher and adding a new recipient,Release 1.0,,,Fixed
+196,Email everyone when voucher deleted,Release 1.0,,,Fixed
+197,Explanatory text in vouchers window missing,Release 1.0,,,Fixed
+198,Voucher Deleted notification,Release 1.0,,,Fixed
+199,AUP checkbox remains checked when renewing upload page,Release 1.0,,,Invalid
+200,> * I’m still addressed as “Welcome Mason” i.e. first name remains absent,Release 1.0,,,Fixed
+201,also check the download page for field descriptions not followed by ':',Release 1.0,,,Fixed
+202,it could be 'your file has been uploaded',Suggested features,,,Fixed
+203,add download link for user's own files in MyFiles,Suggested features,,,Fixed
+204,look at column widths and order in MyFiles tab,Suggested features,,,New
+205,Enable deselect of selected values in file and voucher tables,Suggested features,,,New
+206,Voucher email text “upload once one file” could be “upload one file once”,Suggested features,,,Fixed
+207,switch on https on apps3,Project infrastructure pre 2.0,,,Fixed
+208,ticketise security audit issues,Release 1.0,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+209,max_email_recipients,Release 1.0,,,Fixed
+211,MyFiles -> Add Recipient: download link in resulting file voucher does not work,Release 1.0,,,Fixed
+212,send proposal to dev list on filesender client side logging,Release 1.0,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Invalid
+229,filename error when creating a voucher - ,Release 1.0,,,Fixed
+230,Incorrect email sent when using a voucher,Release 1.0,,,Fixed
+231,File size shows error when creating vouchers,Release 1.0,,,Fixed
+232,gears upload tmpfile handling,Release 1.0,,,Fixed
+233,Modify file deletion process,Planned features,,,Fixed
+234,about/help/gears links on logon screen are broken,Release 1.0,,,Fixed
+235,typo: Installed: gears allows you to ulpoad extremely ....,Release 1.0,,,Fixed
+236,gears upload fails when disabling third party cookies in FF,Release 1.0,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+239,expiry logic: selecting 'today' should be disabled?,Release 1.0,,,Fixed
+240,expiry logic: with multiple recipients the shortest expiry wins,Release 1.0,,,Fixed
+241,"files, tmpfiles and log directory not present in 1.14",Release 1.0,,,Fixed
+242,move config.php from classes to a new config directory,Release 1.0,,,Fixed
+243,Remove hostname from config.php or define it once,Release 1.0,,,Fixed
+244,Restructure SVN tree to support branches and tags,Release 1.0,,,Fixed
+245,Investigate command line Flash compilation to enable automatic nightly builds,Project infrastructure pre 2.0,,,Fixed
+246,Detailed transaction logging facility per user,Release 1.0,,,Fixed
+247,Extra field in download page indicating download progress in actual bytes,Suggested features,,,Invalid
+248,Email Optional message shows 'r' instead of carriage return,Release 1.0,,,Fixed
+249,IE8 download of files > 4GB hangs,Release 1.0,,,Fixed
+250,New Upload numbered steps do not match workflow order,Release 1.0,,,Fixed
+251,Date range in voucher to disable previouse or current date when creating vouchers,Release 1.0,,,Fixed
+252,Database updates,Suggested features,,,New
+254,Large filesizes (>4GB) are incorrectly presented in flash interface,Release 1.0,,,Fixed
+255,Download progress bar stops at 2GB,Release 1.0,,,Fixed
+256,4GB download limit on Windows ??,Release 1.0,,,Fixed
+258,plus sign in filename causes upload error,Release 1.0,,,Fixed
+259,Wrong error msg in 'Add Recipient' with invalid or empty email address,Release 1.0,,,Fixed
+260,Inconsistent error messages when email field is left blank,Release 1.0,,,Fixed
+261,Reversed order of message prompts between File Upload and uploading a file using a Voucher,Release 1.0,,,Fixed
+262,Make displaying of account holder's email address consistent across all sections,Suggested features,,,Fixed
+263,Typos in voucher explanatory text,Suggested features,,,Fixed
+264,Voucher upload file size displayed as NULL and 0 before browsing for file,Release 1.0,,,Fixed
+265,project files case,Release 1.0,,,Fixed
+266,Project tarball naming,Release 1.0,,,Fixed
+267,Voucher issue email incorrectly uses file upload email template,Release 1.0,,,Fixed
+268,IE Active X - playerProductInstall file is not mapped correctly,Release 1.0,,,Fixed
+269,Prompt to install / upgrade flash if required,Release 1.0,,,Fixed
+270,Last possible date in Voucher expiry date selection is not highlighted in blue,Release 1.0,,,Fixed
+271,HEADSUP: authenticated flash upload fails with current SVN version of SimpleSAMLphp,Release 1.0,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+272,File deletion email incorrectly uses voucher deletion email template,Release 1.0,,,Fixed
+273,'rsend this file' could be 'resend this email',Suggested features,,,Fixed
+274,Inconsistent expiration date formats,Release 1.0,,,Fixed
+275,msg:Content-Range:bytes in text box instead of upload steps when using Google Gears,Release 1.0,,,Fixed
+276,GUI slow to respond,Release 1.0,,,Invalid
+277,"After upload reverting to ""Your file has been sent"" after clicking on My Files or Vouchers button",Release 1.0,,,Fixed
+279,FireFox with  Firebug Enabled crashes downloads over 1.5Gb,Release 1.0,,,Invalid
+280,optimizing config.php for distribution,Suggested features,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Accepted
+281,Error handling with 'unauthenticated' gears upload,Release 1.0,,,Fixed
+282,exclude folders and files from cleanup cron,Suggested features,,,Fixed
+285,Move /files out of www enabled directory,Release 1.0,,,Fixed
+288,Different look&feel Flash app in the nightly builds,Release 1.0,,,Fixed
+289,Gears upload resume - not working,Release 1.0,,,Fixed
+290,File select fails in Linux/Gears for files of 2G or more,Release 1.0,,,Fixed
+291,Gears cancel - needs to complete last chunk before allowing a new upload,Release 1.0,,,Fixed
+292,about.php and help.php logic,Release 1.5,,,Fixed
+300,cron.php gives a undefined SERVER_NAME warning,Release 1.0,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+301,Cache limiter warning - header already sent,Release 1.0,,,Fixed
+302,Using quotes in the personal message breaks upload,Release 1.0,,,Fixed
+304,After browsing for file in Gears Upload buttons in header grey out,Release 1.0,,,Fixed
+305,Selecting file > 4GB for Flash Upload gives 'wrong' error message,Release 1.0,,,Fixed
+306,export-to-Excel broken,Release 1.0,,,Fixed
+307,"Download email generated even if user clicks on ""Cancel"" rather than ""Save File""",Release 1.0,,,Known issue
+308,'Invalid extension' error for valid extensions,Release 1.0,,,Fixed
+309,Upload progress steps no longer listed in GUI,Release 1.0,,,Invalid
+310,"Gears voucher upload restarts if paused (cancelled), rather than resuming",Release 1.0,,,Fixed
+311,Allow HTML tags in Splash Screen,Suggested features,,,Fixed
+312,Make RPM's relocatable,Suggested features,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Deferred
+313,Warn Mac users about files > 2GB,Release 1.0,,,Fixed
+314,Review RPM config implementation,Archived: Installation issues,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+315,Scrollbars applied to larger window for logon page than for content pages,Release 1.0,,,Fixed
+316,Problems with upload of empty files (filesize = 0 ),Release 1.0,,,Fixed
+317,Cancel flash upload - disabled buttons need to re-appear.,Release 1.0,,,Fixed
+318,Check php temp file folder storage size ,Release 1.0,,,Fixed
+319,Flash upload - clean up correctly on cancel upload.,Release 1.0,,,Fixed
+320,PHP session timeout with large (long) flash uploads,Release 1.0,,,Fixed
+321,UTF 8 charachters in name deleted by CRON,Release 1.0,,,Fixed
+322,Max Upload Size consistency,Release 1.0,,,Fixed
+323,Compatibility Mode is required for current version when compiling,Release 1.0,,,Fixed
+324,Notification for user and log if file data is missing when sent to php from flex ,Release 1.0,,,Fixed
+325,UTF-8 in message/subject/selected file field triggers failure after file upload,Release 1.0,,,Fixed
+326,Download fails with IE7/8 over https (since changeset 251),Release 1.0,,,Fixed
+327,Message box in Admin UI messes up 'Available files' listing,Release 1.0,,,Fixed
+328,Document known quirks for 1.0 release,Documentation version 1.0 and 1.1,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+329,Make standard collection of slides to present FileSender,Project infrastructure pre 2.0,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Won't fix
+333,Formatting of personal message in outgoing mails,Release 1.0,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+334,Logon description modifications,Release 1.0,,,Fixed
+338,download blocks other filesender operations in the same session/browser,Release 1.0,,,Fixed
+339,Prompt when clicking on link to deleted file uses voucher cancellation text,Release 1.0,,,Fixed
+340,email address validation in flex,Release 1.0,,,Fixed
+342,download.php often downloads when downloading file from MyFiles table,Release 1.0,,,Invalid
+344,Tooltip in Admin on Mac,Release 1.0,,,Fixed
+345,Use UTF8 generator in automated testing of FileSender 2.0,Project infrastructure pre 2.0,,,Won't fix
+346,Update workflow diagram to incorporate new features,Documentation version 1.0 and 1.1,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+347,Raw html sometimes displayed in browser when clicking on link in email to download file,Release 1.0,,,Fixed
+348,CAPTCHA  - to reduce automated spamming,Suggested features,,,Invalid
+350,CRC/Checksum to ensure file integrity,Suggested features,,,New
+351,integration with timestamping,Suggested features,,,New
+352,Write FileSender annual report,Project infrastructure pre 2.0,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Won't fix
+353,Enfore max_expiry_time server-side,Release 1.0,,,Fixed
+354,Email address guessing and refusing bad addresses,Suggested features,,,New
+355,UI: Configurable <title>,Suggested features,,,New
+356,Download email notifications only generated for first download during same browser session,Release 1.0,,,Fixed
+357,Subject and message fields do not clear after cancelling upload using a voucher,Release 1.0,,,Fixed
+358,Filename accents not displayed in GUI when using Gears (correlates with known issue),Release 1.0,,,Fixed
+359,Xander and Maarten to discuss build infra and code repo,Project infrastructure pre 2.0,,,Fixed
+360,Low disk space warning in admin email is incomplete,Release 1.0,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+361,new banner.png size is off by 1,Release 1.0,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+362,$config['about']/['help_link_visible'] settings not implemented,Release 1.0,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Invalid
+363,Add browser & plugin requirements from FileSender homepage to help.php,Release 1.0,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+364,Write end user documentation for 1.0 release,Documentation version 1.0 and 1.1,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+365,Update screenshots for 1.0 release,Documentation version 1.0 and 1.1,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+366,QA: Document/re-order config.php,Release 1.0,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+368,QA: minor HTML fixes,Release 1.0,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+369,Change CHUNK_BYTES default for 1.0?,Release 1.0,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+370,"Remove references to documentation in flux, when ready to issue 1.0 release",Documentation version 1.0 and 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+371,Change default pg_username from postgres to filesender,Release 1.0,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+372,Update Gears requirements list in Wiki,Documentation version 1.0 and 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+373,QA: Make RPM packaging release worthy,Archived: Installation issues,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+374,Filename with international characters other than ISO-8859-1 will look 'funny' when downloaded with IE,Release 1.0,,,Known issue
+375,Give the user the opportunity to login again,Release 1.0,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+376,packaging: unsafe debian-db.php permissions,Archived: Installation issues,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+377,HTML validation errors,Release 1.0,,,Won't fix
+379,IPv6 addresses are not stored in the files table,Release 1.0,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+380,max_gears_upload_size check not implemented,Release 1.0,,,Fixed
+381,"Multiple Emails - allow , and ;",Release 1.0,,,Fixed
+382,Screen confirmation prompts when sending to more than one recipient displaying multiple times,Release 1.0,,,Fixed
+383,Space infront of second email address and associated misalignment in My Files table,Release 1.0,,,Fixed
+385,Quota support [M],Suggested features,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Test
+387,"Get list of FileSender ""release candidate test"" sites",Project infrastructure pre 2.0,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Won't fix
+389,Gears fileSize limits can be circumvented,Release 1.0,,,Fixed
+390,Mac 2GB limit message can appear when selecting zero sized file,Release 1.0,,,Fixed
+391,Logout warning about still existing 'IdP sessions',Suggested features,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,New
+392,Allow uploader to disable download receipt email to file *recipient*,Suggested features,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+393,IE8 JavaScript error,Release 1.0,,,Won't fix
+394,"File too large, use Gears warnings inconsistent",Release 1.0,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+398,Enable expiry time extension,Suggested features,,,New
+399,"Multiple User Interface views, guided use vs. normal use",Suggested features,,,New
+400,"""Stat"" support on files for OS X requires a different shell call",Release 1.5,,,Fixed
+406,Default Expiry date,Release 1.5,,,Fixed
+407,Lock all input boxes while uploading,Release 1.5,,,Fixed
+409,Terms of Service configurable,Release 1.5,,,Fixed
+410,Code for flash uploader to SVN,Release 1.5,,,Fixed
+411,Move Terms of Agreement below file upload,Release 1.5,,,Fixed
+412,Style consistently all buttons and fonts,Release 1.5,,,Fixed
+413,Version Number in code,Release 1.5,,,Fixed
+414,Vouchers - use popup date,Release 1.5,,,Fixed
+415,default text if myfiles is empty,Release 1.5,,,Fixed
+416,Automatically remove whitespace from email addresses,Release 1.5,,,Fixed
+418,Error in apache.conf included with debian package,Archived: Installation issues,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Invalid
+419,"Allow for a ""don't make file available until"" date when uploading",Suggested features,,,New
+420,"Add ""use different browser"" message on upload>2GB in ""old"" browsers",Release 1.5,,,Fixed
+422,Landing page after logon is not the upload file page,Release 1.5,,,Fixed
+423,"Display size of selected file in ""human readable"" form",Release 1.5,,,Fixed
+424,"Progress bar: ""upload in progress"" when starting upload?",Release 1.5,,,Fixed
+425,Three things for the HTML5 progress bar: position + label + colour?,Release 1.5,,,Fixed
+426,"""Download"" link in download page to a button?",Release 1.5,,,Fixed
+427,No check of 'ban_extension' configurable,Release 1.5,,,Fixed
+429,Merge IPv6 logging fixes into 1.5,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+430,Logon button duplication and title,Release 1.5,,,Fixed
+431,"Help and About pages open in main tab, not new tabs",Release 1.5,,,Fixed
+432,"""Show Terms"" still displayed after terms are shown",Release 1.5,,,Fixed
+433,Multiple email separation tip font size and spelling,Release 1.5,,,Fixed
+435,Default maximum expiry date issues,Release 1.5,,,Fixed
+439,Prompt to logon after unauthenticated upload using voucher ,Release 1.5,,,Fixed
+440,Welcome text missing,Release 1.5,,,Fixed
+442,Add Recipient button missing from My Files,Release 1.5,,,Fixed
+443,File exceeding HTML5 limit can be selected (but not uploaded),Release 1.5,,,Fixed
+444,No cancel / pause button during upload,Release 1.5,,,Fixed
+445,Alternative file can be selected during upload (although cannot be downloaded),Release 1.5,,,Fixed
+446,Cancelled voucher text missing,Release 1.5,,,Fixed
+447,AuP checkbox text,Release 1.5,,,Fixed
+448,Deleted file message incorrect,Release 1.5,,,Fixed
+449,Using Safari 5.0.5 on MacOSX: progress bar displays before selecting file,Release 1.5,,,Fixed
+450,Mandatory field logic,Release 1.5,,,Fixed
+451,Review and update SimpleSAMLphp RPM dependencies,Archived: Installation issues,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+452,Duplicate To: column in My Files table,Release 1.5,,,Fixed
+453,Message column missing from My Files table?,Release 1.5,,,Fixed
+455,Fix browse and upload process,Release 1.5,,,Fixed
+456,Move upload button,Release 1.5,,,Fixed
+457,Multiple emails message as alt to TO text box,Release 1.5,,,Fixed
+458,Move Show/Hide to end of TOC text,Release 1.5,,,Fixed
+459,Bold button text,Release 1.5,,,Fixed
+460,"After downloading file, download page remains instead of message",Release 1.5,,,Fixed
+461,Warnings now cool not alarm colour,Release 1.5,,,Fixed
+462,Unauthenticated voucher up/downloads don't send mail to voucher issuer,Release 1.5,,,Fixed
+464,Welcome replace with name and <email>,Release 1.5,,,Invalid
+465,My Files text wrapping issues,Release 1.5,,,Fixed
+466,Onlogon - set focus on logon button,Release 1.5,,,Fixed
+467,IE on Windows 7 issue,Release 1.0,,,Invalid
+468,Self-signed certificates problems vs official documentation,Documentation version 1.0 and 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+472,inefficient ipv4 and ipv6 data types in database,Suggested features,,,New
+484,AUP config setting,Release 1.5,,,Fixed
+485,max_email_recipients config,Release 1.5,,,Fixed
+486,Configuration problem with SAML,,,,Invalid
+489,Expiry date allows any date to be entered,Release 1.5,,,Fixed
+490,PHP session timeout with large (long) flash uploads,Release 1.5,,,Fixed
+492,Inconsistent date formats,Release 1.5,,,Fixed
+493,language reference missing with the browse (for file) button,Release 1.5,,,Invalid
+494,åøæ not properly displayed from language file when using new array code,Release 1.5,,,Fixed
+495,Version number display,Release 1.5,,,Fixed
+496,Upload step descriptions,Release 1.5,,,Fixed
+497,"Put ""focus"" on ""close"" button in dialogue popups",Release 1.5,,,Fixed
+498,"Minor re-order of AuP, ""select file"" and ""upload"" + suggested name change",Release 1.5,,,Fixed
+499,"Missing language tag with ""AuP"" selection box and AuP itself?",Release 1.5,,,Fixed
+500,On-page notification formatting inconsistencies,Release 1.5,,,Fixed
+1317,Configure file deletion cron job on https://qtest.filesender.org/filesender20/,Release 2.0 client-side testing plan,Jørn Åne,c9JOC0LeOr5BTmacwqEsg8,Fixed
+210,create client-side test matrix on wiki,Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,New
+502,Extra browser tab momentarily appears when clicking on Start Download,Release 1.5,,,Fixed
+1296,Investigate whole testing chain with Saucelabs for 1 feature and report,Release 2.0 client-side testing plan,romanmalyshev,avZvqm96Gr47ZdacwqEsg8,New
+504,No e-mail address validation on Voucher page,Release 1.5,,,Fixed
+1138,Reduce duplication across test scripts,Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,In Progress
+505,implement max_flash_upload_size check,Release 1.5,,,Fixed
+1091,Conduct 1.6-rc1 client-side workflow tests,Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+506,My Files localizations,Release 1.5,,,Fixed
+856,Create basic functionality test suite,Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+507,"Create and document upload, add recipient and issue voucher workflow tests using Selenium-IDE",Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+509,Fix UI inconsistencies: font sizes,Release 1.5,,,Fixed
+510,"UI: Larger ""Send"" button",Release 1.5,,,Fixed
+511,UI: improve consistency of button look&feel across browsers,Release 1.5,,,Fixed
+512,"UI: allign ""message"" textbox with other text boxes",Release 1.5,,,Fixed
+513,UI: move top buttons further apart,Release 1.5,,,Fixed
+514,"Security: check for SQL injection, cross site scripting etc.",Release 1.5,,,Fixed
+519,Decide on version numbering for 1.5 beta releases,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+521,MyFiles: subject and message field not properly UTF8 enabled,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+522,Upload attempt possible after session timeout,Release 1.5,,,Fixed
+523,"In Assembla Tickets: Add ""Fixed In"" column in tickets to deal with 1.0 bugs fixed in 1.5",Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+525,AuP checkbox can't be checked in Safari and Chrome,Release 1.5,,,Fixed
+528,UI: list of active files in MyFiles and active vouchers in Vouchers ordered latest-lowest,Release 1.5,,,Fixed
+529,download.php contains a new require_once that breaks stuff,Release 1.5,,,Fixed
+531,Help and ABout buttons only clickable after login,Release 1.5,,,Fixed
+533,OWASP A1-Injection,Release 1.5,,,Fixed
+534,OWASP A2-Cross Site Scripting (XSS),Release 1.5,,,Fixed
+535,OWASP A3-Broken Authentication and Session Management,Release 1.5,,,Fixed
+536,OWASP A4-Insecure Direct Object References,Release 1.5,,,Fixed
+537,OWASP A5-Cross Site Request Forgery (CSRF),Release 1.5,,,Fixed
+538,OWASP A6-A9,Release 1.5,,,Fixed
+539,OWASP A10-Unvalidated Redirects and Forwards,Release 1.5,,,Fixed
+540,Allow localised date formats via language files,Release 1.5,,,Fixed
+542,On-page notification text inconsistencies,Release 1.5,,,Fixed
+543,Check on country/language codes as used in browsers,Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+544,Add HTML5 logo and Standard Upload,Release 1.5,,,Fixed
+545,"Align Logoff button, Version number and box edge",Release 1.5,,,Fixed
+546,"Evenly space upload instructions horizontally  (1,2,3,4)",Release 1.5,,,Invalid
+548,Expiry date broken since r876?,Release 1.5,,,Fixed
+549,Missing language tag in validate_file() in pages/upload.php,Release 1.5,,,Fixed
+550,progress bar quirk in 1.0.1 plus html5 0.1 module,Bugs in version 1.1,,,Fixed
+551,1.0.1+ browse button doesn't work in Chrome,Bugs in version 1.1,,,Fixed
+552,Add Version.php with re-usable version constant,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+555,Create 1.0.1+html5 branche,Bugs in version 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+556,Roll HTML5-related patches from trunk into 1.0.1+html5 branche,Bugs in version 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+557,Adapt Help and About standard pages to HTML5,Bugs in version 1.1,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+558,"Update README, CHANGELOG and INSTALL files for packaging",Bugs in version 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+559,Make preview release and test site available at filesender.surfnet.nl,Bugs in version 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+560,Figure out packaging details: how to deal with existing installs on a server,Bugs in version 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+561,Establish download pages on filesender.org for 1.1 release,Bugs in version 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+562,Organise testing for 1.1,Bugs in version 1.1,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+563,Compare of UID attribute with admin uid broken when attribute is not in an array,Release 1.0,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+564,"Update features, requirements, known issues, upgrade notes, end user docs & home page",Bugs in version 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+565,"$lang[""_OK""] with two or more words makes app hang",Release 1.5,,,Fixed
+566,"Finish ""HTML5 supported"" logo stuff",Release 1.5,,,Fixed
+568,Admin interface broken since latest DBAL mods? ,Release 1.5,,,Fixed
+569,Case-sensitive references to Files in cron.php,Release 1.0,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+573,"<title> is hardconfigured with ""FileSender:""",Release 1.5,,,Fixed
+574,vouchererror.php no longer used?,Release 1.5,,,Fixed
+575,invalidvoucher.php without language tag,Release 1.5,,,Fixed
+578,"Update standard 1.5 help text with 1.0.1+html5 ""HTML5"" references",Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+579,No check on available storage space before upload,Release 1.5,,,Fixed
+580,Post-1.5: have numerical progress under progress bar,Suggested features,,,New
+581,Only load flash object when required after client side test,Release 1.5,,,Fixed
+582,Inconsistent file size limit warnings,Bugs in version 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+583,Email addresses rejected at maximum for uploads & voucher issue,Bugs in version 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+584,AJAX load Flash object *after* tested it's required,Release 1.5,,,Fixed
+586,Inconsistent help.php header format,Bugs in version 1.1,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+818,HTTPS IE and Firefox differences ,Third party bugs,,,Won't fix
+588,Problematic downloads using Chrome on Windows7-before-SP1,Third party bugs,,,Known issue
+589,Cancel Upload Dialog Box,Bugs in version 1.1,,,Fixed
+590,Upload should not require file extension,Suggested features,,,New
+591,Authsaml - check for isArray when returning SAML data,Release 1.5,,,Fixed
+592,Addressbook search/integration,Suggested features,,,New
+593,Consistent Browse Button,Release 1.5,,,Invalid
+594,add configurable chunk size,Release 1.5,,,Fixed
+595,Missing element titles for use in automated testing,Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+596,"Rethink ""clear on cancel"" in the Upload UI",Suggested features,,,New
+598,"Relabel choices in ""cancel upload"" button: from cancel/OK to ""yes/no""",Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+599,related project issue,,,,Fixed
+600,Editable alerts if IdP has not provided enough information,Suggested features,,,New
+601,HTML5 (or Gears) upload with a backslash or double quote in the filename fails,Bugs in version 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+603,Syntax-check of email-fields must happen prior to upload starting,Bugs in version 1.1,,,Known issue
+604,Not all 'dangerous' characters displayed in My Files,Release 1.5,,,Fixed
+605,Subject and message field issues when adding new recipient,Release 1.5,,,Fixed
+606,URL post validation,Release 1.5,,,Fixed
+607,"Audit code for parameter, post, request validation",Release 1.5,,,Fixed
+608,Let Vouchers and AddRecipient also use JSON,Release 1.5,,,Fixed
+609,Reintroduce dsn override and legacy pg_ config use,Release 1.5,,,Fixed
+610,Slow uploads with Chrome on Windows,Third party bugs,,,Known issue
+611,Daily cronjob gives Segmentation Fault on Debian Lenny,Third party bugs,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Known issue
+612,Update and optimize cron.php for PDO,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+613,Filesize 0 in admin interface for Uploads and Downloads,Release 1.5,,,Fixed
+614,Client side expiry date selection based on server time,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+615,"Accept and use ""free form text"" in email addresses",Suggested features,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,New
+616,jquery version,Release 1.5,,,Fixed
+620,IE7 upload and sending a voucher not working,Release 1.5,,,Fixed
+622,Add French Language Files,Release 1.5,,,Fixed
+624,Simplesamlphp 1.8.2 security update in repositories,Third party bugs,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+625,Don't show empty Personal Message in mails,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+626,Flash upload possible without checking AuP ,Release 1.5,,,Fixed
+627,Improve download usability: direct download link + correct mime-type?,Suggested features,,,New
+632,server side validation: fileexpirydate,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+633,output sanitation in admin pages,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+636,Develop API to allow non-web access to FileSender functionality,Suggested features,,,New
+638,Set up crowd-sourcing infra for localisation,Planned features,,,Fixed
+639,"Investigate FileSender legal entity option ""coop""",Project infrastructure pre 2.0,,,Fixed
+640,Real time upload/download performance feedback,Suggested features,,,New
+642,"Enable ""apply action to multiple files"" in MyFiles and Vouchers tables",Suggested features,,,New
+643,"Get rid of ""this email might be phishing"" when sending to gmail accounts",Suggested features,,,New
+646,Confusing message when using an already used guest upload voucher,Release 1.5,,,Fixed
+652,Improve user-feedback on use of pause/resume,Suggested features,,,New
+653,"""Cannot find File in Temp Folder"" errors in admin logs",Bugs in version 1.1,,,Fixed
+656,"Email receipts: think of clever solution for ""send file to group on mailinglist"" problem",Suggested features,,,New
+746,1.1 Backport additional email validation in Mail.php from 1.5,Bugs in version 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+747,1.1 Backport fix for SAML multi-value attribute logging from 1.5 (r1313),Bugs in version 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+659,"Expand ""this voucher has been used/cancelled"" error report",Suggested features,,,New
+750,Make admin check more strict,Bugs in version 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+660,Splash text is in config file and doesn't have a language tag,Release 1.5,,,Fixed
+661,Adapt RPM/debian packaging  to config-templates use,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+663,Display error message when trying to upload same file in multipel tabs of same browser,Release 1.5,,,Deferred
+664,Missing 'Message' label in My Files table header,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+665,name and size feedback after selecting file are not localised,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+667,Inconsistent email message when file is deleted,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+668,one-click simplest upload,Suggested features,,,New
+669,Allow default site language to be selected,Release 1.5,,,Fixed
+671,Possible performance improvement: use persistent HTTP1.1 for file upload,Suggested features,,,New
+672,HTML5 logo not displayed on logon page,Release 1.5,,,Fixed
+673,HTML5 logo initially ticked by default after logon,Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+676,Add Italian language files,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Invalid
+677,Restructure naming of language files,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+678,Guest invite button syntax,Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+680,Duplicate version numbers,,,,Fixed
+681,Display array in log correctly,Release 1.5,,,Fixed
+682,Aurora FF 13+ changed blob.mozslice back to blob.slice,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+683,possible performance improvement in www/fs_upload.php,Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Deferred
+684,Conduct 1.5-beta2 client-side workflow tests,Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+685,Arrange VMs running Selenium Server and initial OS/browser combinations,Release 2.0 client-side testing plan,Guido Aben,cxFt16lZGr3Q7YeJe5aVNr,Fixed
+686,Try running existing Selenium-IDE scripts using -htmlSuite,Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+687,Set up automated logon,Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+688,"Select Selenium Remote Control ""driver"" to export scripts from Selenium-IDE",Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,New
+689,Determine appropriate method for handling email content,Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+690,Logon possible with javascript disabled,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Known issue
+740,Automate email interaction,Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+691,Dragging of button images possible instead of clicking,Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+741,Store common test script variables in a single file,Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+692,Links to wiki in Help and About load within FileSender tab,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+767,Investigate using selenium -htmlSuite with Google Chrome,Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,New
+693,Incorrect on-screen notification for automatically deleted file,Release 1.5,,,Fixed
+770,Explore expiry date calculation based on displayed date,Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,In Progress
+694,Incorrect on-screen message for automatically deleted voucher ,Release 1.5,,,Fixed
+695,Upload recipient maximum and syntax check timing,Release 1.5,,,Fixed
+697,Progress bar starts at 0% before jumping to actual % when resuming upload,Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+699,My FIles listing out of order when adding multiple recipients,Release 1.5,,,Deferred
+701,Momentary white page during page reload (IE9?),Release 1.5,,,Known issue
+702,Direct download from My Files table fails with IE9,Release 1.5,,,Invalid
+703,Displayimage caching control,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+704,No bcc email for manual file deletion when voucher issuer was not a file recipient,Release 1.5,,,Fixed
+707,Add option to secure wipe files in cron.php,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+708,Make 'direct downloads' easier,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+709,FileSender version is displayed twice,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+710,Improvements to debian packaging,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Deferred
+711,Do we still need history.js libs?,Release 1.5,,,Fixed
+712,Clean up config-dist.php,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+715,Empty Guest Voucher table text,Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+718,Facilitate feedback-points in warnings/errors,Suggested features,,,New
+719,Add spanish translations,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+723,add sort options to MyFiles table,Suggested features,,,New
+752,Add support for new FileLink feature in Thunderbird 13,Suggested features,,,New
+721,Upload using voucher rejects valid email address,Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+726,HTML5(Not)Supported tooltip shows raw html code in language tags,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+728,Download page formatting,Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+729,Design of email-workflow,Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Won't fix
+731,Email validity check logic when issuing voucher,Release 1.5,,,Deferred
+732,Conduct 1.5-beta3 client-side workflow tests,Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+733,Two links in Help direct to top of Help page with IE9 9 after logon (but not before logon),Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+735,Inconsistent AUP box check (or not) after pausing / cancelling upload,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Won't fix
+736,Feature request: On Logon page make separate text for pageheading and logon button ,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+737,Feature request: use $config['site_name'] in _SITE_SPLASHTEXT (and similar),Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+745,Language tag comparison broken for less preferred languages,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+749,Auto-complete in To: field,Planned features,,,Fixed
+751,security audit: 2.13.1: Make admin check more strict (1.5),Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+771,Improve paging of log display in admin interface for busy installs,Planned features,,,Fixed
+754,Security audit: 2.7.6: fix 2 uncovered overlooked output sanitisation issues,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+755,"Security audit: 2.2.1: store all temporary, user-uploaded and php “include” files outside the document root",Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+756,Security audit 2.10.1: Require users to solve a CAPTCHA when they send many files,Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+757,Security audit: 2.11.3: Use the session_regenerate_id() function after switching to a SSL connection.,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+759,Security audit: 2.11.4: Set the secure flag on the session cookie using session_set_cookie_params().,Release 1.5,,,Deferred
+760,Security audit 2.11.2: Use the session_regenerate_id function when the user logs in to prevent session fixation.,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Deferred
+761,Security audit 2.11.5: Set the httponly flag on the session cookie using session_set_cookie_params().,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Deferred
+763,Security audit: 2.6.2: Add an access check to the admin page,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Deferred
+764,Security audit: 2.7.2: Change sanitizeFilename to filter out all bad characters,Release 1.5,,,Deferred
+765,remove logtime from database scripts,Release 1.5,,,Deferred
+766,"Security audit 2.7.6: prevent shoot-in-foot, harden more by also sanitising output not user-generated",Release 1.5,,,Deferred
+768,Add sessionid to log data table ,Release 1.5,,,Deferred
+779,Conduct 1.5-beta4 client-side workflow tests,Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+793,Download from My Files opens new browser tab,Release 1.5,,,Won't fix
+780,Define variables listed in language file (en_AU.php),Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,In Progress
+794,Add New Recipient email and expiry date fields do not reset upon cancel,Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+795,Loading Send File page in second tab logs off user,Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+796,Design and automate testing of administration interface,Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Deferred
+797,Add splitting long tables in to pages for all admin log tables,Release 1.5,,,Known issue
+816,Conduct 1.5-rc1 client-side workflow tests,Release 2.0 client-side testing plan,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+800,Update German language file,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+801,Update French language file,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+802,Update Slovenian language file,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+805,Unexpected behaviour when clicking on Send multiple times during upload,Release 1.5,,,Fixed
+806,Check logEntry() calls and add E_ERROR parameter where appropriate,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+807,Guest voucher is marked as used even when an upload error occurs,Release 1.5,,,Fixed
+808,Move AuthSaml->sAuth logging to logEntry mechanism,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+809,"""Invalid or missing email"" warning does not clear when cancelling Adding New Recipient",Release 1.5,,,Fixed
+811,Clicking on Send multiple times when adding new recipient issues multiples,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+812,Clicking on Send Voucher multiple times issues multiples,Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+822,Errors after pausing authenticated upload followed by pausing upload using voucher,Release 1.5,,,Deferred
+823,"In Chrome: Calendar visible in lower left-hand corner in all pages except admin, always",Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Fixed
+1026,Changes to admin.php,Archived: Release 2.0 prototype,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,New
+1124,Remove/obsolete client_specific_logging* settings from config/config-dist.php and classes/Log.php,Release 1.6,,,Known issue
+1123,Handling decomposed unicode in filenames,Release 1.6,,,Deferred
+1089,Directory statement in apache.conf template too broad,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1071,Clean up the sudo inconsistencies in the Debian installation doc,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+993,fs_multi_upload chunking chunks in fread(),Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Test
+1063,Update HELP text,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1220,Smoothening: different message for one time guest invite use and multi-use,Release 2.0-alpha,etiennemeleard,dgRDGuZ4ar478MacwqEsg8,New
+1061,AUP box clears after triggering too many recipient warning and refreshing page,Release 1.6,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Won't fix
+967,Further code refactoring,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Fixed
+482, postgresdateformat should be renamed to db_dateformat ,Release 1.5,,,Fixed
+1145,Crypto: make code in uploader.filesender.js 'resume' aware,end-to-end file encryption,Mark Dopey,dno-zMULOr44oJacwqjQXA,New
+477,Make config.php localizable,Release 1.5,,,Fixed
+970,E_ERROR: Error: [8] Undefined index: HTTP_HOST : includes/EnsureHTTPS.php [57],Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+1126,Crypto: download 'currently'/'momenteel' not possible,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Test
+933,Alternating My Files table row color breaks sometimes,Release 1.6,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+932,incorrect update on fileexpirydate and logdate in mysql init script,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+908,Config option site_downloadurl obsolete,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+940,Isolate 'Help' menu to Flash OR HTML5,Archived: Release 2.0 prototype,,,Invalid
+1107,Crypto: non encrypted upload gets flagged as encrypted,end-to-end file encryption,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,New
+897,Using $_REQUEST['PHPSESSID'] fails in certain settings,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+899,Terasender advanced settings localisation,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+898,Add sqlite support,Release 1.6,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+927,Upload files in parallel,Archived: Release 2.0 prototype,,,Deferred
+924,Investigate possibility of providing an experimental FileWriter implementation for downloads,Archived: Release 2.0 prototype,,,Deferred
+859,"""E_ERROR: No mapping for en-au found"" when no mapping for default language is found",Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Test
+922,Make all files selected by default on multidownload.php,Archived: Release 2.0 prototype,Vegard Polden,aTWq58rMCr4ysmacwqjQXA,Fixed
+837,No default style definitions for links in default.css,Release 1.5,,,Fixed
+917,Preventing duplicate entries in upload box,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Fixed
+827,IE9 mouse pointer keeps spinning after canceling an upload,Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,New
+46,multiple storage backend locations [xl],Suggested features,,,New
+237,typo: To install Flash Player got to Adobe.com.,Release 1.0,,,Fixed
+238,minor problems with the DoneLoading kludge,Release 1.0,,,Fixed
+283,Implement pause/resume for downloads,Suggested features,,,New
+287,Javascript/HTML5 upload chunk size to suit progress bar,Suggested features,,,Accepted
+332,Variable width of download window quirks,Release 1.0,,,Fixed
+343,JavaScript disabled warning ?,Release 1.0,,,Fixed
+367,QA: text in about.php (FileSender is ... of FileSender),Release 1.0,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+378,favicon.ico mishaps,Release 1.0,,,Fixed
+395,Canceling a Flash Voucher upload doesn't clear custom subject,Release 1.0,,,Invalid
+396,No confirmation asked when canceling Flash upload,Release 1.0,,,Fixed
+397,Inconsistent wrapping of Subject in My Files list,Release 1.0,,,Fixed
+475,Wrapping/layout of Administrator views,Release 1.5,,,Fixed
+476,My Files delete popup with long lists,Release 1.5,,,Fixed
+478,"Semi-hard coded $attributes[""eduPersonTargetedID""]",Release 1.5,,,Fixed
+479,Update copyright where necessary,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+487,Administrator General tab: % use not shown,Release 1.5,,,Fixed
+570,Check and adapt themefilesender simplesamlphp module for 1.5 compatibility,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+571,Style consistency in logout.php,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+577,Cosmetic & non-blocking: MyFiles table headers don't auto-size,Release 1.5,,,Deferred
+585,"Use of the ""back"" browser button gives SimpleSAMLphp error",Release 1.5,,,Deferred
+602,Download of file with double quote in filename breaks content-disposition header ,Bugs in version 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+617,Style sheet/screen building issues with Opera,Release 1.5,,,Known issue
+619,IE7 screen layout,Release 1.5,,,Fixed
+621,Uploads fail when using Suhosin plugin (PHP hardening) and IE8+,Third party bugs,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Known issue
+634,Daylight savings time issue with server side based maximum expiry date,Release 1.5,,,Deferred
+647,provide opt-in mechanism to notify of imminent file expiry,Suggested features,,,New
+674,Chrome 'choose file' input area overlaps other text areas in upload page,Release 1.5,,,Fixed
+714,Tab/Window titles change with IE9/Win7,Release 1.5,Wendy Mason,aNSALiyQSr3482eJe5cbCb,Invalid
+738,Review current recommended PHP settings in documentation and sample ini file,Release 1.5,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Fixed
+742,Use of alternating colors in MyFiles table,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+803,Update emailbouncehandler.php for 1.5,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+813,Remove dependency on php-gmp by simplifying IPv6 check,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+814,A normal Flash upload cancel generates E_ERROR (file NOT moved),Release 1.5,,,Deferred
+1302,Upload complete dialog should not auto-close,Release 2.0-alpha,Jan Meijer,dPS9kyuyur3zYrab7jnrAJ,Test
+817,Change upload button to DIV,Release 2.0-alpha,,,Fixed
+995,Remove duplicate Tsunami.php file,Archived: Release 2.0 prototype,Jack Kittridge,bIiF-SXuOr4ydAacwqjQWU,Fixed
+869,space between admins in $config['admin'] means second admin won't have admin access,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
+117,Allow voucher to be used multiple times,Suggested features,,,New
+122,allow to send emails S/MIME signed [L],Suggested features,,,New
+297,Terms of Service / AUP link: legal requirements,Suggested features,,,New
+469,Double download with Android,Release 1.5,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Deferred
+473,Assembla Support tickets test,Project infrastructure pre 2.0,,,Fixed
+743,Replace SURFnet logo with new one in banner,Bugs in version 1.1,Xander Jansen,bkpnJ4jEWr37jceJe5afGb,Fixed
