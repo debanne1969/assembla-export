@@ -1,0 +1,2070 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="yui3-js-enabled" lang="en"><head>
+      
+<link rel="stylesheet" href="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/icons.css" media="all"><script type="text/javascript" src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/9dfe439095"></script><script src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/nr-1044.js"></script><script src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/365.js" type="text/javascript" id="hs-analytics" data-loader="hs-scriptloader"></script><script src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/365_002.js" type="text/javascript" id="messages-365" data-loader="hs-scriptloader"></script><script async="" src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/qevents.txt"></script><script type="text/javascript" async="" src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/insight.js"></script><script async="" src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/uwt.js"></script><script src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/1654282474861963" async=""></script><script async="" src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/fbevents.js"></script><script type="text/javascript" async="" src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/js.js"></script><script type="text/javascript" async="" src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/filestack.js"></script><script type="text/javascript" async="" src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/analytics.js"></script><script type="text/javascript" async="" src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/conversion_async.js"></script><script type="text/javascript" async="" src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/analytics.js"></script><script async="" src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/gtm.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"9dfe439095","applicationID":"8763","transactionName":"Il9dRhNbCVtVQhgXQgBTVkFOQwxcWR9EDF0W","queueTime":1,"applicationTime":311,"agent":"","atts":"GhJGEFtPR0JDVUU7WwUSCRAFZDYOW0lCHUcTA0lrE1UHAFpeRSV4Q01O"}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XA4HUkVbDwUD"};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+
+    <meta name="application-name" content="“Assembla”/">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
+    <title>Browser-compatibility-matrix | FileSender Project | Assembla</title>
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://www.assembla.com/assets/favicon/apple-touch-icon-57x57-1e493c03db1fef5459f6a60c4ae9963b.png" sizes="57x57">
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://www.assembla.com/assets/favicon/apple-touch-icon-114x114-630895c99f0517f31d9f8dc093f8c459.png" sizes="114x114">
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://www.assembla.com/assets/favicon/apple-touch-icon-72x72-8656bddb70017b32843b9f997f5a4c53.png" sizes="72x72">
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://www.assembla.com/assets/favicon/apple-touch-icon-144x144-596c018ab630a6353ad63bd40153da4f.png" sizes="144x144">
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://www.assembla.com/assets/favicon/apple-touch-icon-120x120-c03e3a236a08b2b269c9ae03bdc562d2.png" sizes="120x120">
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://www.assembla.com/assets/favicon/apple-touch-icon-152x152-220a2de261695986b48809cd268ecd2f.png" sizes="152x152">
+    <link rel="icon" type="image/png" href="https://www.assembla.com/assets/favicon/favicon-32x32-b59ed5d1648b680d32c2a76988fd05e3.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.assembla.com/assets/favicon/favicon-16x16-81878073a82f7a8cb2c803bc920fc98f.png" sizes="16x16">
+
+      <script>
+    dataLayer = [];
+  </script>
+  <!--  Google Tag Manager  -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-M82252');</script>
+  <!--  End Google Tag Manager  -->
+
+    
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" media="all" href="https://www.assembla.com/assets/ie/ie8-6438791b62a2d8e15dbf626c3aeb15a6.css" />
+      <script src="https://www.assembla.com/assets/excanvas.mod-6278e522e3b68fc82e5cfa25047ab05c.js"></script>
+      <script src="https://www.assembla.com/assets/selectivizr-533600e76d8c76ced61971c02fedd48c.js"></script>
+    <![endif]-->
+
+    <!--[if lte IE 9]>
+      <link rel="stylesheet" media="all" href="https://www.assembla.com/assets/ie/ie9-0dd7ab6559228c90a321ccbe6e72a574.css" />
+    <![endif]-->
+
+    <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="GcR7pYLsW5QxTe+TqEGO104qB4Z395pGmxPeDXs466SS0h+43HQYcPIM2lU8JXPTKQjo7eRFD0RN1kx/iAHu0w==">
+
+    
+
+    <link rel="stylesheet" media="all" href="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/v4-83efd60cb0af60b3a5ee9be5cef31eb5.css">
+    
+    <link rel="stylesheet" media="all" href="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/v4-global-12ff0a35e9017728da943b190106485a.css">
+    <meta name="viewport" content="initial-scale=0.0">
+      <style type="text/css" media="all" rel="stylesheet" id="branded_css">
+        /* Default Flexible style */
+      </style>
+    
+    <link rel="stylesheet" media="print" href="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/print-38008b60ab5680082cd3aad919705e7f.css">
+
+    <!-- ICON Font CSS -->
+    <link rel="stylesheet" media="all" href="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/icons-807dc8becdebc6532228c461c3889552.css">
+
+    <script>/* grunticon Stylesheet Loader | https://github.com/filamentgroup/grunticon | (c) 2012 Scott Jehl, Filament Group, Inc. | MIT license. */
+
+window.grunticon=function(e){if(e&&3===e.length){var t=window,n=!(!t.document.createElementNS||!t.document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||window.opera&&-1===navigator.userAgent.indexOf("Chrome")),o=function(o){var a=t.document.createElement("link"),r=t.document.getElementsByTagName("script")[0];a.rel="stylesheet",a.href=e[o&&n?0:o?1:2],a.media="only x",r.parentNode.insertBefore(a,r),setTimeout(function(){a.media="all"})},a=new t.Image;a.onerror=function(){o(!1)},a.onload=function(){o(1===a.width&&1===a.height)},a.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="}};
+
+grunticon(["https://www.assembla.com/assets/svg/icons.data.svg-70d4e71af56b3890ab3ed27f12c01993.css","https://www.assembla.com/assets/svg/icons.data.png-48d2e1f24194e983f5f4fd43f230f3ca.css","https://www.assembla.com/assets/svg/icons.fallback-802787f6073b783f860c3201a78dc42d.css"]);
+</script>
+
+    <script type="text/javascript">
+  if (!Breakout) { var Breakout = {}; }
+      Breakout.space_wiki_name = "file_sender";
+      Breakout.space_id = "b516sOlY8r3PPQeJe5afGb";
+    Breakout.space_new_record = false;
+    Breakout.hasEditPermission = true;
+    Breakout.hasAllPermission = true;
+    Breakout.hasViewPermission = true;
+    Breakout.hasTicketTool = true;
+    Breakout.hasDocumentTool = true;
+    Breakout.user_id = "dPS9kyuyur3zYrab7jnrAJ";
+    Breakout.username = "Jan Meijer";
+    Breakout.userTimeZone = "+02:00";
+    Breakout.avatarUrl = "//gravatar.com/avatar/26e3c693e6214f1abd2bbeeb0034feea.png?s=35&d=https%3A%2F%2Fassets0.assembla.com%2Fassets%2Favatars%2Fsmall%2F5-0123c7bbf16ef8c49a3c581106f73a7e.png";
+    Breakout.profileUrl = "/user/popup_profile/meijer";
+    Breakout.controller_name = "spaces/wiki"
+    Breakout.action_name = "show"
+  Breakout.notifications_enabled = 'true';
+    Breakout.enableTrackers = true;
+  Breakout.alertsPopup = true;
+    Breakout.dropboxKey = 'gssgpyfjwg7czeb';
+
+  Breakout.rootUrl = "https://www.assembla.com/";
+  Breakout.clickTrackingUrl = "/tracking/click/:name";
+
+  Breakout.newPlansTableEnabled = true;
+  Breakout.instantUploadEnabled = true;
+
+  Breakout.promoCodesEnabled = false;
+
+  Breakout.ticketDetailsPage = false;
+  Breakout.captchaField = "g-recaptcha-response";
+  Breakout.captchaChallengeField = "";
+  Breakout.noBilling = false;
+
+
+</script>
+
+    
+    
+    
+
+    <script id="real-time-settings" type="application/json">{"scheme":"https","channels":{"ticket":"$spaceb516sOlY8r3PPQeJe5afGb-ticket:ticket_number","tickets":"$spaceb516sOlY8r3PPQeJe5afGb-tickets","notification_center":"$userdPS9kyuyur3zYrab7jnrAJ"},"connection":{"url":"rt.assembla.com:443","user":"dPS9kyuyur3zYrab7jnrAJ","timestamp":"1505178483","token":"c7c5ec95ae8d0534a3ba14e4202952d66feacaf28b84bb6cdde23e3d631422fb","info":"{\"id\":\"dPS9kyuyur3zYrab7jnrAJ\",\"name\":\"Jan Meijer\",\"image_url\":\"//gravatar.com/avatar/26e3c693e6214f1abd2bbeeb0034feea.png&d=https%3A%2F%2Fassets0.assembla.com%2Fassets%2Favatars%2Fbig%2F5-ef0cc1f0d29c96cbf4d8fded197c8fb3.png\",\"profile_url\":\"/user/popup_profile/meijer\"}","transports":["websocket"],"authEndpoint":"/api/realtime_auth"},"comment_bot":{"id":"comment-bot","name":"Assembla Bot","profile_url":""},"version":"1.0.0","is_enabled":true,"debug":false}</script>
+    
+    <script src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/base-bdd3efcaa02faaf001580d9eeb0be1da.js"></script>
+    <script src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/new_global-f06578c6292a312e1658e3848a65a7d6.js"></script>
+    <script src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/new_notification_center-3fb9092680b8e7a3721dd1da77f91ea0.js"></script>
+    <script src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/upload-812cdb5e03882e9b70a1f71821d41672.js"></script>
+
+    <script src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/wiki_tool_rich-d4a2806d992c549a89d3dd7a7c168fdf.js"></script><style>.cke{visibility:hidden;}</style>
+    
+    
+
+
+    <!--[if lte IE 9]>
+      <script src="https://www.assembla.com/assets/packages/lte_ie9-404daefdefd07b962f7a83d95d51f55a.js"></script>
+    <![endif]-->
+
+    <!-- prevents swf file caching -->
+    <meta http-equiv="PRAGMA" content="NO-CACHE">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    
+
+  <style type="text/css">.fp__btn{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline-block;height:34px;padding:4px 30px 5px 40px;position:relative;margin-bottom:0;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;font-family:"Open Sans", sans-serif;font-size:12px;font-weight:600;line-height:1.42857143;color:#fff;text-align:center;white-space:nowrap;background:#ef4925;background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAYAAABLy77vAAAABGdBTUEAALGPC/xhBQAAAJRJREFUOBHNUcEWgCAIy14fbl9egK5MRarHQS7ocANmOCgWh1gdNERig1CgwPlLxkZuE80ndHlU+4Lda1zz0m01dSKtcz0h7qpQb7WR+HyrqRPxahzwwMqqkEVs6qnv+86NQAbcJlK/X+vMeMe7XcBOYaRzcbItUR7/8QgcykmElQrQPErnmxNxl2yyiwcgEvQUocIJaE6yERwqXDIAAAAASUVORK5CYII=");background-repeat:no-repeat;background-position:15px 6px;border:1px solid transparent;border-radius:17px}.fp__btn:hover{background-color:#d64533}.fp__btn::after{position:absolute;content:"";top:15px;right:14px;width:7px;height:4px;background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAICAYAAAA1BOUGAAAABGdBTUEAALGPC/xhBQAAAGlJREFUCB1j/P//vw4DA4MiEKOD+0xAkatA/AJNBsS/ysTIyPgfyDgHxO+hCkD0Oag4RAhoPDsQm4NoqCIGBiBnAhBjAxNAkkxAvBZNFsQHuQesmxPIOQZVAKI54UZDFYgABbcBsQhMAgDIVGYSqZsn6wAAAABJRU5ErkJggg==");}.fp__btn:hover::after{background-position:0 -4px;}.fp__btn:active,.fp__btn:focus{outline:none}@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2){.fp__btn{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAqCAYAAADbCvnoAAAABGdBTUEAALGPC/xhBQAAAQFJREFUWAntWEESwjAIbBwfHl+upNoRNjKUJhk5kIvZQGG7bHOwPGltgdYtEJedShKyJnLHhEILz1Zi9HCOzFI7FUqFLAWseDgPdfeQ9QZ4b1j53nstnEJJyBqx20NeT1gEMB5uZG6Fzn5lV5UMp1ASQhMjdnvoqjewsYbDjcytEH5lsxULp1AS0sx8nJfVnjganf3NkVlKhVPIfQ9Zb6jF0atK3mNriXwpicPHvIeyr3sTDA53VgpgH8BvMu1ZCCz7ew/7MPwlE4CQJPNnQj2ZX4SYlEPbVpsvKFZ5TOwhcRoUTQiwwhVjArPEqVvRhMCneMXzDk9lwYphIwrZZOihF32oehMAa1qSAAAAAElFTkSuQmCC");background-size:18px 21px}.fp__btn::after{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAAABGdBTUEAALGPC/xhBQAAANpJREFUKBWVkU8KglAYxJ/u3HuBwmUX8BqepKN4ka4RguDOVYu2QVCrhIJ6/caekqLiGxi+PzPD58PAWrszxmygD84h7hpePFLy1mEQBJamgvcVYXkqZXTR0LwpJWw0z0Ba6bymDcrI4kkp4EvzCNoVztNKfVATwoOiyx/NDup1SVqPQVBbDDeK3txBb9JuHfhNW3HWjZhDX+SGRAgPHkl5f0+kieBxRVieaPD5LGJ4WghLiwehbkBI4HUirF3S+SYrhhQ2f2H16aR5vMSYwbdjNtYXZ0J7cc70BXnFMHIGznzEAAAAAElFTkSuQmCC");background-size:7px 8px;}}</style><script type="application/javascript" src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/768.js"></script></head>
+
+  <body class="locale_en new-profile-page" data-locale="en"><ul class="messenger-empty messenger messenger-fixed messenger-on-bottom messenger-on-right messenger-theme-flat"></ul>
+      <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M82252" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+    
+
+    <div class="outer ">
+      <!--[if IE 6]>
+        <div class="browser-ie6" style="display: none;"><div>
+      <![endif]-->
+      <div class="b-wrapper ">
+        <a name="pagetop"></a>
+
+        <div style="display:none">
+          <a href="#content">Skip to contents</a>
+        </div>
+
+
+        
+          
+
+
+<div class="navigation-wrapper">
+  <div class="navigation nav-dropdowns nav-affixed nav-visible" data-mobile-ready="false">
+    <div>
+      <div class="nav-right float-right">
+    <div class="nav-user-details nav-right-item">
+      <div class="nav-user-options js-nav-content nav-content clearfix" id="user-options">
+
+        <div class="user-profile float-left" data-popup-header="user-popup" data-actions="click mouseenter">
+            <a href="#">
+              <span class="nav-user-pic float-left"><img alt="User picture" src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/26e3c693e6214f1abd2bbeeb0034feea.jpg"></span>
+              <span aria-hidden="true" data-icon="" class="iconSize--s nav-more user-dropdown-icon hidden-s"></span>
+            </a>
+        </div>
+
+        <div id="nav-user-links" class="nav-dropdown" data-popup-box="user-popup" data-popup-position="right">
+          <div class="triangle" style="margin-left: -20px;"></div>
+          <div class="nav-dropdown-list">
+            <ul>
+              <li><a href="https://www.assembla.com/">My Home</a></li>
+              <li><a href="https://app.assembla.com/user/edit">Profile</a></li>
+                  <li><a href="https://app.assembla.com/user/edit/account">Account</a></li>
+                <li><a target="_blank" href="http://status.assembla.com/">System Status</a></li>
+                <li><a href="https://app.assembla.com/logout">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-user-notification nav-right-item">
+        
+<div id="notificationCenterContainer"><div data-reactroot=""><div class="nav-user-notification-area"><div class="nav-notification-badge"><a href="javascript:%20void(0);" class="notifications-count notifications-red u-mention--hl">4</a></div></div><div class="notificationsDropdown"><div class="triangle notification-triangle" style="right: 73.3333px;"></div><div class="notificationsDropdown-container"><div class="notificationsDropdown-header clearfix"><a href="https://app.assembla.com/user/mentions">View all mentions</a><a class="notRecent" target="_blank" href="https://changelog.assembla.com/">View Product Updates &amp; Roadmap</a><a href="javascript:%20void(0);" class="right">Mark all as read</a></div><ul class="notificationsDropdown-list clearfix"><li class="clearfix notificationsDropdown-oneLink"><a href="http://assembla.com/user/notifications?id=12349693"><div class="notificationsDropdown-wrapper"><span aria-hidden="true" data-icon="" class="s-icon s-icon-close notificationsDropdown-alert"></span><span class="notificationsDropdown-description"><span class="notificationsDropdown-title">You owe $22.1 for subscriptions. Please pay here.</span></span><span class="notificationsDropdown-meta"><p class="notificationsDropdown-metadata"><!-- react-text: 22 -->&nbsp;<!-- /react-text --><time datetime="2015-12-28 02:34:19">2 years ago</time><!-- react-text: 24 -->&nbsp;<!-- /react-text --></p></span></div></a><span class="notificationsDropdown-readToggle cursor-pointer" title="Mark as read" aria-hidden="true"></span></li><li class="clearfix notificationsDropdown-oneLink"><a href="http://assembla.com/user/notifications?id=12347823"><div class="notificationsDropdown-wrapper"><span aria-hidden="true" data-icon="" class="s-icon s-icon-close notificationsDropdown-alert"></span><span class="notificationsDropdown-description"><span class="notificationsDropdown-title">You owe $22.1 for subscriptions. Please pay here.</span></span><span class="notificationsDropdown-meta"><p class="notificationsDropdown-metadata"><!-- react-text: 34 -->&nbsp;<!-- /react-text --><time datetime="2015-12-27 02:34:28">2 years ago</time><!-- react-text: 36 -->&nbsp;<!-- /react-text --></p></span></div></a><span class="notificationsDropdown-readToggle cursor-pointer" title="Mark as read" aria-hidden="true"></span></li><li class="clearfix notificationsDropdown-oneLink"><a href="http://assembla.com/user/notifications?id=12346353"><div class="notificationsDropdown-wrapper"><span aria-hidden="true" data-icon="" class="s-icon s-icon-close notificationsDropdown-alert"></span><span class="notificationsDropdown-description"><span class="notificationsDropdown-title">You owe $22.1 for subscriptions. Please pay here.</span></span><span class="notificationsDropdown-meta"><p class="notificationsDropdown-metadata"><!-- react-text: 46 -->&nbsp;<!-- /react-text --><time datetime="2015-12-26 02:34:54">2 years ago</time><!-- react-text: 48 -->&nbsp;<!-- /react-text --></p></span></div></a><span class="notificationsDropdown-readToggle cursor-pointer" title="Mark as read" aria-hidden="true"></span></li><li class="clearfix notificationsDropdown-oneLink"><a href="http://assembla.com/user/notifications?id=12320443"><div class="notificationsDropdown-wrapper"><span aria-hidden="true" data-icon="" class="s-icon s-icon-close notificationsDropdown-alert"></span><span class="notificationsDropdown-description"><span class="notificationsDropdown-title">You owe $22.1 for subscriptions. Please pay here.</span></span><span class="notificationsDropdown-meta"><p class="notificationsDropdown-metadata"><!-- react-text: 58 -->&nbsp;<!-- /react-text --><time datetime="2015-12-20 02:35:10">2 years ago</time><!-- react-text: 60 -->&nbsp;<!-- /react-text --></p></span></div></a><span class="notificationsDropdown-readToggle cursor-pointer" title="Mark as read" aria-hidden="true"></span></li></ul></div></div></div></div>
+
+    </div>
+
+      <div class="nav-search nav-right-item">
+            <script type="application/json" id="quick-search-setup">{"urls":{"quick_search":"/spaces/file_sender/quick_search","quick_search_meta":"/spaces/file_sender/quick_search/meta","search":"/spaces/file_sender/search","saved_search":"/spaces/file_sender/quick_search","destroy_saved_search":"/spaces/file_sender/quick_search/:id"},"space_tool_id":null,"context_name":"Search in space","object_scope":"all"}</script>
+    <div id="quick-search-form"><div data-reactroot=""><div class="nav-search nav-right-item"><span aria-hidden="true" data-icon="" class="iconSize--s nav-more visible-m"></span></div></div></div>
+
+      </div>
+
+      <div class="js-nav-content nav-content">
+        <div class="nav-plus nav-right-item" data-popup-header="add-resource-popup" data-actions="click mouseenter">
+          <span aria-hidden="true" data-icon="" class="iconSize--s nav-more"></span>
+        </div>
+        <div class="plus-button-tooltip-wrapper">
+          <div class="js-plus-button-tooltip plus-button-tooltip">
+            <span aria-hidden="true" data-icon="" class="js-plus-button-tooltip-close iconSize--s plus-button-tooltip-close"></span>
+            Use PlusButton to quickly create new tickets, messages, invite members and clients and add repositories.
+          </div>
+        </div>
+        <div class="nav-icon-dropdown" data-popup-box="add-resource-popup" data-popup-position="right">
+          <div class="triangle" style="margin-left: -4px;"></div>
+          <div class="nav-dropdown-list" style="">
+            <ul>
+                <li class="nav-icon-dropdown-item">
+                    <a class="icon-colour-b-2" href="https://app.assembla.com/spaces/file_sender/tickets/new?dropdown_menu=1">
+                      <span aria-hidden="true" data-icon="" class="iconSize--m"></span>
+                      <span>New Ticket</span>
+</a>                </li>
+                <li class="nav-icon-dropdown-item">
+                    <a class="icon-colour-b-7" href="https://app.assembla.com/spaces/file_sender/team?dropdown_menu=2">
+                      <span aria-hidden="true" data-icon="" class="iconSize--m"></span>
+                      <span>Add Team Members</span>
+</a>                </li>
+                <li class="nav-icon-dropdown-item">
+                    <a class="icon-colour-b-4" href="https://app.assembla.com/spaces/file_sender/wiki/new?dropdown_menu=3">
+                      <span aria-hidden="true" data-icon="" class="iconSize--m"></span>
+                      <span>New Wiki Page</span>
+</a>                </li>
+                <li class="nav-icon-dropdown-item">
+                    <a class="icon-colour-b-14" rel="nofollow" data-method="post" href="https://app.assembla.com/spaces/file_sender/tools?redirect_to_repo=true&amp;tool_id=12">
+                      <span aria-hidden="true" data-icon="" class="iconSize--m"></span>
+                      <span>Add SVN Repo</span>
+</a>                </li>
+                <li class="nav-icon-dropdown-item">
+                    <a class="icon-colour-b-14" rel="nofollow" data-method="post" href="https://app.assembla.com/spaces/file_sender/tools?redirect_to_repo=true&amp;tool_id=128">
+                      <span aria-hidden="true" data-icon="" class="iconSize--m"></span>
+                      <span>Add Git Repo</span>
+</a>                </li>
+                <li class="nav-icon-dropdown-item">
+                      <a id="perforce_modal_open" href="javascript:%20void(0);">
+    <span aria-hidden="true" data-icon="" class="iconSize--m"></span>
+    <span>P4</span>
+</a>
+                </li>
+                <li class="nav-icon-dropdown-item">
+                    <a class="icon-colour-b-1 js-modal-addspace" href="#">
+                      <span aria-hidden="true" data-icon="" class="iconSize--m"></span>
+                      <span>New Space</span>
+</a>                </li>
+            </ul>
+          </div>
+        </div>
+        <div class="plus-button-repo-dropdown"></div>
+      </div> <!-- end nav content -->
+        <div class="u-modal-wrapper is-hidden" id="perforce_info_modal">
+  <div class="u-modal u-modal-perforce-wrapper" id="perforce_info_modal_layer">
+    <span class="u-modal-perforce-title">Please contact us</span>
+    <div class="u-modal-perforce-message">
+      To add Perforce repos to your account, call 844.332.5080 and select option 1 or email sales@assembla.com
+    </div>
+    <div>
+      <a href="mailto:sales@assembla.com?subject=Please%20add%20Perforce%20repo%20to%20my%20account&amp;body=Hello%20Assembla%21" class="u-modal-perforce-positive-button">Send email now</a>
+      <a class="u-modal-perforce-negative-button" id="perforce_modal_close">Cancel</a>
+    </div>
+  </div>
+</div>
+
+</div>
+
+      <div class="nav-left float-left ">
+  <div class="nav-left-wrap clearfix">
+    <div class="nav-content nav-home">
+      <span class="nav-item hidden-sd">
+        <a href="https://assembla.com/start">
+            <img src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/ctlv34CzOr5ykFacwqEsg8.png">
+</a>      </span>
+    </div>
+
+    <div class="js-nav-content nav-content nav-spaces">
+      <span class="nav-separator hidden-sd"></span>
+      <span class="nav-item with-dropdown" data-popup-header="spaces-main-list-popup" data-actions="click mouseenter" data-popup-xsd-disabled="true" data-mobile-sidebar="spaces-main-list-sidebar">
+
+        <span aria-hidden="true" data-icon="" class="iconSize--m nav-more ico-hamburger visible-sd"></span>
+          <span aria-hidden="true" data-icon="" class="iconSize--s nav-more hidden-sd"></span>
+        <span class="hidden-s"><a href="https://www.assembla.com/">My Home</a></span>
+        <a title="FileSender" class="visible-s" href="https://www.assembla.com/spaces/show/file_sender">FileSender</a>
+      </span>
+
+        <div class="nav-dropdown nav-dropdown-spaces" data-popup-box="spaces-main-list-popup" data-popup-position="left">
+    <div class="triangle"></div>
+    <div class="nav-dropdown-list tmp-track-main-list">
+      <div style="width: calc(100% + 20px);"><dl class="spaces-list-column"><dd class="current-space"><a href="https://www.assembla.com/spaces/show/file_sender">FileSender</a></dd><dd class=""><a href="https://www.assembla.com/spaces/show/filesender2_proto">filesender2_proto</a></dd></dl></div>
+    </div>
+  </div>
+
+    </div>
+
+      <div class=" nav-content nav-spaces hidden-s">
+        <span class="nav-separator hidden-s"></span>
+        <span class="nav-item"><a title="FileSender" class="" href="https://www.assembla.com/spaces/show/file_sender">FileSender</a></span>
+
+        
+      </div>
+
+      <!-- Child Space -->
+
+      <div class="nav-content nav-tools">
+        <span class="nav-separator"></span>
+          <span class="nav-item readonly"><span class="iconSize--s hidden-sd nav-more" aria-hidden="true" data-icon=""></span><a class="nav-text" title="Wiki" href="https://app.assembla.com/spaces/file_sender/wiki">Wiki</a><div id="nav-tools-triangle" class="submenu-triangle" style="display: none;"></div></span><span class="nav-item lesser-nav-item hidden-n"><a class="quick-access-tool" title="Tickets" href="https://app.assembla.com/spaces/file_sender/tickets/realtime_cardwall">Tickets</a></span><span class="nav-item lesser-nav-item hidden-n"><a class="quick-access-tool" title="SVN" href="https://app.assembla.com/spaces/file_sender/subversion/source">SVN</a></span><span class="nav-item lesser-nav-item hidden-n"><a class="quick-access-tool" title="Files" href="https://app.assembla.com/spaces/file_sender/documents">Files</a></span><span class="nav-item lesser-nav-item hidden-n"><a class="quick-access-tool" title="Team" href="https://app.assembla.com/spaces/file_sender/team">Team</a></span><span class="nav-item lesser-nav-item hidden-n"><a class="quick-access-tool" title="Stream" href="https://app.assembla.com/spaces/file_sender/stream">Stream</a></span><span class="nav-item lesser-nav-item hidden-n"><a class="quick-access-tool" title="Admin" href="https://app.assembla.com/spaces/file_sender/admin/index">Admin</a></span><span class="nav-item lesser-nav-item hidden-n"><a class="quick-access-tool" title="Integrations" href="https://app.assembla.com/spaces/file_sender/integrations">Integrations</a></span>
+          <!-- Really small vanilla JS to render quick access faster -->
+          <script src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/new_navigation_quick_access-df06c935aa33f02528aeb39c0a489653.js"></script>
+        <div class="js-nav-content">
+          <span class="nav-item nav-icon-item with-dropdown" data-popup-header="sections-popup" data-actions="click mouseenter" data-popup-xsd-disabled="true">
+            <span aria-hidden="true" data-icon="" class="iconSize--s nav-more"></span>
+              <a class="hidden-n" href="#">...</a>
+          </span>
+
+          <div class="nav-icon-dropdown " data-popup-box="sections-popup">
+            <div class="triangle" style="margin-left: 18px;"></div>
+            <div class="nav-dropdown-list tmp-track-sections-popup">
+              <ul>
+                  <li class="nav-icon-dropdown-item active">
+                    <a class="icon-colour-b-4" title="Wiki" href="https://app.assembla.com/spaces/file_sender/wiki"><span class="iconSize--m" aria-hidden="true" data-icon=""></span><span>Wiki</span></a>
+                  </li>
+                  <li class="nav-icon-dropdown-item ">
+                    <a class="icon-colour-b-2" title="Tickets" href="https://app.assembla.com/spaces/file_sender/tickets/realtime_cardwall"><span class="iconSize--m" aria-hidden="true" data-icon=""></span><span>Tickets</span></a>
+                  </li>
+                  <li class="nav-icon-dropdown-item ">
+                    <a class="icon-colour-b-14" title="SVN" href="https://app.assembla.com/spaces/file_sender/subversion/source"><span class="iconSize--m" aria-hidden="true" data-icon=""></span><span>SVN</span></a>
+                  </li>
+                  <li class="nav-icon-dropdown-item ">
+                    <a class="icon-colour-b-9" title="Files" href="https://app.assembla.com/spaces/file_sender/documents"><span class="iconSize--m" aria-hidden="true" data-icon=""></span><span>Files</span></a>
+                  </li>
+                  <li class="nav-icon-dropdown-item ">
+                    <a class="icon-colour-b-7" title="Team" href="https://app.assembla.com/spaces/file_sender/team"><span class="iconSize--m" aria-hidden="true" data-icon=""></span><span>Team</span></a>
+                  </li>
+                  <li class="nav-icon-dropdown-item ">
+                    <a class="icon-colour-b-6" title="Stream" href="https://app.assembla.com/spaces/file_sender/stream"><span class="iconSize--m" aria-hidden="true" data-icon=""></span><span>Stream</span></a>
+                  </li>
+                  <li class="nav-icon-dropdown-item ">
+                    <a class="icon-colour-b-13" title="Admin" href="https://app.assembla.com/spaces/file_sender/admin/index"><span class="iconSize--m" aria-hidden="true" data-icon=""></span><span>Admin</span></a>
+                  </li>
+                  <li class="nav-icon-dropdown-item ">
+                    <a class="icon-colour-b-13" title="Integrations" href="https://app.assembla.com/spaces/file_sender/integrations"><span class="iconSize--m" aria-hidden="true" data-icon=""></span><span>Integrations</span></a>
+                  </li>
+              </ul>
+            </div> <!-- end dropdown list -->
+          </div> <!-- end nav-icon-dropdown -->
+        </div>
+      </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+  <div id="spaces-main-list-sidebar" class="hamburger-menu visible-sd" data-mobile-sidebar="spaces-main-list-sidebar">
+  <div class="menu-sidebar">
+      <ul class="nav-icon-dropdown">
+        <li class="nav-icon-dropdown-item">
+          <a class="icon-colour-a-1" href="https://assembla.com/start">
+            <span aria-hidden="true" data-icon="" class="iconSize--s nav-more"></span><span>Go Home</span>
+</a>        </li>
+      </ul>
+      <div class="nav-header">Space Tools</div>
+      <ul class="nav-icon-dropdown">
+          <li class="nav-icon-dropdown-item active">
+            <a class="icon-colour-b-4" title="Wiki" href="https://app.assembla.com/spaces/file_sender/wiki"><span class="iconSize--m" aria-hidden="true" data-icon=""></span><span>Wiki</span></a>
+          </li>
+          <li class="nav-icon-dropdown-item ">
+            <a class="icon-colour-b-2" title="Tickets" href="https://app.assembla.com/spaces/file_sender/tickets/realtime_cardwall"><span class="iconSize--m" aria-hidden="true" data-icon=""></span><span>Tickets</span></a>
+          </li>
+          <li class="nav-icon-dropdown-item ">
+            <a class="icon-colour-b-14" title="SVN" href="https://app.assembla.com/spaces/file_sender/subversion/source"><span class="iconSize--m" aria-hidden="true" data-icon=""></span><span>SVN</span></a>
+          </li>
+          <li class="nav-icon-dropdown-item ">
+            <a class="icon-colour-b-9" title="Files" href="https://app.assembla.com/spaces/file_sender/documents"><span class="iconSize--m" aria-hidden="true" data-icon=""></span><span>Files</span></a>
+          </li>
+          <li class="nav-icon-dropdown-item ">
+            <a class="icon-colour-b-7" title="Team" href="https://app.assembla.com/spaces/file_sender/team"><span class="iconSize--m" aria-hidden="true" data-icon=""></span><span>Team</span></a>
+          </li>
+          <li class="nav-icon-dropdown-item ">
+            <a class="icon-colour-b-6" title="Stream" href="https://app.assembla.com/spaces/file_sender/stream"><span class="iconSize--m" aria-hidden="true" data-icon=""></span><span>Stream</span></a>
+          </li>
+          <li class="nav-icon-dropdown-item ">
+            <a class="icon-colour-b-13" title="Admin" href="https://app.assembla.com/spaces/file_sender/admin/index"><span class="iconSize--m" aria-hidden="true" data-icon=""></span><span>Admin</span></a>
+          </li>
+          <li class="nav-icon-dropdown-item ">
+            <a class="icon-colour-b-13" title="Integrations" href="https://app.assembla.com/spaces/file_sender/integrations"><span class="iconSize--m" aria-hidden="true" data-icon=""></span><span>Integrations</span></a>
+          </li>
+      </ul>
+
+  </div>
+  <div class="layer"></div>
+</div>
+
+  
+</div>
+
+
+  <div id="header-w">
+    <div id="header" class="_">
+      <div id="header-links">
+        <div class="top-space">
+          <span id="space-role">Free/Public Project<span class="ml-5">Owner</span></span>
+        </div>
+      </div>
+      <div id="logo">
+        <div id="space-customlogo" class="space-customlogo-sideborder">
+          <h1 class="header-w clear-float float-left">
+              <img alt="" src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/ctlv34CzOr5ykFacwqEsg8.png">
+
+            <span>FileSender</span>
+
+          </h1>
+          
+        </div>
+      </div>
+
+      <div class="cut">&nbsp;</div>
+
+    </div><!-- /header -->
+  </div><!-- /header-w -->
+
+        
+      <ul class="menu-submenu u-cf"><li new-wiki-page=""><a class="first" id="new-wiki-page" href="https://app.assembla.com/spaces/file_sender/wiki/new"><span class="s-icon s-icon-add"></span> New Page</a></li><li><a class="" href="https://app.assembla.com/spaces/file_sender/wiki?option=public">Public</a></li><li><a class="" href="https://app.assembla.com/spaces/file_sender/wiki?option=private">Private</a></li><li><a class="" href="https://app.assembla.com/spaces/file_sender/wiki?option=archived">Archived</a></li><li><a class="" href="https://app.assembla.com/spaces/file_sender/wiki/settings">Settings</a></li><li><a class=" last" href="https://support.assembla.com/hc/en-us/articles/226056868-Wiki-tool-user-guide">Help</a></li><div id="actions-container" class="float-right"><div data-reactroot="" class="float-right"><li><a href="https://app.assembla.com/spaces/file_sender/wiki/Browser-compatibility-matrix/history" title="See page versions"><!-- react-text: 4 -->Page history<!-- /react-text --></a></li><li><a href="https://app.assembla.com/spaces/file_sender/wiki/Browser-compatibility-matrix?mode=edit" title="Edit wiki pages"><!-- react-text: 7 -->Edit page<!-- /react-text --></a></li><li><a class="link--negative" href="https://app.assembla.com/spaces/file_sender/wiki/Browser-compatibility-matrix" title="Delete page"><!-- react-text: 10 -->Delete<!-- /react-text --></a></li><div class="u-modal-wrapper is-hidden"><div class="u-modal pa-m"><div><div class="mb-l">Are you sure you want to delete this page ?</div><div class="u-cf float-right"><a class="btn--m btn--simple">Cancel</a><a class="btn--m btn--positive" data-method="delete" href="https://app.assembla.com/spaces/file_sender/wiki/Browser-compatibility-matrix">Confirm</a></div></div></div></div></div></div></ul><div class="cut"></div>
+
+        
+
+        <div id="content" class="wiki-tool">
+          
+          
+          
+
+          
+
+<section class="plr-m ptb-sm u-cf">
+  <div class="u-row mnlr-m">
+    
+
+
+  <div class="show-wiki-pages width-20--vp-xl width-25 width-33--vp-n width-100--vp-s fs-s lh-xs plr-m">
+    <a id="show-wiki-pages" class="td-noneAll fs-xs lh-l fw-6 ta-center mb-s display-none btn--light display-block--vp-s">Show wiki pages</a>
+    <div id="wiki-pages-list" class="u-cf mb-l manage-wiki-list display-none--vp-s">
+        <div class="tree-links">
+          <a href="#" '="" onclick="treeObj.collapseAll()">Collapse All</a> |
+          <a href="#" onclick="treeObj.expandAll()">Expand All</a>
+        </div>
+      <ul id="wiki-page-tree" class="system-link content-links">
+          
+          
+          <li id="b53ehYlY8r3PPQeJe5afGb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Home" id="nodeATag53835">Home</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="b9Tzb8fvGr4QbqacwqjQXA" nodrag="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Archived" id="nodeATag984">Archived</a></div>
+            
+          
+        
+            <ul id="tree_ul_0">
+          <li id="absv9miear34NleJe5aVNr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Historical_ref_FileSender_Google_Gears_and_HTML5" id="nodeATag9345">Historical ref FileSender Google Gears and HTML5</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="cwTWjKkdir4kVdeJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Features_v1-0" id="nodeATag45">Features v1-0</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dBC_ZMkder4iWJeJe5cbLr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Requirements_for_v1-0" id="nodeATag45">Requirements for v1-0</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="b07lNik4Wr4iFneJe5cbLr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Known_issues_in_v1-0" id="nodeATag07445">Known issues in v1-0</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bqt14qhIKr4kBXeJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/End_User_Documentation_for_v1-0" id="nodeATag1445">End User Documentation for v1-0</a></div>
+            
+          
+        
+            
+          </li>
+        </ul>
+          </li>
+        
+          <li id="am4edMhVOr4iRSeJe5cbLA" nodrag="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Acknowledgements" id="nodeATag445">Acknowledgements</a></div>
+            
+          
+        
+            <ul id="tree_ul_1">
+          <li id="bdI5UmqUyr469dacwqjQXA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Acknowledgements_for_v1-6" id="nodeATag5469">Acknowledgements for v1-6</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="a15kbcwKir4P02acwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Acknowledgements_for_v1-5" id="nodeATag154028">Acknowledgements for v1-5</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bbb71wwLSr4QwyacwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Acknowledgements_for_v1-0" id="nodeATag7148">Acknowledgements for v1-0</a></div>
+            
+          
+        
+            
+          </li>
+        </ul>
+          </li>
+        
+          <li id="axFut0DXOr4imveJe5cbLA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Blog_and_News" id="nodeATag045">Blog and News</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="aWXW44t8mr5iotdmr6bg7m" nodrag="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Documentation_v2-0-alpha" id="nodeATag448567">Documentation v2-0-alpha</a></div>
+            
+          
+        
+            <ul id="tree_ul_2">
+          <li id="d833nUxnir44kDacwqjQXA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Installation_-_Linux_Source_2-0-Alpha-from-git" id="nodeATag83344">Installation - Linux Source 2-0-Alpha-from-git</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="c2zoKmt7Kr5krvacwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Development_upgrade_notes_to_2-0" id="nodeATag2758">Development upgrade notes to 2-0</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="chCMVuxh0r5yGYacwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Admin_-_Configuration_directives_v2-0" id="nodeATag058">Admin - Configuration directives v2-0</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bdpTr-xiqr5lrCacwqjQWU" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Admin_-_Reference_guide_v2-0" id="nodeATag5">Admin - Reference guide v2-0</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="c4B_6UNaWr5ioTacwqjQYw" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/RESTful_API_v2-0" id="nodeATag465">RESTful API v2-0</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="cjAT5cwVqr5BNcdmr6bg7m" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Language_handling_and_localisation_reference_v2-0" id="nodeATag5567">Language handling and localisation reference v2-0</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="d7Xzpa-aOr5yk7dmr6CpXy" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Detailed_feature_list_v2-0" id="nodeATag7576">Detailed feature list v2-0</a></div>
+            
+          
+        
+            
+          </li>
+        </ul>
+          </li>
+        
+          <li id="aajy3-OAOr4OoGacwqEsg8" nodrag="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Documentation_v1-6" id="nodeATag348">Documentation v1-6</a></div>
+            
+          
+        
+            <ul id="tree_ul_3">
+          <li id="ceNckwqUar44kxacwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Features" id="nodeATag448">Features</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dZYJuuOBGr4QbFacwqjQXA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Upgrade_notes" id="nodeATag4">Upgrade notes</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="ap0EsqqUer44oUacwqjQXA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Known_issues" id="nodeATag044">Known issues</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dNJAaaqUar44knacwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Requirements" id="nodeATag448">Requirements</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="b2Ibu0OAOr4OoGacwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Administrator_reference_manual" id="nodeATag2048">Administrator reference manual</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bVR5vYqT4r44o2acwqjQYw" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Installation_-_Linux_Source" id="nodeATag54442">Installation - Linux Source</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="aWpaWGI1Or37wgeJe5cbLA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Installation_-_Debian_Ubuntu" id="nodeATag1375">Installation - Debian Ubuntu</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dIKmZiTPyr355jeJe5cbLr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Installation_-_RPM" id="nodeATag3555">Installation - RPM</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="a2igGCqByr4l02eJe5cbLA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Mail_Bounce_Handling" id="nodeATag24025">Mail Bounce Handling</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="akxjR2gX8r4krceJe5cbLr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Configuring_SRS_with_Exim_%28Debian_and_Ubuntu%29" id="nodeATag2845">Configuring SRS with Exim (Debian and Ubuntu)</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dVFwNyjhCr4joqeJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Setting_up_usage_statistics" id="nodeATag45">Setting up usage statistics</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dweVsUmcSr35jheJe5afGb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/FAQ" id="nodeATag355">FAQ</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="brL0GyeVur5j47dmr6bg7m" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/End_User_Documentation_for_v1-6" id="nodeATag054767">End User Documentation for v1-6</a></div>
+            
+          
+        
+            
+          </li>
+        </ul>
+          </li>
+        
+          <li id="aMbC9-SZ4r3PYIeJe5afGb" nodrag="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Documentation_v1-5" id="nodeATag9435">Documentation v1-5</a></div>
+            
+          
+        
+            <ul id="tree_ul_4">
+          <li id="bVgOwOnxOr4ReracwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Features_1-5" id="nodeATag48">Features 1-5</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="ddjGS8xaCr4PwYacwqjQYw" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Upgrade_notes_to_1-5" id="nodeATag84">Upgrade notes to 1-5</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dG-eSYwMar4PU4acwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Known_issues_1-5" id="nodeATag448">Known issues 1-5</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="b61wu6nxqr4RRCacwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Requirements_1-5" id="nodeATag61648">Requirements 1-5</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="cx0ZoSUwSr3O6meJe5afGb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Administrator_reference_manual_1-5" id="nodeATag0365">Administrator reference manual 1-5</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="c37z3cBq4r4BJXacwqjQXA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Installation_-_Linux_Source_1-5" id="nodeATag37344">Installation - Linux Source 1-5</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bV5ouqhL4r4QEzacwqjQWU" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/End_User_Documentation_for_v1-5" id="nodeATag544">End User Documentation for v1-5</a></div>
+            
+          
+        
+            
+          </li>
+        </ul>
+          </li>
+        
+          <li id="cAGd38wNer4PcbacwqEsg8" nodrag="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Documentation_v1-1" id="nodeATag3848">Documentation v1-1</a></div>
+            
+          
+        
+            <ul id="tree_ul_5">
+          <li id="c0DUVEwMWr4PyzacwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Administrator_reference_manual_-_v1-1" id="nodeATag048">Administrator reference manual - v1-1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="detVci_D4r4iDaacwqjQYw" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/End_User_Documentation_for_v1-1" id="nodeATag44">End User Documentation for v1-1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bvKUBGb8ar4BwHacwqjQWU" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Features_v1-1" id="nodeATag84">Features v1-1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="cPiS02Rhyr3OPceJe5aVNr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Installation_-_Linux_Source_-_v1-1" id="nodeATag0235">Installation - Linux Source - v1-1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="a21Cnkiymr4ls0eJe5cbLr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Upgrade_notes_up_to_v1-1-1" id="nodeATag21405">Upgrade notes up to v1-1-1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="c-yAOy_Ayr4iDaacwqjQYw" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Known_issues_in_v1-1" id="nodeATag4">Known issues in v1-1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bfw83u_Aar4lFPacwqjQWU" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Requirements_for_v1-1" id="nodeATag834">Requirements for v1-1</a></div>
+            
+          
+        
+            
+          </li>
+        </ul>
+          </li>
+        
+          <li id="daIumEk-Wr4jm8eJe5cbLr" nodrag="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Download" id="nodeATag485">Download</a></div>
+            
+          
+        
+            <ul id="tree_ul_6">
+          <li id="d-NxRa3iCr5yo1dmr6bg7m" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_2-0-alpha1" id="nodeATag35167">Release 2-0-alpha1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dxhwMiTh0r5yWXdmr6CpXy" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_1-7-beta1" id="nodeATag056">Release 1-7-beta1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="azndgORWer5yoHacwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_1-6-1" id="nodeATag58">Release 1-6-1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dh6EtAfpmr5ikVacwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_1-6" id="nodeATag658">Release 1-6</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dKxmLaVb0r44RcacwqjQYw" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_1-6-rc1" id="nodeATag044">Release 1-6-rc1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bX0JoCCz8r44bfacwqjQWU" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_1-6-beta1" id="nodeATag0844">Release 1-6-beta1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dyWppUHbSr4QmeacwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_1-5" id="nodeATag48">Release 1-5</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="aYHRAghbKr4O_aacwqjQYw" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_1-5-rc1" id="nodeATag4">Release 1-5-rc1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dMd7qA1L4r4AKMacwqjQXA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_1-5-beta4" id="nodeATag7144">Release 1-5-beta4</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="al8ramNPCr4yqbacwqjQYw" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_1-5-beta3" id="nodeATag84">Release 1-5-beta3</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="d0gAY2Jyir4yqHacwqjQXA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_1-5-beta2" id="nodeATag024">Release 1-5-beta2</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="by9xZSvLOr4B2FacwqjQXA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_1-5-beta1" id="nodeATag942">Release 1-5-beta1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bo9NfOQ1ir4zdeacwqjQYw" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_1-1-1" id="nodeATag914">Release 1-1-1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="ckpjyUb8yr4yjaacwqjQXA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_1-1" id="nodeATag84">Release 1-1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="b2JA0QGjKr4iGteJe5cbLr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_1-0-1" id="nodeATag2045">Release 1-0-1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bTaCqgk_ar4i1zeJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_1-0" id="nodeATag415">Release 1-0</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="anKQAmSZ8r3PYIeJe5afGb" nodrag="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta_Versions_1-0" id="nodeATag835">Beta Versions 1-0</a></div>
+            
+          
+        
+            <ul id="tree_ul_7">
+          <li id="cc6qyShEKr4iixeJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/1-0-RC1" id="nodeATag645">1-0-RC1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="d-d6bydUOr4ltbeJe5cbLr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-19" id="nodeATag645">Beta-1-19</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="cujYV-cxar4jUGeJe5cbLr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-18" id="nodeATag45">Beta-1-18</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dmi9f-8W4r36nWeJe5cbLA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-17" id="nodeATag984365">Beta-1-17</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bKrmn2Y8ar36a5eJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-16" id="nodeATag283655">Beta-1-16</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dfLZLmNKGr36h8eJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-15" id="nodeATag3685">Beta-1-15</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="cKX5A0FGir362peJe5cbLA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-14" id="nodeATag503625">Beta-1-14</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bQwce2wfir37SAeJe5cbLr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-13" id="nodeATag2375">Beta-1-13</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dZUuCys3er36ZReJe5d-aX" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-12" id="nodeATag3365">Beta-1-12</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dscimwss8r34VZeJe5d-aX" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-11" id="nodeATag8345">Beta-1-11</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="d1ThKYqRmr344XeJe5d-aX" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-10r1" id="nodeATag13445">Beta-1-10r1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bNg-kApmKr360ReJe5afGb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-10" id="nodeATag3605">Beta-1-10</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="afUHD2ll4r36s8eJe5aVNr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-9" id="nodeATag243685">Beta-1-9</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bghGYSh7ar36jSeJe5avMc" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-8" id="nodeATag7365">Beta-1-8</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="al7Bu46RCr3O4veJe5aVNr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-7" id="nodeATag746345">Beta-1-7</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="a1cemW6g0r3ReweJe5aVNr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-6" id="nodeATag16035">Beta-1-6</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="azZJ2qYqur3PeJeJe5aVNr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-4" id="nodeATag235">Beta-1-4</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dfnqJaVp4r3R8eeJe5aVNr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-3" id="nodeATag4385">Beta-1-3</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="at9PoSTROr3O1geJe5aVNr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-2" id="nodeATag9315">Beta-1-2</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dj2SVARDSr3O9EeJe5afGb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Beta-1-1" id="nodeATag2395">Beta-1-1</a></div>
+            
+          
+        
+            
+          </li>
+        </ul>
+          </li>
+        </ul>
+          </li>
+        
+          <li id="beCRfwUxar3O6meJe5afGb" nodrag="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState open"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Developer" id="nodeATag365">Developer</a></div>
+            
+          
+        
+            <ul id="tree_ul_8" style="display: block;">
+          <li id="dmoHLYZ8Wr44k-acwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Coding_conventions" id="nodeATag8448">Coding conventions</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bj0laU96Wr44kCdmr6bg7m" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Classes_design_v2-0" id="nodeATag0964467">Classes design v2-0</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="ctUwRC96Wr46aTacwqjQWU" nodrag="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState open"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Database_design_v2-0" id="nodeATag9646">Database design v2-0</a></div>
+            
+          
+        
+            <ul id="tree_ul_9" style="display: block;">
+          <li id="cbIfB2f0Cr5kFdacwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Database_2-0_Tables" id="nodeATag2058">Database 2-0 Tables</a></div>
+            
+          
+        
+            
+          </li>
+        </ul>
+          </li>
+        
+          <li id="b300ugBnmr4AuuacwqjQWU" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Ticket_Status_Guide" id="nodeATag3004">Ticket Status Guide</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="c66sSYw9Kr4lyYeJe5cbLr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Browser-compatibility-matrix" id="nodeATag66945" class="current">Browser-compatibility-matrix</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="c81EykPl4r4kZBeJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Installation_notes_for_1-5_development_code" id="nodeATag81445">Installation notes for 1-5 development code</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bFboHGyver4kXjeJe5cbLA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Notes_on_1-0-1_fixes_and_stuff" id="nodeATag45">Notes on 1-0-1 fixes and stuff</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dIJtZY8KSr37MGeJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/International_Character_Handling" id="nodeATag8375">International Character Handling</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="aUz8zQBD4r4Av5acwqjQXA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Transfering_multiple_files" id="nodeATag8445">Transfering multiple files</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="aZwFm05ZCr363YeJe5cbLr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/HTML5" id="nodeATag053635">HTML5</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="ciLjFgGcmr362keJe5cbLr" nodrag="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Testing" id="nodeATag3625">Testing</a></div>
+            
+          
+        
+            <ul id="tree_ul_10">
+          <li id="bVcSXmI1Sr37wgeJe5cbLA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Testing_Infrastructure" id="nodeATag1375">Testing Infrastructure</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="a3ja6uK0er4jwseJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Automated_Workflow_Tests" id="nodeATag36045">Automated Workflow Tests</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="akwovs8Aqr4yG8acwqjQYw" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Automated_Workflow_Test_Matrix" id="nodeATag848">Automated Workflow Test Matrix</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="aU32qI_E8r4l21acwqjQXA" nodrag="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Test_Workflows" id="nodeATag328421">Test Workflows</a></div>
+            
+          
+        
+            <ul id="tree_ul_11">
+          <li id="dmjc-WOY8r4OotacwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Test_Workflows_for_v1-6" id="nodeATag848">Test Workflows for v1-6</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bcae6K1iWr4l7_eJe5cbLr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Test_Workflows_for_v1-5" id="nodeATag61475">Test Workflows for v1-5</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dVdu2U-tOr4jVXacwqjQWU" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Test_Workflows_for_v1-1" id="nodeATag24">Test Workflows for v1-1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bYyNk2twqr4jzyeJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Test_Workflows_for_v1-0-1" id="nodeATag245">Test Workflows for v1-0-1</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dB6uO8z8ar37NWeJe5cbLA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Test_Workflows_until_v1-0-0" id="nodeATag688375">Test Workflows until v1-0-0</a></div>
+            
+          
+        
+            
+          </li>
+        </ul>
+          </li>
+        
+          <li id="aBcECihXWr4yrlacwqjQYw" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Performance_tests_for_1_1_and_higher" id="nodeATag4">Performance tests for 1 1 and higher</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="cN2BHGSCGr36ANeJe5cbLr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/automated_build" id="nodeATag2365">automated build</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="cMPksq62Sr4jAJacwqjQWU" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Standard_test_files_and_test_strings" id="nodeATag624">Standard test files and test strings</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dtp_FqUZWr36LleJe5cbLr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/largefiles-testresults-pre0-1-16" id="nodeATag365">largefiles-testresults-pre0-1-16</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="b7tOoGVW0r35T7eJe5cbLr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Upload_performance_test_pre-0-1-16" id="nodeATag703575">Upload performance test pre-0-1-16</a></div>
+            
+          
+        
+            
+          </li>
+        </ul>
+          </li>
+        
+          <li id="dHH-Oo5ZKr37pjeJe5cbCb" nodrag="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Specifications" id="nodeATag5375">Specifications</a></div>
+            
+          
+        
+            <ul id="tree_ul_12">
+          <li id="a79xDm50ir363_eJe5cbLA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Functional_design" id="nodeATag79503635">Functional design</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="b_HYB-52ur3439eJe5cbLr" nodrag="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Technical_design" id="nodeATag5234395">Technical design</a></div>
+            
+          
+        
+            <ul id="tree_ul_13">
+          <li id="cI302Y6_yr36d2eJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Technical_design_-_PHP" id="nodeATag30263625">Technical design - PHP</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="c6QGHm6_yr36d2eJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Technical_design_-_Flex" id="nodeATag663625">Technical design - Flex</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="c22qmw6_Cr37nreJe5cbLA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Technical_design_-_Support_folders" id="nodeATag226375">Technical design - Support folders</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dqe6aC6_yr37_deJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Technical_design_-_Layout_and_design" id="nodeATag66375">Technical design - Layout and design</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="a0YQxM6_Cr34CGeJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Technical_design_-_Other" id="nodeATag06345">Technical design - Other</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="awJH5A6_Cr36WmeJe5cbLA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Technical_design_-_Packaging" id="nodeATag56365">Technical design - Packaging</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="amdF-K6_Cr36d2eJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Technical_design_-_Javascript" id="nodeATag63625">Technical design - Javascript</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="aPOZeA6_Cr37_deJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Technical_design_-_SQL" id="nodeATag6375">Technical design - SQL</a></div>
+            
+          
+        
+            
+          </li>
+        </ul>
+          </li>
+        
+          <li id="cDqnW-7Aer351QeJe5cbLA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/The_Glue" id="nodeATag73515">The Glue</a></div>
+            
+          
+        
+            
+          </li>
+        </ul>
+          </li>
+        
+          <li id="dZE2qeUxar3RB0eJe5afGb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/release_process" id="nodeATag2305">release process</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="cnKfdWTPar35RKeJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Creating_repositories" id="nodeATag355">Creating repositories</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="aiqUy2UsCr3O6meJe5afGb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Developers" id="nodeATag2365">Developers</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bSGSA4UKqr4Aq5acwqjQWU" nodrag="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Usage_statistics_module" id="nodeATag445">Usage statistics module</a></div>
+            
+          
+        
+            <ul id="tree_ul_14">
+          <li id="aorI9Y5H0r4AzPacwqjQWU" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/download_stats_patch" id="nodeATag9504">download stats patch</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="cCcoe04U0r4BzWacwqjQXA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Statistics_module_patch_installation_notes" id="nodeATag0404">Statistics module patch installation notes</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="cU5LSY3j8r4zdnacwqjQWU" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Statistics_module_development_notes" id="nodeATag5384">Statistics module development notes</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="crmmBMU4Gr4Bt2acwqjQWU" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Updated_database_overview" id="nodeATag442">Updated database overview</a></div>
+            
+          
+        
+            
+          </li>
+        </ul>
+          </li>
+        
+          <li id="dInmmanQOr45fUacwqjQYw" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Icons" id="nodeATag45">Icons</a></div>
+            
+          
+        
+            
+          </li>
+        </ul>
+          </li>
+        
+          <li id="c8NJm8ES8r35IPeJe5cbLA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Existing_installations" id="nodeATag888355">Existing installations</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="cQo5VgxQur368BeJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Feature_requests" id="nodeATag53685">Feature requests</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bgV_ReSX8r3OqMeJe5aVNr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Online_Demo" id="nodeATag835">Online Demo</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="cIF1osUa8r3OlDeJe5afGb" nodrag="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Project_organisation" id="nodeATag1835">Project organisation</a></div>
+            
+          
+        
+            <ul id="tree_ul_15">
+          <li id="adO6SMIBGr34t5eJe5cbLA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Budget" id="nodeATag63455">Budget</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="aea-yabOqr4l2teJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Presentations" id="nodeATag425">Presentations</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dtcl-uxRGr37KBeJe5cbLr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Project_infrastructure" id="nodeATag375">Project infrastructure</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="cYFjV6BN8r4zWDacwqjQWU" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/risk_assessment_for_filesender_project" id="nodeATag684">risk assessment for filesender project</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="blvLPmr34r4ySWacwqjQYw" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Workplan_2012" id="nodeATag344">Workplan 2012</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="aLcLY0pLqr4jg0eJe5cbLA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Workplan2011" id="nodeATag0405">Workplan2011</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bXKEAC758r3R6ZeJe5aVNr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Workplan2010" id="nodeATag758365">Workplan2010</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="biTbr0UwGr3QAjeJe5aVNr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Workplan2009" id="nodeATag035">Workplan2009</a></div>
+            
+          
+        
+            
+          </li>
+        </ul>
+          </li>
+        
+          <li id="dJejnaay8r4Rg2acwqjQXA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Roadmap" id="nodeATag842">Roadmap</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="b7wiVIk6yr4lGceJe5cbCb" nodrag="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_Schedule" id="nodeATag7645">Release Schedule</a></div>
+            
+          
+        
+            <ul id="tree_ul_16">
+          <li id="bIW-koYyir3RNHeJe5aVNr" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_Schedule_until_v1-0" id="nodeATag35">Release Schedule until v1-0</a></div>
+            
+          
+        
+            
+          </li>
+        </ul>
+          </li>
+        
+          <li id="byXPlgyrWr4kzqeJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Release_status_and_life_cycle" id="nodeATag45">Release status and life cycle</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bXSYlkxOqr4ygzacwqjQWU" nodrag="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Reviews_and_prototypes" id="nodeATag4">Reviews and prototypes</a></div>
+            
+          
+        
+            <ul id="tree_ul_17">
+          <li id="aKPVhoxQSr4AK-acwqjQXA" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Monash_University_User_Experience_Review" id="nodeATag4">Monash University User Experience Review</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="bCnbdU_M8r4QvNacwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Intersect_UX_Review" id="nodeATag848">Intersect UX Review</a></div>
+            
+          
+        
+            
+          </li>
+        </ul>
+          </li>
+        
+          <li id="dnnZquUbar3OlDeJe5afGb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Support_and_Mailinglists" id="nodeATag35">Support and Mailinglists</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dqF6U0DXKr4i0deJe5cbCb" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Twitter" id="nodeATag60405">Twitter</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="dVauUMgeOr5QhcacwqEsg8" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/FileSender%27s_workflows" id="nodeATag58">FileSender's workflows</a></div>
+            
+          
+        
+            
+          </li>
+        
+          <li id="b2LqN0EA0r5RJddmr6QqzO" nodrag="true" nochildren="true" class="no-draggable-node"><div class="draggable-container"><span data-icon="" style="display: none;" class="draggable"></span><div class="treeExpandedState" style="display: none;"></div><a href="https://app.assembla.com/spaces/file_sender/wiki/Installation_-_Linux_Source_2-0-Alpha-from-svn" id="nodeATag20056">Installation - Linux Source 2-0-Alpha-from-svn</a></div>
+            
+          
+        
+            
+          </li>
+        
+
+      </ul>
+    </div>
+  </div>
+
+
+    <div class="width-80--vp-xl width-75 width-66--vp-n width-100--vp-s width-auto--vp-xs plr-m">
+      <div id="wiki-container"><div data-reactroot=""><div><div><div class="float-right"><a href="https://app.assembla.com/spaces/file_sender/wiki/Browser-compatibility-matrix.pdf?to_pdf=true" title="Download PDF version" target="_blank"><span aria-hidden="true" data-icon="" class="iconSize--s mr-6"></span></a><a href="https://app.assembla.com/spaces/file_sender/wiki/Browser-compatibility-matrix/print" title="Print this page" target="_blank"><span aria-hidden="true" data-icon="" class="iconSize--s mr-6"></span></a></div><div><h1 class="fs-xxl fw-6 mb-5 ww-breakWord wb-breakAll wb-breakWord">Browser-compatibility-matrix</h1><div class="version-info meta-info mb-m fs-xs c-gray--2"><small><!-- react-text: 13 -->Version 5, last updated by <!-- /react-text --><a target="_blank" href="http://assembla.com/profile/meijer">meijer</a><!-- react-text: 15 --> at 2011-04-12<!-- /react-text --></small></div><div class="bodyCopy--s mb-l hover--appear"><p><span style="background-color: #ff0000;">under development - under development - under development</span></p>
+<p>Is my browser supported?&nbsp; The FileSender project makes an effort
+ to make sure those browsers labeled "FileSender Supported" support the 
+functions as indicated.&nbsp; We usually test the versions that can be 
+found on up-to-date patched systems.</p>
+<p>&nbsp;</p>
+<p><strong>Browser</strong></p>
+<table border="0">
+<tbody>
+<tr>
+<td>Browsername</td>
+<td>version</td>
+<td>platform</td>
+<td>
+<p>JavaScript</p>
+<p>engine</p>
+</td>
+<td style="text-align: center;">Rendering engine</td>
+<td>FileSender Supported</td>
+<td>Uploads up to 2GB</td>
+<td>Reliable progressbar</td>
+<td>Unlimited size uploads</td>
+<td>Downloads</td>
+</tr>
+<tr>
+<td>IE</td>
+<td>9</td>
+<td>Windows7</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>IE</td>
+<td>8</td>
+<td>Windows7</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>IE</td>
+<td>8</td>
+<td>Windows XP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>IE</td>
+<td>7</td>
+<td>Windows XP<br>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>FireFox</td>
+<td>4.0</td>
+<td>Windows7<br>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>FireFox</td>
+<td>4.0</td>
+<td>Max OS-X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>FireFox</td>
+<td>4.0</td>
+<td>Unbuntu Linux ...</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>FireFox</td>
+<td>3.6</td>
+<td>Windows7</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>FireFox</td>
+<td>3.6</td>
+<td>Windows XP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Chrome</td>
+<td>latest</td>
+<td>Windows7</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Chrome</td>
+<td>latest <br>
+</td>
+<td>Mac OS-X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Safari</td>
+<td>5.04</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Opera</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>Uploads up to 2GB tested with file sizes:</p>
+<p>Uploads of unlimited size tested with file sizes: 5GB, 10GB, 20GB, 100GB</p></div></div></div></div></div></div>
+      <div id="wiki-comments-container"><div data-reactroot=""><div class="u-cf"><hr></div><small class="c-gray--2 fs-xs"><p><!-- react-text: 6 -->Comments are disabled for this space. <!-- /react-text --><!-- react-text: 7 -->In order to enable comments, Messages tool must be added to project.<!-- /react-text --></p><a href="https://app.assembla.com/spaces/file_sender/admin/tools">You can add Messages tool from Tools section on the Admin tab.</a></small></div></div>
+    </div>
+  </div>
+  <div id="backToTop"><div data-reactroot="" class="u-hidden"><span data-icon="" class="iconSize--m c-gray--3 brtl-m pt-3 pb-s pl-5"></span></div></div>
+</section>
+
+        </div><!-- /content -->
+
+          <div id="context-menu-wrapper">
+    
+  </div>
+
+          <div class="push-app"></div>
+
+        <script type="application/json" id="new-space-manager">{"urls":{"check_availability":"/spaces/check_url_availability","create_space":"/user/create_new_space"},"accounts":[{"id":"dPS9kyuyur3zYrab7jnrAJ","name":"Jan Meijer (me)"}],"portfolios":[],"portfolio_id":""}</script>
+
+<div id="newSpaceContainer"><div data-reactroot="" class="u-modal-wrapper is-hidden"><div class="u-modal"><div class="u-newSpaceForm"><div class="newSpace-modalHeader"><h2>Create New Space</h2><span class="newSpace-modalSubheader">A space is a home for your project</span></div><div class="newSpace-modalBody"><div class="newSpace-row"><label class="newSpace-label">New Space Name</label><div class="newSpace-inputWrapper"><input class="newSpace-spaceInput" type="text"><span aria-hidden="true" data-icon="" class="newSpace-spinner u-hidden"></span></div><div class="u-hidden"></div></div><div class="newSpace-footer"><button type="submit" class="newSpace-submit disabled">Create Space</button><a class="newSpace-cancel js-modal-addspace">Cancel</a></div></div></div></div></div></div>
+
+          <script type="application/json" id="plus-button-integrations-manager">{"integrations":{"github":{"enabled":false,"settings":[],"authorized":false,"authorize_url":"/user/authorizations/github/authorize?return_to=https%3A%2F%2Fwww.assembla.com%2Fspaces%2Ffile_sender%2Fwiki%2FBrowser-compatibility-matrix%3Frd%3D1","urls":{"repos":"/ext_integrations/github/repos","pull_requests":"/ext_integrations/github/pull_requests","create_repo":"/spaces/file_sender/github_repo_tool","create_pull_request":"/ext_integrations/github/pull_requests/file_sender/tickets/:ticket_number/pull_requests","delete_pull_request":"/ext_integrations/github/pull_requests/file_sender/tickets/:ticket_number/pull_requests/:id"},"button_image_url":"https://assets2.assembla.com/assets/logos/logo_github_mono-99fd8d969fa117efdfb46221647fe878.png","help_image_url":"https://assets1.assembla.com/assets/github-integration/git-help-335f2bea664268e0faa81fc334fd7e3e.png","learn_more_url":"https://blog.assembla.com/real-time-github-com-integration","get_ticket_github_pull_requests_url":"/spaces/file_sender/tickets/:ticket_number/details/github_pull_requests.json","reference":"re #file_sender/:ticket_number","selected_repo_id":null},"slack":{"enabled":false,"show_additional_fields":true,"slack_code_activity_allowed":null,"slack_code_activity_enabled":null,"settings":[],"authorized":false,"authorize_url":"/user/authorizations/slack/authorize?return_to=https%3A%2F%2Fwww.assembla.com%2Fspaces%2Ffile_sender%2Fwiki%2FBrowser-compatibility-matrix%3Frd%3D1&space=b516sOlY8r3PPQeJe5afGb","urls":{"users":"/ext_integrations/slack/users","channels":"/ext_integrations/slack/channels","remind":"/ext_integrations/slack/remind","message":"/ext_integrations/slack/message","code_activity_subscribe":"/ext_integrations/slack/code_activity_subscribe","code_activity_unsubscribe":"/ext_integrations/slack/code_activity_unsubscribe"}},"zapier":{"enabled":true},"jira":{"enabled":false,"settings":[],"authorized":false,"basic_auth_fields":[{"id":"site","name":"JIRA URL","type":"string","placeholder":"ex: https://company.atlassian.net"},{"id":"username","name":"Login","type":"string","placeholder":"username"},{"id":"password","name":"Password","type":"password","placeholder":"Password"}],"authorize_url":"javascript:void(0);","urls":{"fetch_commit_issues":"/spaces/file_sender/b52ABclY8r3PPQeJe5afGb/jira_issues/commit/:relation_id","available_issues":"/spaces/file_sender/b52ABclY8r3PPQeJe5afGb/jira_issues/available_issues","relate_commit_issue":"/spaces/file_sender/b52ABclY8r3PPQeJe5afGb/jira_issues/relate_commit_issue/:relation_id","relate_merge_request_issue":"/spaces/file_sender/b52ABclY8r3PPQeJe5afGb/jira_issues/relate_merge_request_issue/:relation_id","unrelate_commit_issue":"/spaces/file_sender/b52ABclY8r3PPQeJe5afGb/jira_issues/unrelate_commit_issue/:relation_id","unrelate_merge_request_issue":"/spaces/file_sender/b52ABclY8r3PPQeJe5afGb/jira_issues/unrelate_merge_request_issue/:relation_id"},"button_image_url":"https://assets3.assembla.com/assets/logos/logo_jira-495fc3876385544fae6c5ea696e3f23d.png","logo_url":"https://assets1.assembla.com/assets/svg/jira-logo-5c767a5ac2e1a7ac871af47717708a64.svg"}},"urls":{"basic_auth":"/user/authorizations/:id/authorize_basic","enable_integration":"/spaces/file_sender/integrations/:id/enable","disable_integration":"/spaces/file_sender/integrations/:id/disable","remove_authorization":"/user/authorizations/:id"},"show_github_popup":false}</script>
+
+      </div><!-- /b-wrapper -->
+
+        <div class="cut">&nbsp;</div>
+
+        <div id="footer-w" class="ta-center mt-xl">
+  
+
+  <div id="footer" class="fs-xs lh-s pt-m pb-m bs-dotted ba-0 bt-2 bc-gray--3">
+    <p>
+      <a href="https://app.assembla.com/home">Home</a>
+      / <a href="http://api-doc.assembla.com/">Developer API</a>
+          / <a href="https://app.assembla.com/user/support_portal">Support Portal</a>
+        / <a target="_blank" href="http://status.assembla.com/">System Status</a>
+    </p>
+
+      <p>
+        <a href="https://app.assembla.com/user/edit/account">Get a Project</a>
+      </p>
+
+    <p id="copyr-contact" class="fs-xxs c-gray--2">
+    Filesender is powered by Assembla.
+</p>
+
+  </div><!-- /footer -->
+</div><!-- /footer-w -->
+
+
+
+      
+
+    </div>
+
+      <script id="wiki-settings-data" type="application/json">{"options":{"statuses":{"id":"status","options":[["Public",1],["Archived",2]],"title":"Visibility"},"parents":{"id":"parent_id","options":[["None",null,{"status":null}],["1-0-RC1","cc6qyShEKr4iixeJe5cbCb",{"status":1}],["Acknowledgements","am4edMhVOr4iRSeJe5cbLA",{"status":1}],["Acknowledgements for v1-0","bbb71wwLSr4QwyacwqEsg8",{"status":1}],["Acknowledgements for v1-5","a15kbcwKir4P02acwqEsg8",{"status":1}],["Acknowledgements for v1-6","bdI5UmqUyr469dacwqjQXA",{"status":1}],["Admin - Configuration directives v2-0","chCMVuxh0r5yGYacwqEsg8",{"status":1}],["Admin - Reference guide v2-0","bdpTr-xiqr5lrCacwqjQWU",{"status":1}],["Administrator reference manual","b2Ibu0OAOr4OoGacwqEsg8",{"status":1}],["Administrator reference manual - v1-1","c0DUVEwMWr4PyzacwqEsg8",{"status":1}],["Administrator reference manual 1-5","cx0ZoSUwSr3O6meJe5afGb",{"status":1}],["Archived","b9Tzb8fvGr4QbqacwqjQXA",{"status":1}],["automated build","cN2BHGSCGr36ANeJe5cbLr",{"status":1}],["Automated Workflow Test Matrix","akwovs8Aqr4yG8acwqjQYw",{"status":1}],["Automated Workflow Tests","a3ja6uK0er4jwseJe5cbCb",{"status":1}],["Beta Versions 1-0","anKQAmSZ8r3PYIeJe5afGb",{"status":1}],["Beta-1-1","dj2SVARDSr3O9EeJe5afGb",{"status":1}],["Beta-1-10","bNg-kApmKr360ReJe5afGb",{"status":1}],["Beta-1-10r1","d1ThKYqRmr344XeJe5d-aX",{"status":1}],["Beta-1-11","dscimwss8r34VZeJe5d-aX",{"status":1}],["Beta-1-12","dZUuCys3er36ZReJe5d-aX",{"status":1}],["Beta-1-13","bQwce2wfir37SAeJe5cbLr",{"status":1}],["Beta-1-14","cKX5A0FGir362peJe5cbLA",{"status":1}],["Beta-1-15","dfLZLmNKGr36h8eJe5cbCb",{"status":1}],["Beta-1-16","bKrmn2Y8ar36a5eJe5cbCb",{"status":1}],["Beta-1-17","dmi9f-8W4r36nWeJe5cbLA",{"status":1}],["Beta-1-18","cujYV-cxar4jUGeJe5cbLr",{"status":1}],["Beta-1-19","d-d6bydUOr4ltbeJe5cbLr",{"status":1}],["Beta-1-2","at9PoSTROr3O1geJe5aVNr",{"status":1}],["Beta-1-3","dfnqJaVp4r3R8eeJe5aVNr",{"status":1}],["Beta-1-4","azZJ2qYqur3PeJeJe5aVNr",{"status":1}],["Beta-1-6","a1cemW6g0r3ReweJe5aVNr",{"status":1}],["Beta-1-7","al7Bu46RCr3O4veJe5aVNr",{"status":1}],["Beta-1-8","bghGYSh7ar36jSeJe5avMc",{"status":1}],["Beta-1-9","afUHD2ll4r36s8eJe5aVNr",{"status":1}],["Blog and News","axFut0DXOr4imveJe5cbLA",{"status":1}],["Budget","adO6SMIBGr34t5eJe5cbLA",{"status":1}],["Classes design v2-0","bj0laU96Wr44kCdmr6bg7m",{"status":1}],["Coding conventions","dmoHLYZ8Wr44k-acwqEsg8",{"status":1}],["Configuring SRS with Exim (Debian and Ubuntu)","akxjR2gX8r4krceJe5cbLr",{"status":1}],["Creating repositories","cnKfdWTPar35RKeJe5cbCb",{"status":1}],["Database 2-0 Tables","cbIfB2f0Cr5kFdacwqEsg8",{"status":1}],["Database design v2-0","ctUwRC96Wr46aTacwqjQWU",{"status":1}],["Detailed feature list v2-0","d7Xzpa-aOr5yk7dmr6CpXy",{"status":1}],["Developer","beCRfwUxar3O6meJe5afGb",{"status":1}],["Developers","aiqUy2UsCr3O6meJe5afGb",{"status":1}],["Development upgrade notes to 2-0","c2zoKmt7Kr5krvacwqEsg8",{"status":1}],["Documentation v1-1","cAGd38wNer4PcbacwqEsg8",{"status":1}],["Documentation v1-5","aMbC9-SZ4r3PYIeJe5afGb",{"status":1}],["Documentation v1-6","aajy3-OAOr4OoGacwqEsg8",{"status":1}],["Documentation v2-0-alpha","aWXW44t8mr5iotdmr6bg7m",{"status":1}],["Download","daIumEk-Wr4jm8eJe5cbLr",{"status":1}],["download stats patch","aorI9Y5H0r4AzPacwqjQWU",{"status":1}],["End User Documentation for v1-0","bqt14qhIKr4kBXeJe5cbCb",{"status":1}],["End User Documentation for v1-1","detVci_D4r4iDaacwqjQYw",{"status":1}],["End User Documentation for v1-5","bV5ouqhL4r4QEzacwqjQWU",{"status":1}],["End User Documentation for v1-6","brL0GyeVur5j47dmr6bg7m",{"status":1}],["Existing installations","c8NJm8ES8r35IPeJe5cbLA",{"status":1}],["FAQ","dweVsUmcSr35jheJe5afGb",{"status":1}],["Feature requests","cQo5VgxQur368BeJe5cbCb",{"status":1}],["Features","ceNckwqUar44kxacwqEsg8",{"status":1}],["Features 1-5","bVgOwOnxOr4ReracwqEsg8",{"status":1}],["Features v1-0","cwTWjKkdir4kVdeJe5cbCb",{"status":1}],["Features v1-1","bvKUBGb8ar4BwHacwqjQWU",{"status":1}],["FileSender's workflows","dVauUMgeOr5QhcacwqEsg8",{"status":1}],["Functional design","a79xDm50ir363_eJe5cbLA",{"status":1}],["Historical ref FileSender Google Gears and HTML5","absv9miear34NleJe5aVNr",{"status":1}],["Home","b53ehYlY8r3PPQeJe5afGb",{"status":1}],["HTML5","aZwFm05ZCr363YeJe5cbLr",{"status":1}],["Icons","dInmmanQOr45fUacwqjQYw",{"status":1}],["Installation - Debian Ubuntu","aWpaWGI1Or37wgeJe5cbLA",{"status":1}],["Installation - Linux Source","bVR5vYqT4r44o2acwqjQYw",{"status":1}],["Installation - Linux Source - v1-1","cPiS02Rhyr3OPceJe5aVNr",{"status":1}],["Installation - Linux Source 1-5","c37z3cBq4r4BJXacwqjQXA",{"status":1}],["Installation - Linux Source 2-0-Alpha-from-git","d833nUxnir44kDacwqjQXA",{"status":1}],["Installation - Linux Source 2-0-Alpha-from-svn","b2LqN0EA0r5RJddmr6QqzO",{"status":1}],["Installation - RPM","dIKmZiTPyr355jeJe5cbLr",{"status":1}],["Installation notes for 1-5 development code","c81EykPl4r4kZBeJe5cbCb",{"status":1}],["International Character Handling","dIJtZY8KSr37MGeJe5cbCb",{"status":1}],["Intersect UX Review","bCnbdU_M8r4QvNacwqEsg8",{"status":1}],["Known issues","ap0EsqqUer44oUacwqjQXA",{"status":1}],["Known issues 1-5","dG-eSYwMar4PU4acwqEsg8",{"status":1}],["Known issues in v1-0","b07lNik4Wr4iFneJe5cbLr",{"status":1}],["Known issues in v1-1","c-yAOy_Ayr4iDaacwqjQYw",{"status":1}],["Language handling and localisation reference v2-0","cjAT5cwVqr5BNcdmr6bg7m",{"status":1}],["largefiles-testresults-pre0-1-16","dtp_FqUZWr36LleJe5cbLr",{"status":1}],["Mail Bounce Handling","a2igGCqByr4l02eJe5cbLA",{"status":1}],["Monash University User Experience Review","aKPVhoxQSr4AK-acwqjQXA",{"status":1}],["Notes on 1-0-1 fixes and stuff","bFboHGyver4kXjeJe5cbLA",{"status":1}],["Online Demo","bgV_ReSX8r3OqMeJe5aVNr",{"status":1}],["Performance tests for 1 1 and higher","aBcECihXWr4yrlacwqjQYw",{"status":1}],["Presentations","aea-yabOqr4l2teJe5cbCb",{"status":1}],["Project infrastructure","dtcl-uxRGr37KBeJe5cbLr",{"status":1}],["Project organisation","cIF1osUa8r3OlDeJe5afGb",{"status":1}],["Release 1-0","bTaCqgk_ar4i1zeJe5cbCb",{"status":1}],["Release 1-0-1","b2JA0QGjKr4iGteJe5cbLr",{"status":1}],["Release 1-1","ckpjyUb8yr4yjaacwqjQXA",{"status":1}],["Release 1-1-1","bo9NfOQ1ir4zdeacwqjQYw",{"status":1}],["Release 1-5","dyWppUHbSr4QmeacwqEsg8",{"status":1}],["Release 1-5-beta1","by9xZSvLOr4B2FacwqjQXA",{"status":1}],["Release 1-5-beta2","d0gAY2Jyir4yqHacwqjQXA",{"status":1}],["Release 1-5-beta3","al8ramNPCr4yqbacwqjQYw",{"status":1}],["Release 1-5-beta4","dMd7qA1L4r4AKMacwqjQXA",{"status":1}],["Release 1-5-rc1","aYHRAghbKr4O_aacwqjQYw",{"status":1}],["Release 1-6","dh6EtAfpmr5ikVacwqEsg8",{"status":1}],["Release 1-6-1","azndgORWer5yoHacwqEsg8",{"status":1}],["Release 1-6-beta1","bX0JoCCz8r44bfacwqjQWU",{"status":1}],["Release 1-6-rc1","dKxmLaVb0r44RcacwqjQYw",{"status":1}],["Release 1-7-beta1","dxhwMiTh0r5yWXdmr6CpXy",{"status":1}],["Release 2-0-alpha1","d-NxRa3iCr5yo1dmr6bg7m",{"status":1}],["release process","dZE2qeUxar3RB0eJe5afGb",{"status":1}],["Release Schedule","b7wiVIk6yr4lGceJe5cbCb",{"status":1}],["Release Schedule until v1-0","bIW-koYyir3RNHeJe5aVNr",{"status":1}],["Release status and life cycle","byXPlgyrWr4kzqeJe5cbCb",{"status":1}],["Requirements","dNJAaaqUar44knacwqEsg8",{"status":1}],["Requirements 1-5","b61wu6nxqr4RRCacwqEsg8",{"status":1}],["Requirements for v1-0","dBC_ZMkder4iWJeJe5cbLr",{"status":1}],["Requirements for v1-1","bfw83u_Aar4lFPacwqjQWU",{"status":1}],["RESTful API v2-0","c4B_6UNaWr5ioTacwqjQYw",{"status":1}],["Reviews and prototypes","bXSYlkxOqr4ygzacwqjQWU",{"status":1}],["risk assessment for filesender project","cYFjV6BN8r4zWDacwqjQWU",{"status":1}],["Roadmap","dJejnaay8r4Rg2acwqjQXA",{"status":1}],["Setting up usage statistics","dVFwNyjhCr4joqeJe5cbCb",{"status":1}],["Specifications","dHH-Oo5ZKr37pjeJe5cbCb",{"status":1}],["Standard test files and test strings","cMPksq62Sr4jAJacwqjQWU",{"status":1}],["Statistics module development notes","cU5LSY3j8r4zdnacwqjQWU",{"status":1}],["Statistics module patch installation notes","cCcoe04U0r4BzWacwqjQXA",{"status":1}],["Support and Mailinglists","dnnZquUbar3OlDeJe5afGb",{"status":1}],["Technical design","b_HYB-52ur3439eJe5cbLr",{"status":1}],["Technical design - Flex","c6QGHm6_yr36d2eJe5cbCb",{"status":1}],["Technical design - Javascript","amdF-K6_Cr36d2eJe5cbCb",{"status":1}],["Technical design - Layout and design","dqe6aC6_yr37_deJe5cbCb",{"status":1}],["Technical design - Other","a0YQxM6_Cr34CGeJe5cbCb",{"status":1}],["Technical design - Packaging","awJH5A6_Cr36WmeJe5cbLA",{"status":1}],["Technical design - PHP","cI302Y6_yr36d2eJe5cbCb",{"status":1}],["Technical design - SQL","aPOZeA6_Cr37_deJe5cbCb",{"status":1}],["Technical design - Support folders","c22qmw6_Cr37nreJe5cbLA",{"status":1}],["Test Workflows","aU32qI_E8r4l21acwqjQXA",{"status":1}],["Test Workflows for v1-0-1","bYyNk2twqr4jzyeJe5cbCb",{"status":1}],["Test Workflows for v1-1","dVdu2U-tOr4jVXacwqjQWU",{"status":1}],["Test Workflows for v1-5","bcae6K1iWr4l7_eJe5cbLr",{"status":1}],["Test Workflows for v1-6","dmjc-WOY8r4OotacwqEsg8",{"status":1}],["Test Workflows until v1-0-0","dB6uO8z8ar37NWeJe5cbLA",{"status":1}],["Testing","ciLjFgGcmr362keJe5cbLr",{"status":1}],["Testing Infrastructure","bVcSXmI1Sr37wgeJe5cbLA",{"status":1}],["The Glue","cDqnW-7Aer351QeJe5cbLA",{"status":1}],["Ticket Status Guide","b300ugBnmr4AuuacwqjQWU",{"status":1}],["Transfering multiple files","aUz8zQBD4r4Av5acwqjQXA",{"status":1}],["Twitter","dqF6U0DXKr4i0deJe5cbCb",{"status":1}],["Updated database overview","crmmBMU4Gr4Bt2acwqjQWU",{"status":1}],["Upgrade notes","dZYJuuOBGr4QbFacwqjQXA",{"status":1}],["Upgrade notes to 1-5","ddjGS8xaCr4PwYacwqjQYw",{"status":1}],["Upgrade notes up to v1-1-1","a21Cnkiymr4ls0eJe5cbLr",{"status":1}],["Upload performance test pre-0-1-16","b7tOoGVW0r35T7eJe5cbLr",{"status":1}],["Usage statistics module","bSGSA4UKqr4Aq5acwqjQWU",{"status":1}],["Workplan 2012","blvLPmr34r4ySWacwqjQYw",{"status":1}],["Workplan2009","biTbr0UwGr3QAjeJe5aVNr",{"status":1}],["Workplan2010","bXKEAC758r3R6ZeJe5aVNr",{"status":1}],["Workplan2011","aLcLY0pLqr4jg0eJe5cbLA",{"status":1}]],"title":"Parent page"},"formats":{"id":"wiki_format","options":[["markdown",1],["textile",2],["WYSIWYG",3]],"title":"Markup format"}},"action_urls":{"history":{"url":"/spaces/file_sender/wiki/Browser-compatibility-matrix/history"},"edit":{"url":"/spaces/file_sender/wiki/Browser-compatibility-matrix?mode=edit"},"delete":{"url":"/spaces/file_sender/wiki/Browser-compatibility-matrix"}},"print_urls":{"pdf":{"url":"/spaces/file_sender/wiki/Browser-compatibility-matrix.pdf?to_pdf=true"},"print":{"url":"/spaces/file_sender/wiki/Browser-compatibility-matrix/print"}},"urls":{"page":"/spaces/file_sender/wiki/Browser-compatibility-matrix?mode=edit","preview":"/spaces/file_sender/wiki/preview"}}</script>
+<script id="wiki-page-data" type="application/json">{"id":"c66sSYw9Kr4lyYeJe5cbLr","pretty_name":"Browser-compatibility-matrix","contents":"<p><span style=\"background-color: #ff0000;\">under development - under development - under development</span></p>\r\n<p>Is my browser supported?  The FileSender project makes an effort to make sure those browsers labeled \"FileSender Supported\" support the functions as indicated.  We usually test the versions that can be found on up-to-date patched systems.</p>\r\n<p> </p>\r\n<p><strong>Browser</strong></p>\r\n<table border=\"0\">\r\n<tbody>\r\n<tr>\r\n<td>Browsername</td>\r\n<td>version</td>\r\n<td>platform</td>\r\n<td>\r\n<p>JavaScript</p>\r\n<p>engine</p>\r\n</td>\r\n<td style=\"text-align: center;\">Rendering engine</td>\r\n<td>FileSender Supported</td>\r\n<td>Uploads up to 2GB</td>\r\n<td>Reliable progressbar</td>\r\n<td>Unlimited size uploads</td>\r\n<td>Downloads</td>\r\n</tr>\r\n<tr>\r\n<td>IE</td>\r\n<td>9</td>\r\n<td>Windows7</td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>IE</td>\r\n<td>8</td>\r\n<td>Windows7</td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>IE</td>\r\n<td>8</td>\r\n<td>Windows XP</td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>IE</td>\r\n<td>7</td>\r\n<td>Windows XP<br>\n</td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>FireFox</td>\r\n<td>4.0</td>\r\n<td>Windows7<br>\n</td>\r\n<td> </td>\r\n<td> </td>\r\n<td>X</td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>FireFox</td>\r\n<td>4.0</td>\r\n<td>Max OS-X</td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>FireFox</td>\r\n<td>4.0</td>\r\n<td>Unbuntu Linux ...</td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>FireFox</td>\r\n<td>3.6</td>\r\n<td>Windows7</td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>FireFox</td>\r\n<td>3.6</td>\r\n<td>Windows XP</td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>Chrome</td>\r\n<td>latest</td>\r\n<td>Windows7</td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>Chrome</td>\r\n<td>latest <br>\n</td>\r\n<td>Mac OS-X</td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>Safari</td>\r\n<td>5.04</td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td>X</td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td>Opera</td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n</tr>\r\n<tr>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n<td> </td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p>Uploads up to 2GB tested with file sizes:</p>\r\n<p>Uploads of unlimited size tested with file sizes: 5GB, 10GB, 20GB, 100GB</p>","version":5,"old_version":5,"wiki_format":3,"home_page":false,"parent_id":"beCRfwUxar3O6meJe5afGb","status":1,"last_update_at":"2011-04-12","user_login":"meijer","user_profile_link":"http://assembla.com/profile/meijer","errors":[]}</script>
+<script id="wiki-raw" data-contents="&lt;p&gt;&lt;span style=&quot;background-color: #ff0000;&quot;&gt;under development - under development - under development&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Is my browser supported?&nbsp; The FileSender project makes an effort to make sure those browsers labeled &quot;FileSender Supported&quot; support the functions as indicated.&nbsp; We usually test the versions that can be found on up-to-date patched systems.&lt;/p&gt;
+&lt;p&gt;&nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Browser&lt;/strong&gt;&lt;/p&gt;
+&lt;table border=&quot;0&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Browsername&lt;/td&gt;
+&lt;td&gt;version&lt;/td&gt;
+&lt;td&gt;platform&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;JavaScript&lt;/p&gt;
+&lt;p&gt;engine&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;text-align: center;&quot;&gt;Rendering engine&lt;/td&gt;
+&lt;td&gt;FileSender Supported&lt;/td&gt;
+&lt;td&gt;Uploads up to 2GB&lt;/td&gt;
+&lt;td&gt;Reliable progressbar&lt;/td&gt;
+&lt;td&gt;Unlimited size uploads&lt;/td&gt;
+&lt;td&gt;Downloads&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;IE&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;Windows7&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;IE&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;Windows7&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;IE&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;Windows XP&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;IE&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;Windows XP&lt;br /&gt;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;FireFox&lt;/td&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;Windows7&lt;br /&gt;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;X&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;FireFox&lt;/td&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;Max OS-X&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;FireFox&lt;/td&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;Unbuntu Linux ...&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;FireFox&lt;/td&gt;
+&lt;td&gt;3.6&lt;/td&gt;
+&lt;td&gt;Windows7&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;FireFox&lt;/td&gt;
+&lt;td&gt;3.6&lt;/td&gt;
+&lt;td&gt;Windows XP&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chrome&lt;/td&gt;
+&lt;td&gt;latest&lt;/td&gt;
+&lt;td&gt;Windows7&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chrome&lt;/td&gt;
+&lt;td&gt;latest &lt;br /&gt;&lt;/td&gt;
+&lt;td&gt;Mac OS-X&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Safari&lt;/td&gt;
+&lt;td&gt;5.04&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;X&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Opera&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;td&gt;&nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Uploads up to 2GB tested with file sizes:&lt;/p&gt;
+&lt;p&gt;Uploads of unlimited size tested with file sizes: 5GB, 10GB, 20GB, 100GB&lt;/p&gt;" type="application/json"></script>
+<script id="wiki-comments-data" type="application/json">{"logged_user":{"id":"dPS9kyuyur3zYrab7jnrAJ","name":"meijer","email":"jan.meijer@uninett.no","avatar_url":"//gravatar.com/avatar/26e3c693e6214f1abd2bbeeb0034feea.png?s=35&d=https%3A%2F%2Fassets0.assembla.com%2Fassets%2Favatars%2Fsmall%2F5-0123c7bbf16ef8c49a3c581106f73a7e.png","url":"/profile/meijer","login":"meijer","fullname":"meijer"},"permissions":{"has_all_permission":true,"can_be_enabled":false,"show_comments":false},"total_comments":0,"urls":{"comments":"/spaces/file_sender/wiki/Browser-compatibility-matrix/comments","create_comment":"/spaces/file_sender/wiki/Browser-compatibility-matrix/add_comment","preview_comment":"/spaces/file_sender/comments/preview","settings":"/spaces/file_sender/wiki/settings","admin":"/spaces/file_sender/admin/tools"}}</script>
+
+  <script>
+//<![CDATA[
+
+
+    initNavigationWikiTree('c66sSYw9Kr4lyYeJe5cbLr', 'ctUwRC96Wr46aTacwqjQWU,beCRfwUxar3O6meJe5afGb');
+
+//]]>
+</script>    <script type="text/javascript">(function(a){if(window.filepicker){return}var b=a.createElement("script");b.type="text/javascript";b.async=!0;b.src=("https:"===a.location.protocol?"https:":"http:")+"//api.filestackapi.com/filestack.js";var c=a.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c);var d={};d._queue=[];var e="pick,pickMultiple,pickAndStore,read,write,writeUrl,export,convert,store,storeUrl,remove,stat,setKey,constructWidget,makeDropPane".split(",");var f=function(a,b){return function(){b.push([a,arguments])}};for(var g=0;g<e.length;g++){d[e[g]]=f(e[g],d._queue)}window.filepicker=d})(document);</script>
+    <script type="application/json" id="instant-upload-setup">{"api_key":"A3d0u130jR6yiTSCk6uBqz","user_id":"dPS9kyuyur3zYrab7jnrAJ","store":{"bucket":"prod-us-west-2-assemblafiles","path":"b516sOlY8r3PPQeJe5afGb/888c41/"},"attachable":{},"urls":{"instant_upload":"/spaces/file_sender/documents/instant_upload"},"security":{"policy":"eyJleHBpcnkiOjE1MDU3ODMyODMsImNhbGwiOlsicGljayIsInN0b3JlIl19","signature":"f4e4e428c2b093fc13726ae0a936c689cfc0af58205c4c7af30514cac635d9b2"}}</script>
+  <script type="application/json" id="notification-center-setup">{"urls":{"mentions":{"all":"/user/mentions","mark_as_read":"/user/mentions/:id/mark","mark_all_as_read":"/user/mentions/mark_all"},"product_updates":{"load":"/updates/notification_center","all":"https://changelog.assembla.com/","mark_as_read":"/updates/:id/mark_as_read","mark_all_as_read":"/updates/mark_all_as_read"},"notifications":{"all":"/user/notifications","mark_as_read":"/user/notifications/mark_as_read/:id","mark_all_as_read":"/user/notifications/mark_all_as_read"}}}</script>
+
+
+      
+
+    
+  
+
+
+<div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div><ul style="position: absolute; display: none;" id="floatingContainer"></ul><div style="position: absolute; display: none;"><img src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/dragDrop_ind1-01aa7c5a21e0e393258fc6f15b9d9c51.gif" id="dragDropIndicatorImage"></div><div style="display: none;"></div><iframe name="filepicker_comm_iframe" id="filepicker_comm_iframe" src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/a.html" style="display: none;"></iframe><iframe name="fpapi_comm_iframe" id="fpapi_comm_iframe" src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/a_002.html" style="display: none;"></iframe>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1654282474861963");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1654282474861963&amp;ev=PageView&amp;noscript=1"></noscript>
+
+
+  <script type="text/javascript" id="hs-script-loader" src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/365_003.js"></script>
+<script type="text/javascript" id="">!function(d,e,f,a,b,c){d.twq||(a=d.twq=function(){a.exe?a.exe.apply(a,arguments):a.queue.push(arguments)},a.version="1.1",a.queue=[],b=e.createElement(f),b.async=!0,b.src="//static.ads-twitter.com/uwt.js",c=e.getElementsByTagName(f)[0],c.parentNode.insertBefore(b,c))}(window,document,"script");twq("init","nw65d");twq("track","PageView");</script>
+<script type="text/javascript" id="">_linkedin_data_partner_id="40532";</script><script type="text/javascript" id="">(function(){var b=document.getElementsByTagName("script")[0],a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://snap.licdn.com/li.lms-analytics/insight.min.js";b.parentNode.insertBefore(a,b)})();</script><script type="text/javascript" id="">(function(d,e,f,b,c,a){c="";b="https://tracking.g2crowd.com/attribution_tracking/conversions/"+d+".js?p\x3d"+encodeURI(e)+"\x26e\x3d"+c;a=document.createElement("script");a.type="application/javascript";a.src=b;f.getElementsByTagName("head")[0].appendChild(a)})("768",document.location.href,document);</script>
+
+<script type="text/javascript" id="">!function(d,e,f,a,b,c){d.qp||(a=d.qp=function(){a.qp?a.qp.apply(a,arguments):a.queue.push(arguments)},a.queue=[],b=document.createElement(e),b.async=!0,b.src=f,c=document.getElementsByTagName(e)[0],c.parentNode.insertBefore(b,c))}(window,"script","https://a.quora.com/qevents.js");qp("init","bf4be664f29246b5a3e0e99ee4eea1f1");qp("track","ViewContent");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/bf4be664f29246b5a3e0e99ee4eea1f1/pixel?tag=ViewContent&amp;noscript=1"></noscript>
+
+<script src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/a" type="text/javascript"></script><script src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/adsct.html" type="text/javascript"></script><img src="Browser-compatibility-matrix%20%7C%20FileSender%20Project%20%7C%20Assembla_files/seg.gif" alt="" style="display: none;" border="0" width="1" height="1"></body></html>
